@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  wanxing
+
+  Created by osyu on 2018/3/15.
+  Copyright © 2018年 osyu. All rights reserved.
+*/
+
+
+
+
+//tab
+
+"tabSquare" = "首页";
+"tabDo" = "实施";
+"tabWork" = "办公";
+"tabMe" = "我的";
+
+
+// 首页
+"home_title" ="万兴智能工程系统";
+
+
+
+//实施
+"do_title" = "实施";

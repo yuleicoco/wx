@@ -8,6 +8,7 @@
 
 #import "AppDelegate+Launcher.h"
 
+
 @implementation AppDelegate (Launcher)
 
 // 逻辑入口
@@ -16,7 +17,9 @@
     
     
     
-    [self CheckLogin];
+   // [self CheckLogin];
+    [self EenterMainTab];
+    
     
     
 }
@@ -32,7 +35,15 @@
 
 
 // 进入主页
--(void)en
+-(void)EenterMainTab
+{
+    self.mainTabVC = [[MainTabViewController alloc]init];
+    
+    self.window.rootViewController = self.mainTabVC;
+    
+    [self.window makeKeyAndVisible];
+    
+}
 
 //代理函数-----引导页
 
