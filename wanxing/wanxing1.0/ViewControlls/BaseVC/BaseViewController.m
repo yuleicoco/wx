@@ -28,6 +28,8 @@
     if (self.navigationController) {
         self.navigationController.navigationBar.layer.shadowOffset =CGSizeMake(0, 1);
         self.navigationController.navigationBar.translucent = NO;
+        // 设置导航图片
+        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"home_nav_bg"] forBarMetrics:0];
     }
     
     
@@ -156,7 +158,8 @@
     label.textColor = UIColorFromHex(333333);
     label.textAlignment = NSTextAlignmentCenter;
     label.text=navTitle;
-    label.font = [UIFont systemFontOfSize:20];
+    label.font = [UIFont fontWithName:@"PingFangSC-Semibold" size:19];
+
     self.navigationItem.titleView=label;
     
 }
