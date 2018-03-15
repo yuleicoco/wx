@@ -11,24 +11,19 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-
 #import "MJRefresh.h"
 #import "AFHttpClient.h"
 #import "Definition.h"
 #import "AppUtil.h"
 #import "Notification.h"
-#import "AccountManager.h"
-#import "UIView+Sizes.h"
-#import "UIViewController+HUD.h"
-#import "UIButton+Blocks.h"
-#import "NSString+URLEncoding.h"
 #import "MBProgressHUD.h"
 #import "AppDelegate.h"
-#import "AFNetWorking.h"
 #import "UIImageView+WebCache.h"
 #import "IQKeyboardManager.h"
 #import <CoreTelephony/CTCallCenter.h>
 #import "Masonry.h"
-#import "ShowWarView.h"
+#import "UIButton+Blocks.h"
+#import "UIViewController+HUD.h"
+
 
 #endif /* PrefixHeader_pch */
