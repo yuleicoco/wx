@@ -67,6 +67,7 @@
 		2608C704205A22B2007D04D2 /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
 		2608C706205A2374007D04D2 /* BaseTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabViewController.h; sourceTree = "<group>"; };
 		2608C707205A2374007D04D2 /* BaseTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabViewController.m; sourceTree = "<group>"; };
+		2608C709205A3985007D04D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Launcher.h"; sourceTree = "<group>"; };
 		2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Launcher.m"; sourceTree = "<group>"; };
 		463D472EC3BDF5B097295317 /* libPods-wanxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				26087CFD2058DF0A00B66144 /* wanxing */,
+				2608C70A205A39BD007D04D2 /* SuperFile */,
 				2644A711205A0528009574CD /* Resources */,
 				26087D162058DF0A00B66144 /* wanxingTests */,
 				26087D212058DF0A00B66144 /* wanxingUITests */,
@@ -162,6 +164,14 @@
 				26087D242058DF0A00B66144 /* Info.plist */,
 			);
 			path = wanxingUITests;
+			sourceTree = "<group>";
+		};
+		2608C70A205A39BD007D04D2 /* SuperFile */ = {
+			isa = PBXGroup;
+			children = (
+				2608C709205A3985007D04D2 /* PrefixHeader.pch */,
+			);
+			path = SuperFile;
 			sourceTree = "<group>";
 		};
 		2644A6FD205A02A9009574CD /* wanxing1.0 */ = {
@@ -817,6 +827,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuperFile/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -871,6 +882,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuperFile/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
