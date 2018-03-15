@@ -97,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				26087CFD2058DF0A00B66144 /* wanxing */,
+				2644A711205A0528009574CD /* Resources */,
 				26087D162058DF0A00B66144 /* wanxingTests */,
 				26087D212058DF0A00B66144 /* wanxingUITests */,
 				26087CFC2058DF0A00B66144 /* Products */,
@@ -118,6 +119,7 @@
 		26087CFD2058DF0A00B66144 /* wanxing */ = {
 			isa = PBXGroup;
 			children = (
+				2644A6FD205A02A9009574CD /* wanxing1.0 */,
 				26087CFE2058DF0A00B66144 /* AppDelegate.h */,
 				26087CFF2058DF0A00B66144 /* AppDelegate.m */,
 				26087D012058DF0A00B66144 /* ViewController.h */,
@@ -147,6 +149,228 @@
 				26087D242058DF0A00B66144 /* Info.plist */,
 			);
 			path = wanxingUITests;
+			sourceTree = "<group>";
+		};
+		2644A6FD205A02A9009574CD /* wanxing1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2644A700205A034A009574CD /* AppDelegate */,
+				2644A703205A034B009574CD /* Common */,
+				2644A702205A034B009574CD /* Mangers */,
+				2644A701205A034A009574CD /* Models */,
+				2644A6FE205A034A009574CD /* NetWork */,
+				2644A6FF205A034A009574CD /* ViewControlls */,
+			);
+			path = wanxing1.0;
+			sourceTree = "<group>";
+		};
+		2644A6FE205A034A009574CD /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		2644A6FF205A034A009574CD /* ViewControlls */ = {
+			isa = PBXGroup;
+			children = (
+				2644A70E205A04AF009574CD /* BaseVC */,
+				2644A70C205A04AE009574CD /* DoVC */,
+				2644A70A205A04AE009574CD /* HomeVC */,
+				2644A70D205A04AE009574CD /* LoginVC */,
+				2644A710205A04AF009574CD /* MainTabVC */,
+				2644A70B205A04AE009574CD /* MeVC */,
+				2644A70F205A04AF009574CD /* WorkVC */,
+			);
+			path = ViewControlls;
+			sourceTree = "<group>";
+		};
+		2644A700205A034A009574CD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2644A701205A034A009574CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2644A702205A034B009574CD /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				2644A709205A03CC009574CD /* Account */,
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+		2644A703205A034B009574CD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2644A706205A0390009574CD /* Categories */,
+				2644A704205A0390009574CD /* Macro */,
+				2644A707205A0390009574CD /* Utils */,
+				2644A705205A0390009574CD /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2644A704205A0390009574CD /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		2644A705205A0390009574CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2644A706205A0390009574CD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2644A707205A0390009574CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2644A709205A03CC009574CD /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2644A70A205A04AE009574CD /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		2644A70B205A04AE009574CD /* MeVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MeVC;
+			sourceTree = "<group>";
+		};
+		2644A70C205A04AE009574CD /* DoVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DoVC;
+			sourceTree = "<group>";
+		};
+		2644A70D205A04AE009574CD /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		2644A70E205A04AF009574CD /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		2644A70F205A04AF009574CD /* WorkVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WorkVC;
+			sourceTree = "<group>";
+		};
+		2644A710205A04AF009574CD /* MainTabVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTabVC;
+			sourceTree = "<group>";
+		};
+		2644A711205A0528009574CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2644A712205A05ED009574CD /* APP_ICO _png */,
+				2644A713205A05ED009574CD /* Start_png */,
+				2644A714205A05ED009574CD /* VC_ png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2644A712205A05ED009574CD /* APP_ICO _png */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "APP_ICO _png";
+			sourceTree = "<group>";
+		};
+		2644A713205A05ED009574CD /* Start_png */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Start_png;
+			sourceTree = "<group>";
+		};
+		2644A714205A05ED009574CD /* VC_ png */ = {
+			isa = PBXGroup;
+			children = (
+				2644A715205A0648009574CD /* Do_inage */,
+				2644A716205A0648009574CD /* Home_image */,
+				2644A717205A0648009574CD /* Login_image */,
+				2644A719205A0648009574CD /* Me_image */,
+				2644A718205A0648009574CD /* Work_inage */,
+			);
+			path = "VC_ png";
+			sourceTree = "<group>";
+		};
+		2644A715205A0648009574CD /* Do_inage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Do_inage;
+			sourceTree = "<group>";
+		};
+		2644A716205A0648009574CD /* Home_image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home_image;
+			sourceTree = "<group>";
+		};
+		2644A717205A0648009574CD /* Login_image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login_image;
+			sourceTree = "<group>";
+		};
+		2644A718205A0648009574CD /* Work_inage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Work_inage;
+			sourceTree = "<group>";
+		};
+		2644A719205A0648009574CD /* Me_image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me_image;
 			sourceTree = "<group>";
 		};
 		5204E212841B575ABF73D538 /* Pods */ = {
