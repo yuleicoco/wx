@@ -8,16 +8,62 @@
 
 #import "BaseTabViewController.h"
 
-@interface BaseTabViewController ()
+@interface BaseTabViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
 @implementation BaseTabViewController
 
+//*****************************************************逻辑****************************************
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+    [super viewWillAppear:animated];
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    
+    [super viewDidAppear:animated];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    
+    [super viewWillDisappear:animated];
+}
+//*****************************************************逻辑****************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+- (void)UpdataSource
+{
+    _dataSource =[[NSMutableArray alloc]init];
+    _dicSource =[[NSMutableArray alloc]init];
+    
+    
+}
+
+
+//*****************************************************基类实现****************************************
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

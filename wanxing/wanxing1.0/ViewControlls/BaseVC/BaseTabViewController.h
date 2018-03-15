@@ -7,7 +7,18 @@
 //
 
 #import "BaseViewController.h"
+#import "MJRefresh.h"
+
 
 @interface BaseTabViewController : BaseViewController
+
+@property (nonatomic, strong) UITableView* tableView;
+@property (nonatomic, strong) NSMutableArray* dataSource;
+@property (nonatomic,strong)NSMutableArray * dicSource;
+@property (nonatomic, assign) BOOL bGroupView;
+@property (nonatomic, assign) int pageIndex;
+
+- (void)UpdataSource;
+
 
 @end
