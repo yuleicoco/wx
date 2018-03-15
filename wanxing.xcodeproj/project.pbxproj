@@ -15,6 +15,11 @@
 		26087D0E2058DF0A00B66144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D0D2058DF0A00B66144 /* main.m */; };
 		26087D182058DF0A00B66144 /* wanxingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D172058DF0A00B66144 /* wanxingTests.m */; };
 		26087D232058DF0A00B66144 /* wanxingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D222058DF0A00B66144 /* wanxingUITests.m */; };
+		2608C6FF205A1AC2007D04D2 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C6FE205A1AC2007D04D2 /* MainTabViewController.m */; };
+		2608C702205A1FB7007D04D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C701205A1FB7007D04D2 /* BaseViewController.m */; };
+		2608C705205A22B2007D04D2 /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C704205A22B2007D04D2 /* UITabBar+Badge.m */; };
+		2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C707205A2374007D04D2 /* BaseTabViewController.m */; };
+		2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */; };
 		26D22CBA75D148160F7D2E7C /* libPods-wanxingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */; };
 		70C91923EF3C7E486ABB8711 /* libPods-wanxing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 463D472EC3BDF5B097295317 /* libPods-wanxing.a */; };
 		D406A1924B714D8149C212B7 /* libPods-wanxingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */; };
@@ -54,6 +59,16 @@
 		26087D1E2058DF0A00B66144 /* wanxingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wanxingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26087D222058DF0A00B66144 /* wanxingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wanxingUITests.m; sourceTree = "<group>"; };
 		26087D242058DF0A00B66144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2608C6FD205A1AC2007D04D2 /* MainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		2608C6FE205A1AC2007D04D2 /* MainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		2608C700205A1FB7007D04D2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2608C701205A1FB7007D04D2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2608C703205A22B2007D04D2 /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		2608C704205A22B2007D04D2 /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		2608C706205A2374007D04D2 /* BaseTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabViewController.h; sourceTree = "<group>"; };
+		2608C707205A2374007D04D2 /* BaseTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabViewController.m; sourceTree = "<group>"; };
+		2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Launcher.h"; sourceTree = "<group>"; };
+		2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Launcher.m"; sourceTree = "<group>"; };
 		463D472EC3BDF5B097295317 /* libPods-wanxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.debug.xcconfig"; sourceTree = "<group>"; };
 		69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				2644A6FD205A02A9009574CD /* wanxing1.0 */,
-				26087CFE2058DF0A00B66144 /* AppDelegate.h */,
-				26087CFF2058DF0A00B66144 /* AppDelegate.m */,
 				26087D012058DF0A00B66144 /* ViewController.h */,
 				26087D022058DF0A00B66144 /* ViewController.m */,
 				26087D042058DF0A00B66144 /* Main.storyboard */,
@@ -188,6 +201,10 @@
 		2644A700205A034A009574CD /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				26087CFE2058DF0A00B66144 /* AppDelegate.h */,
+				26087CFF2058DF0A00B66144 /* AppDelegate.m */,
+				2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */,
+				2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -284,6 +301,12 @@
 		2644A70E205A04AF009574CD /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				2608C700205A1FB7007D04D2 /* BaseViewController.h */,
+				2608C701205A1FB7007D04D2 /* BaseViewController.m */,
+				2608C703205A22B2007D04D2 /* UITabBar+Badge.h */,
+				2608C704205A22B2007D04D2 /* UITabBar+Badge.m */,
+				2608C706205A2374007D04D2 /* BaseTabViewController.h */,
+				2608C707205A2374007D04D2 /* BaseTabViewController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -298,6 +321,8 @@
 		2644A710205A04AF009574CD /* MainTabVC */ = {
 			isa = PBXGroup;
 			children = (
+				2608C6FD205A1AC2007D04D2 /* MainTabViewController.h */,
+				2608C6FE205A1AC2007D04D2 /* MainTabViewController.m */,
 			);
 			path = MainTabVC;
 			sourceTree = "<group>";
@@ -693,8 +718,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
+				2608C702205A1FB7007D04D2 /* BaseViewController.m in Sources */,
+				2608C6FF205A1AC2007D04D2 /* MainTabViewController.m in Sources */,
+				2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */,
 				26087D0E2058DF0A00B66144 /* main.m in Sources */,
+				2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,
+				2608C705205A22B2007D04D2 /* UITabBar+Badge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

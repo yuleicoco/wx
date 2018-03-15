@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+Launcher.h"
 @interface AppDelegate ()
 
 //test
@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //
+    //逻辑入口
+    [self launcherApplication:application didFinishLaunchingWithOptions:launchOptions];
+    
+    
     return YES;
 }
 
