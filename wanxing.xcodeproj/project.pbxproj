@@ -15,6 +15,9 @@
 		26087D0E2058DF0A00B66144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D0D2058DF0A00B66144 /* main.m */; };
 		26087D182058DF0A00B66144 /* wanxingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D172058DF0A00B66144 /* wanxingTests.m */; };
 		26087D232058DF0A00B66144 /* wanxingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D222058DF0A00B66144 /* wanxingUITests.m */; };
+		26D22CBA75D148160F7D2E7C /* libPods-wanxingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */; };
+		70C91923EF3C7E486ABB8711 /* libPods-wanxing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 463D472EC3BDF5B097295317 /* libPods-wanxing.a */; };
+		D406A1924B714D8149C212B7 /* libPods-wanxingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		26087D1E2058DF0A00B66144 /* wanxingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wanxingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26087D222058DF0A00B66144 /* wanxingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wanxingUITests.m; sourceTree = "<group>"; };
 		26087D242058DF0A00B66144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463D472EC3BDF5B097295317 /* libPods-wanxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.debug.xcconfig"; sourceTree = "<group>"; };
+		69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.release.xcconfig"; sourceTree = "<group>"; };
+		6D2945BE79B3901409E76952 /* Pods-wanxingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B2DF7110F8D4586D593B3C /* Pods-wanxingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests.release.xcconfig"; sourceTree = "<group>"; };
+		98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1687AF0E43D9105E7AC8AFB /* Pods-wanxingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE81A740B5D4B03E5619145 /* Pods-wanxingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C91923EF3C7E486ABB8711 /* libPods-wanxing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D406A1924B714D8149C212B7 /* libPods-wanxingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D22CBA75D148160F7D2E7C /* libPods-wanxingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				26087D162058DF0A00B66144 /* wanxingTests */,
 				26087D212058DF0A00B66144 /* wanxingUITests */,
 				26087CFC2058DF0A00B66144 /* Products */,
+				5204E212841B575ABF73D538 /* Pods */,
+				742BA6F7851D6924AF55093C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = wanxingUITests;
 			sourceTree = "<group>";
 		};
+		5204E212841B575ABF73D538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */,
+				69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */,
+				BFE81A740B5D4B03E5619145 /* Pods-wanxingTests.debug.xcconfig */,
+				87B2DF7110F8D4586D593B3C /* Pods-wanxingTests.release.xcconfig */,
+				B1687AF0E43D9105E7AC8AFB /* Pods-wanxingUITests.debug.xcconfig */,
+				6D2945BE79B3901409E76952 /* Pods-wanxingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		742BA6F7851D6924AF55093C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				463D472EC3BDF5B097295317 /* libPods-wanxing.a */,
+				98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */,
+				857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26087D272058DF0A00B66144 /* Build configuration list for PBXNativeTarget "wanxing" */;
 			buildPhases = (
+				85307E9B5F535076EB2818A5 /* [CP] Check Pods Manifest.lock */,
 				26087CF72058DF0A00B66144 /* Sources */,
 				26087CF82058DF0A00B66144 /* Frameworks */,
 				26087CF92058DF0A00B66144 /* Resources */,
+				63E349B21707C8C1BBD1CFDF /* [CP] Embed Pods Frameworks */,
+				E020E117B815A4DA5DF17345 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26087D2A2058DF0A00B66144 /* Build configuration list for PBXNativeTarget "wanxingTests" */;
 			buildPhases = (
+				973FF71679D53810705943FE /* [CP] Check Pods Manifest.lock */,
 				26087D0F2058DF0A00B66144 /* Sources */,
 				26087D102058DF0A00B66144 /* Frameworks */,
 				26087D112058DF0A00B66144 /* Resources */,
+				9132308F5D305D0E641608EF /* [CP] Embed Pods Frameworks */,
+				2D3CA7E8E18C35D98412352A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26087D2D2058DF0A00B66144 /* Build configuration list for PBXNativeTarget "wanxingUITests" */;
 			buildPhases = (
+				B384F57FFCAEC84DE9E0A02F /* [CP] Check Pods Manifest.lock */,
 				26087D1A2058DF0A00B66144 /* Sources */,
 				26087D1B2058DF0A00B66144 /* Frameworks */,
 				26087D1C2058DF0A00B66144 /* Resources */,
+				740796B5D7F2D24081307C8D /* [CP] Embed Pods Frameworks */,
+				9EB69E23FBC44B2157BDDCBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3CA7E8E18C35D98412352A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E349B21707C8C1BBD1CFDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxing/Pods-wanxing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740796B5D7F2D24081307C8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85307E9B5F535076EB2818A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wanxing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9132308F5D305D0E641608EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973FF71679D53810705943FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wanxingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB69E23FBC44B2157BDDCBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B384F57FFCAEC84DE9E0A02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wanxingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E020E117B815A4DA5DF17345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wanxing/Pods-wanxing-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanxing/Pods-wanxing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26087CF72058DF0A00B66144 /* Sources */ = {
@@ -428,6 +631,7 @@
 		};
 		26087D282058DF0A00B66144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +645,7 @@
 		};
 		26087D292058DF0A00B66144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +659,7 @@
 		};
 		26087D2B2058DF0A00B66144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE81A740B5D4B03E5619145 /* Pods-wanxingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +674,7 @@
 		};
 		26087D2C2058DF0A00B66144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B2DF7110F8D4586D593B3C /* Pods-wanxingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +689,7 @@
 		};
 		26087D2E2058DF0A00B66144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1687AF0E43D9105E7AC8AFB /* Pods-wanxingUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingUITests/Info.plist;
@@ -495,6 +703,7 @@
 		};
 		26087D2F2058DF0A00B66144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2945BE79B3901409E76952 /* Pods-wanxingUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingUITests/Info.plist;
