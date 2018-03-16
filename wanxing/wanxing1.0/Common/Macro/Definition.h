@@ -45,6 +45,11 @@
 // 16进制
 #define UIColorFromHex(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
 
+//格式0xdae8a6
+#define JDCOLOR_FROM_RGB_OxFF_ALPHA(rgbValue,al)                    \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
 
 // 屏幕
 
@@ -59,7 +64,7 @@
 #define  langeC [[NSLocale preferredLanguages] objectAtIndex:0];
 
 
-
+#define IMAGE_NAMED(name) [UIImage imageNamed:name]
 
 #undef	NAV_BUTTON_MIN_WIDTH
 #define	NAV_BUTTON_MIN_WIDTH	(40.0f)
@@ -116,6 +121,23 @@ return _instance; \
 #define Defaluts  ([NSUserDefaults standardUserDefaults])
 #define Mid_S     ([AccountManager sharedAccountManager].loginModel.mid)
 #define LAGE_LOC  ([NSLocale preferredLanguages].firstObject)
+
+//单例
+#define JDSHAREINSTANCE_FOR_CLASS(__CLASSNAME__)            \
+\
+static __CLASSNAME__ *instance = nil;                       \
+\
++ (__CLASSNAME__ *)sharedInstance{                      \
+static dispatch_once_t onceToken;                   \
+dispatch_once(&onceToken, ^{                        \
+if (nil == instance){                           \
+instance = [[__CLASSNAME__ alloc] init];    \
+}                                               \
+});                                                 \
+\
+return instance;                                        \
+}                                                           \
+
 
 
 #endif /* Definition_h */

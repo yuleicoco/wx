@@ -21,6 +21,9 @@
 		2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C707205A2374007D04D2 /* BaseTabViewController.m */; };
 		2608C70F205A3BFB007D04D2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C70C205A3BFA007D04D2 /* Reachability.m */; };
 		2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C70E205A3BFB007D04D2 /* AppUtil.m */; };
+		263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0254205B520C009BA404 /* JDGuidePageView.m */; };
+		263D026B205B5592009BA404 /* JDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0269205B5592009BA404 /* JDUtils.m */; };
+		263D026C205B5592009BA404 /* UIView+JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D026A205B5592009BA404 /* UIView+JDView.m */; };
 		2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */; };
 		26CDA837205A465200560034 /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA836205A465200560034 /* AFHttpClient.m */; };
 		26CDA83A205A46A800560034 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA839205A46A800560034 /* BaseModel.m */; };
@@ -127,6 +130,13 @@
 		2608C70C205A3BFA007D04D2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		2608C70D205A3BFB007D04D2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		2608C70E205A3BFB007D04D2 /* AppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtil.m; sourceTree = "<group>"; };
+		263D0253205B520C009BA404 /* JDGuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGuidePageView.h; sourceTree = "<group>"; };
+		263D0254205B520C009BA404 /* JDGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGuidePageView.m; sourceTree = "<group>"; };
+		263D0266205B5591009BA404 /* JDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUtils.h; sourceTree = "<group>"; };
+		263D0267205B5591009BA404 /* UIView+JDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDView.h"; sourceTree = "<group>"; };
+		263D0268205B5591009BA404 /* JDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDHeader.h; sourceTree = "<group>"; };
+		263D0269205B5592009BA404 /* JDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUtils.m; sourceTree = "<group>"; };
+		263D026A205B5592009BA404 /* UIView+JDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDView.m"; sourceTree = "<group>"; };
 		2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Launcher.h"; sourceTree = "<group>"; };
 		2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Launcher.m"; sourceTree = "<group>"; };
 		26CDA835205A465200560034 /* AFHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpClient.h; sourceTree = "<group>"; };
@@ -313,6 +323,23 @@
 			path = SuperFile;
 			sourceTree = "<group>";
 		};
+		263D0251205B51EE009BA404 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				263D0252205B520C009BA404 /* GuidePage */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		263D0252205B520C009BA404 /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				263D0253205B520C009BA404 /* JDGuidePageView.h */,
+				263D0254205B520C009BA404 /* JDGuidePageView.m */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
 		2644A6FD205A02A9009574CD /* wanxing1.0 */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +407,7 @@
 		2644A703205A034B009574CD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				263D0251205B51EE009BA404 /* Function */,
 				2644A706205A0390009574CD /* Categories */,
 				2644A704205A0390009574CD /* Macro */,
 				2644A707205A0390009574CD /* Utils */,
@@ -431,6 +459,11 @@
 				2608C70E205A3BFB007D04D2 /* AppUtil.m */,
 				2608C70D205A3BFB007D04D2 /* Reachability.h */,
 				2608C70C205A3BFA007D04D2 /* Reachability.m */,
+				263D0268205B5591009BA404 /* JDHeader.h */,
+				263D0266205B5591009BA404 /* JDUtils.h */,
+				263D0269205B5592009BA404 /* JDUtils.m */,
+				263D0267205B5591009BA404 /* UIView+JDView.h */,
+				263D026A205B5592009BA404 /* UIView+JDView.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1034,6 +1067,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */,
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
 				26CDA859205A481B00560034 /* UIButton+Blocks.m in Sources */,
 				26CDA855205A481B00560034 /* UIActionSheet+Blocks.m in Sources */,
@@ -1047,11 +1081,13 @@
 				26CDA83A205A46A800560034 /* BaseModel.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,
 				26CDA854205A481B00560034 /* UIView+TapBlocks.m in Sources */,
+				263D026C205B5592009BA404 /* UIView+JDView.m in Sources */,
 				26CDA85C205A481B00560034 /* UIViewController+HUD.m in Sources */,
 				2608C70F205A3BFB007D04D2 /* Reachability.m in Sources */,
 				26CDA858205A481B00560034 /* QFTableView.m in Sources */,
 				2608C705205A22B2007D04D2 /* UITabBar+Badge.m in Sources */,
 				26CDA8A4205A56B200560034 /* WorkViewController.m in Sources */,
+				263D026B205B5592009BA404 /* JDUtils.m in Sources */,
 				2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */,
 				26CDA896205A55E800560034 /* HomeViewController.m in Sources */,
 				26CDA856205A481B00560034 /* UIView+Sizes.m in Sources */,
