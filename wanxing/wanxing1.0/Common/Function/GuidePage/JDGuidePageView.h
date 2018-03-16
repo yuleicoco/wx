@@ -2,13 +2,23 @@
 //  JDGuidePageView.h
 //  WJDStudyLibrary
 //
-//  Created by wangjundong on 2017/6/29.
+//  Created by yulei on 2017/6/29.
 //  Copyright © 2017年 wangjundong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+@protocol GetScrollVDelegate <NSObject>
+
+// 协议 点击
+- (void)getScrollV:(NSString *)popScroll;
+
+@end
+
+
 @interface JDGuidePageView : UIView
+
+@property (nonatomic,assign)  id<GetScrollVDelegate>delegate;
 
 /**
  选中的page指示器颜色,默认灰色

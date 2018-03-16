@@ -171,6 +171,11 @@
 
 - (void)enterBtnClick{
     
+    if (self.delegate) {
+         [self.delegate getScrollV:@""];
+    }
+    
+    
     [self hideGuideView];
 }
 

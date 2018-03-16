@@ -24,6 +24,10 @@
 		263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0254205B520C009BA404 /* JDGuidePageView.m */; };
 		263D026B205B5592009BA404 /* JDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0269205B5592009BA404 /* JDUtils.m */; };
 		263D026C205B5592009BA404 /* UIView+JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D026A205B5592009BA404 /* UIView+JDView.m */; };
+		263D0270205B61C8009BA404 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 263D026F205B61C8009BA404 /* bg.jpeg */; };
+		263D0273205B63D5009BA404 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0272205B63D5009BA404 /* LoginViewController.m */; };
+		263D0276205B672F009BA404 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0275205B672F009BA404 /* AccountManager.m */; };
+		263D0283205B68F2009BA404 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0282205B68F2009BA404 /* LoginModel.m */; };
 		2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */; };
 		26CDA837205A465200560034 /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA836205A465200560034 /* AFHttpClient.m */; };
 		26CDA83A205A46A800560034 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA839205A46A800560034 /* BaseModel.m */; };
@@ -137,6 +141,13 @@
 		263D0268205B5591009BA404 /* JDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDHeader.h; sourceTree = "<group>"; };
 		263D0269205B5592009BA404 /* JDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUtils.m; sourceTree = "<group>"; };
 		263D026A205B5592009BA404 /* UIView+JDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDView.m"; sourceTree = "<group>"; };
+		263D026F205B61C8009BA404 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		263D0271205B63D5009BA404 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		263D0272205B63D5009BA404 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		263D0274205B672F009BA404 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		263D0275205B672F009BA404 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		263D0281205B68F2009BA404 /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		263D0282205B68F2009BA404 /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
 		2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Launcher.h"; sourceTree = "<group>"; };
 		2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Launcher.m"; sourceTree = "<group>"; };
 		26CDA835205A465200560034 /* AFHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpClient.h; sourceTree = "<group>"; };
@@ -392,6 +403,8 @@
 			children = (
 				26CDA838205A46A800560034 /* BaseModel.h */,
 				26CDA839205A46A800560034 /* BaseModel.m */,
+				263D0281205B68F2009BA404 /* LoginModel.h */,
+				263D0282205B68F2009BA404 /* LoginModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -455,6 +468,7 @@
 		2644A707205A0390009574CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				263D026F205B61C8009BA404 /* bg.jpeg */,
 				2608C70B205A3BFA007D04D2 /* AppUtil.h */,
 				2608C70E205A3BFB007D04D2 /* AppUtil.m */,
 				2608C70D205A3BFB007D04D2 /* Reachability.h */,
@@ -471,6 +485,8 @@
 		2644A709205A03CC009574CD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				263D0274205B672F009BA404 /* AccountManager.h */,
+				263D0275205B672F009BA404 /* AccountManager.m */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -507,6 +523,8 @@
 		2644A70D205A04AE009574CD /* LoginVC */ = {
 			isa = PBXGroup;
 			children = (
+				263D0271205B63D5009BA404 /* LoginViewController.h */,
+				263D0272205B63D5009BA404 /* LoginViewController.m */,
 			);
 			path = LoginVC;
 			sourceTree = "<group>";
@@ -848,6 +866,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263D0270205B61C8009BA404 /* bg.jpeg in Resources */,
 				26CDA8C3205A625600560034 /* home_nav.png in Resources */,
 				26CDA88C205A543E00560034 /* home_tab@3x.png in Resources */,
 				26CDA8B2205A5F5500560034 /* InfoPlist.strings in Resources */,
@@ -1067,16 +1086,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263D0273205B63D5009BA404 /* LoginViewController.m in Sources */,
 				263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */,
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
 				26CDA859205A481B00560034 /* UIButton+Blocks.m in Sources */,
 				26CDA855205A481B00560034 /* UIActionSheet+Blocks.m in Sources */,
 				2608C702205A1FB7007D04D2 /* BaseViewController.m in Sources */,
 				2608C6FF205A1AC2007D04D2 /* MainTabViewController.m in Sources */,
+				263D0283205B68F2009BA404 /* LoginModel.m in Sources */,
 				2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */,
 				26CDA89F205A56A200560034 /* MeViewController.m in Sources */,
 				26087D0E2058DF0A00B66144 /* main.m in Sources */,
 				26CDA85A205A481B00560034 /* UIImage-Extensions.m in Sources */,
+				263D0276205B672F009BA404 /* AccountManager.m in Sources */,
 				2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */,
 				26CDA83A205A46A800560034 /* BaseModel.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,

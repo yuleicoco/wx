@@ -8,7 +8,10 @@
 
 #import "AppDelegate+Launcher.h"
 #import "JDGuidePageView.h"
+#import "AccountManager.h"
+@interface AppDelegate()<GetScrollVDelegate>
 
+@end
 
 @implementation AppDelegate (Launcher)
 
@@ -17,7 +20,7 @@
 {
     
     
-    [self EenterMainTab];
+    [self CheckLogin];
     
     
 }
@@ -27,6 +30,10 @@
 // 进入主页
 -(void)EenterMainTab
 {
+    if (self.loginVC) {
+        self.loginVC = nil;
+    }
+    
     self.mainTabVC = [[MainTabViewController alloc]init];
     
     self.window.rootViewController = self.mainTabVC;
@@ -36,6 +43,7 @@
     if ([self isFirstLauch]) {
         
         JDGuidePageView *guideView =[[JDGuidePageView alloc]initGuideViewWithImages:@[@"guide_01", @"guide_02", @"guide_03"] ];
+        guideView.delegate = self;
         guideView.isShowPageView = YES;
         guideView.isScrollOut = NO;
         guideView.currentColor =[UIColor redColor];
@@ -98,10 +106,57 @@
 
 - (void)CheckLogin
 {
+    if ([AccountManager sharedAccountManager].isLogin) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:NotificationLoginStateChange object:@YES];
+    }else{
+        [[NSNotificationCenter defaultCenter] postNotificationName:NotificationLoginStateChange object:@NO];
+    }
+    
+}
+
+-(void)loginStateChange:(NSNotification *)notification{
+    BOOL loginSuccess = [notification.object boolValue];
+    
+    if (loginSuccess) {
+        [self EenterMainTab];
+    }else{
+       
+        if ([self isFirstLauch]) {
+            // 第一次
+        }else{
+            //   不是
+            
+        }
+        
+    }
+    
+    
+}
+//代理函数
+- (void)getScrollV:(NSString *)popScroll
+{
+    
+    [self enterLoginVC];
     
     
 }
 
+// 进入登录界面
+- (void)enterLoginVC
+
+{
+    if (self.mainTabVC) {
+        self.mainTabVC = nil;
+    }
+    
+    self.loginVC = [[LoginViewController alloc]init];
+    
+    UINavigationController * loginNaVc = [[UINavigationController alloc]initWithRootViewController:self.loginVC];
+    self.window.rootViewController = loginNaVc;
+    
+    [self.window makeKeyAndVisible];
+    
+}
 
 
 
