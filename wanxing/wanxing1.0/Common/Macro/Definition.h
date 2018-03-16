@@ -13,6 +13,13 @@
 #ifndef Definition_h
 #define Definition_h
 
+
+
+
+
+
+
+
 //-------------------封装NSLog打印日志-------------------------
 #define DEBUG_MODE 1
 #if DEBUG_MODE
@@ -44,6 +51,9 @@
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
 // 16进制
 #define UIColorFromHex(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
+
+
+#define ssRGBHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue  0xFF0000) >> 16))/255.0 green:((float)((rgbValue  0xFF00) >> 8))/255.0 blue:((float)(rgbValue  0xFF))/255.0 alpha:1.0]
 
 //格式0xdae8a6
 #define JDCOLOR_FROM_RGB_OxFF_ALPHA(rgbValue,al)                    \
@@ -78,6 +88,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
 #define	TAB_BAR_HEIGHT	(49.0f)
 
 
+
+#define OrangerCol RGB(257, 130, 77);
 
 
 //判断是否 Retina屏、设备是否%fhone 5、是否是iPad

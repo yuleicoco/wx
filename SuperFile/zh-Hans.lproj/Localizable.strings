@@ -24,3 +24,17 @@
 
 //实施
 "do_title" = "实施";
+
+
+// 登录
+
+"Login_btn" ="立即登录";
+
+// 注册
+"Regist_use"="用 户 名";
+"Regist_ps"="密      码";
+"Regist_agps"="确认密码";
+
+"Regist_reg"="立即注册";
+"Regist_back"="返回登录";
+
