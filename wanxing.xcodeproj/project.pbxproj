@@ -41,6 +41,14 @@
 		263D02A4205BBCE5009BA404 /* ForgetPsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D02A3205BBCE5009BA404 /* ForgetPsViewController.m */; };
 		263D02A7205BBD09009BA404 /* RegistAcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D02A6205BBD09009BA404 /* RegistAcViewController.m */; };
 		2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */; };
+		266B8B2B205CBD18003D5687 /* Regist_hud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B25205CBD17003D5687 /* Regist_hud@2x.png */; };
+		266B8B2C205CBD18003D5687 /* Regist_choose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B26205CBD17003D5687 /* Regist_choose@2x.png */; };
+		266B8B2D205CBD18003D5687 /* Regist_un_choose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B27205CBD17003D5687 /* Regist_un_choose@2x.png */; };
+		266B8B2E205CBD18003D5687 /* Regist_choose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B28205CBD17003D5687 /* Regist_choose@3x.png */; };
+		266B8B2F205CBD18003D5687 /* Regist_un-choose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B29205CBD18003D5687 /* Regist_un-choose@3x.png */; };
+		266B8B30205CBD18003D5687 /* Regist_hud@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B2A205CBD18003D5687 /* Regist_hud@3x.png */; };
+		266B8B34205CC712003D5687 /* AggreMentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B8B33205CC712003D5687 /* AggreMentViewController.m */; };
+		266B8B37205CDE54003D5687 /* ShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B8B36205CDE54003D5687 /* ShowAlertView.m */; };
 		26CDA837205A465200560034 /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA836205A465200560034 /* AFHttpClient.m */; };
 		26CDA83A205A46A800560034 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA839205A46A800560034 /* BaseModel.m */; };
 		26CDA854205A481B00560034 /* UIView+TapBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA841205A481A00560034 /* UIView+TapBlocks.m */; };
@@ -176,6 +184,16 @@
 		263D02A6205BBD09009BA404 /* RegistAcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistAcViewController.m; sourceTree = "<group>"; };
 		2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Launcher.h"; sourceTree = "<group>"; };
 		2644A71E205A0E2F009574CD /* AppDelegate+Launcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Launcher.m"; sourceTree = "<group>"; };
+		266B8B25205CBD17003D5687 /* Regist_hud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_hud@2x.png"; sourceTree = "<group>"; };
+		266B8B26205CBD17003D5687 /* Regist_choose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_choose@2x.png"; sourceTree = "<group>"; };
+		266B8B27205CBD17003D5687 /* Regist_un_choose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_un_choose@2x.png"; sourceTree = "<group>"; };
+		266B8B28205CBD17003D5687 /* Regist_choose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_choose@3x.png"; sourceTree = "<group>"; };
+		266B8B29205CBD18003D5687 /* Regist_un-choose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_un-choose@3x.png"; sourceTree = "<group>"; };
+		266B8B2A205CBD18003D5687 /* Regist_hud@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regist_hud@3x.png"; sourceTree = "<group>"; };
+		266B8B32205CC712003D5687 /* AggreMentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AggreMentViewController.h; sourceTree = "<group>"; };
+		266B8B33205CC712003D5687 /* AggreMentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AggreMentViewController.m; sourceTree = "<group>"; };
+		266B8B35205CDE54003D5687 /* ShowAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlertView.h; sourceTree = "<group>"; };
+		266B8B36205CDE54003D5687 /* ShowAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlertView.m; sourceTree = "<group>"; };
 		26CDA835205A465200560034 /* AFHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpClient.h; sourceTree = "<group>"; };
 		26CDA836205A465200560034 /* AFHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHttpClient.m; sourceTree = "<group>"; };
 		26CDA838205A46A800560034 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -389,6 +407,7 @@
 		263D02A1205BBC7C009BA404 /* RegistVC */ = {
 			isa = PBXGroup;
 			children = (
+				266B8B31205CC6ED003D5687 /* ProVC */,
 				263D02A5205BBD09009BA404 /* RegistAcViewController.h */,
 				263D02A6205BBD09009BA404 /* RegistAcViewController.m */,
 			);
@@ -485,6 +504,8 @@
 		2644A705205A0390009574CD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				266B8B35205CDE54003D5687 /* ShowAlertView.h */,
+				266B8B36205CDE54003D5687 /* ShowAlertView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -665,6 +686,7 @@
 		2644A717205A0648009574CD /* Login_image */ = {
 			isa = PBXGroup;
 			children = (
+				266B8B24205CBC7F003D5687 /* Regist_image */,
 				263D0299205BB8EE009BA404 /* Login_for@2x.png */,
 				263D0298205BB8ED009BA404 /* Login_for@3x.png */,
 				263D029B205BB8EE009BA404 /* Login_reg@2x.png */,
@@ -691,6 +713,28 @@
 			children = (
 			);
 			path = Me_image;
+			sourceTree = "<group>";
+		};
+		266B8B24205CBC7F003D5687 /* Regist_image */ = {
+			isa = PBXGroup;
+			children = (
+				266B8B26205CBD17003D5687 /* Regist_choose@2x.png */,
+				266B8B28205CBD17003D5687 /* Regist_choose@3x.png */,
+				266B8B25205CBD17003D5687 /* Regist_hud@2x.png */,
+				266B8B2A205CBD18003D5687 /* Regist_hud@3x.png */,
+				266B8B27205CBD17003D5687 /* Regist_un_choose@2x.png */,
+				266B8B29205CBD18003D5687 /* Regist_un-choose@3x.png */,
+			);
+			path = Regist_image;
+			sourceTree = "<group>";
+		};
+		266B8B31205CC6ED003D5687 /* ProVC */ = {
+			isa = PBXGroup;
+			children = (
+				266B8B32205CC712003D5687 /* AggreMentViewController.h */,
+				266B8B33205CC712003D5687 /* AggreMentViewController.m */,
+			);
+			path = ProVC;
 			sourceTree = "<group>";
 		};
 		26CDA83F205A481A00560034 /* UIView+TapBlocks */ = {
@@ -922,8 +966,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266B8B2E205CBD18003D5687 /* Regist_choose@3x.png in Resources */,
 				263D0270205B61C8009BA404 /* bg.jpeg in Resources */,
 				26CDA8C3205A625600560034 /* home_nav.png in Resources */,
+				266B8B2D205CBD18003D5687 /* Regist_un_choose@2x.png in Resources */,
 				26CDA88C205A543E00560034 /* home_tab@3x.png in Resources */,
 				263D029F205BB8EE009BA404 /* Login_reg@2x.png in Resources */,
 				263D029C205BB8EE009BA404 /* Login_for@3x.png in Resources */,
@@ -945,6 +991,7 @@
 				26CDA8CF205A72E600560034 /* home_vc_bg@3x.png in Resources */,
 				26CDA8A0205A56A200560034 /* MeViewController.xib in Resources */,
 				26CDA881205A543E00560034 /* un_me_tab@2x.png in Resources */,
+				266B8B2F205CBD18003D5687 /* Regist_un-choose@3x.png in Resources */,
 				26087D062058DF0A00B66144 /* Main.storyboard in Resources */,
 				263D0287205B9763009BA404 /* Login_bg@2x.png in Resources */,
 				26CDA8C4205A625600560034 /* home_nav@2x.png in Resources */,
@@ -957,8 +1004,10 @@
 				26CDA879205A543E00560034 /* un_do_tab@2x.png in Resources */,
 				26CDA89B205A569200560034 /* DoViewController.xib in Resources */,
 				263D0286205B9763009BA404 /* Login_bg@3x.png in Resources */,
+				266B8B2C205CBD18003D5687 /* Regist_choose@2x.png in Resources */,
 				26CDA882205A543E00560034 /* un_work_tab@2x.png in Resources */,
 				26CDA880205A543E00560034 /* un_do_tab@3x.png in Resources */,
+				266B8B30205CBD18003D5687 /* Regist_hud@3x.png in Resources */,
 				26CDA8CA205A673D00560034 /* home_nav_bg@3x.png in Resources */,
 				26CDA8C9205A673D00560034 /* home_nav_bg@2x.png in Resources */,
 				26CDA877205A543E00560034 /* un_home_tab.png in Resources */,
@@ -974,6 +1023,7 @@
 				26CDA8A5205A56B200560034 /* WorkViewController.xib in Resources */,
 				26CDA886205A543E00560034 /* un_me_tab.png in Resources */,
 				26CDA87D205A543E00560034 /* un_do_tab.png in Resources */,
+				266B8B2B205CBD18003D5687 /* Regist_hud@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1154,6 +1204,7 @@
 			files = (
 				263D0273205B63D5009BA404 /* LoginViewController.m in Sources */,
 				263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */,
+				266B8B37205CDE54003D5687 /* ShowAlertView.m in Sources */,
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
 				26CDA859205A481B00560034 /* UIButton+Blocks.m in Sources */,
 				26CDA855205A481B00560034 /* UIActionSheet+Blocks.m in Sources */,
@@ -1179,6 +1230,7 @@
 				263D026B205B5592009BA404 /* JDUtils.m in Sources */,
 				2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */,
 				26CDA896205A55E800560034 /* HomeViewController.m in Sources */,
+				266B8B34205CC712003D5687 /* AggreMentViewController.m in Sources */,
 				26CDA856205A481B00560034 /* UIView+Sizes.m in Sources */,
 				26CDA89A205A569200560034 /* DoViewController.m in Sources */,
 				263D02A4205BBCE5009BA404 /* ForgetPsViewController.m in Sources */,

@@ -143,7 +143,7 @@
 
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
-  //  self.navigationController.navigationBarHidden = NO;
+    self.navigationController.navigationBarHidden = NO;
     
 }
 
@@ -163,6 +163,7 @@
     [self.navigationController pushViewController:foVC animated:YES];
     
     
+    
 }
 
 
@@ -171,7 +172,9 @@
 - (void)Res_btn_Touch
 {
     RegistAcViewController * ReVC =[[RegistAcViewController alloc]init];
-    [self.navigationController pushViewController:ReVC animated:YES];
+   // [self.navigationController pushViewController:ReVC animated:YES];
+    [self presentViewController:ReVC animated:YES completion:nil];
+    
     
     
 }

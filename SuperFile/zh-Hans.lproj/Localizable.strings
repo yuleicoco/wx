@@ -37,4 +37,11 @@
 
 "Regist_reg"="立即注册";
 "Regist_back"="返回登录";
+"Regist_Suss" ="  恭喜你，注册成功!";
+
+
+// 安全文字
+"Regist_sf_us" ="6位以上数字和字母组合";
+"Regist_sf_ps" ="限6~18位字母符号和数字组合";
+"Regist_sf_a_ps" ="确认密码";
 

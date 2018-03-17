@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface RegistAcViewController : BaseViewController
+@interface RegistAcViewController : UIViewController
 
 @end
