@@ -102,6 +102,26 @@
     
 }
 
+- (void)showBarButton:(EzNavigationBar)position title:(NSString *)name fontColor:(UIColor *)color font:(UIFont *)f hide:(BOOL)hide{
+    
+    UIButton *button ;
+    CGSize titleSize = [name boundingRectWithSize:CGSizeMake(999999.0f, NAV_BAR_HEIGHT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:16]} context:nil].size;
+    CGRect buttonFrame = CGRectZero;
+    
+    buttonFrame = CGRectMake(0, 0, titleSize.width, 44);
+    
+    button = [[UIButton alloc] initWithFrame:buttonFrame];
+    button.contentMode = UIViewContentModeScaleAspectFit;
+    button.backgroundColor = [UIColor clearColor];
+    button.titleLabel.font = f;
+    [button setTitleColor:color forState:UIControlStateNormal];
+    button.hidden = hide;
+    [button setTitle:name forState:UIControlStateNormal];
+    
+    [self showBarButton:position button:button];
+    
+}
+
 
 - (void)showBarButton:(EzNavigationBar)position imageName:(NSString *)imageName{
     
@@ -155,7 +175,8 @@
     CGSize titleSize =self.navigationController.navigationBar.bounds.size;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, titleSize.width/2,titleSize.height)];
     label.backgroundColor = [UIColor clearColor];
-    label.textColor = UIColorFromHex(333333);
+   // label.textColor = UIColorFromHex(333333);
+    label.textColor =[UIColor whiteColor];
     label.textAlignment = NSTextAlignmentCenter;
     label.text=navTitle;
     label.font = [UIFont fontWithName:@"PingFangSC-Semibold" size:19];
@@ -175,7 +196,7 @@
         [leftbutton setTitleEdgeInsets:UIEdgeInsetsMake(-1, -18, 0, 0)];
         [leftbutton setImageEdgeInsets:UIEdgeInsetsMake(-1, -18, 0, 0)];
         
-        [leftbutton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+        [leftbutton setImage:[UIImage imageNamed:@"home_back"] forState:UIControlStateNormal];
         self.tabBarController.tabBar.hidden= YES;
         
         [self showBarButton:NAV_LEFT button:leftbutton];

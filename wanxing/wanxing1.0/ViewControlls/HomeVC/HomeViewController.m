@@ -7,10 +7,22 @@
 //
 
 #import "HomeViewController.h"
+#import "DoLogViewController.h"
+#import "HouseViewController.h"
+#import "CenterViewController.h"
+#import "ProViewController.h"
+
+
 
 @interface HomeViewController ()<UIScrollViewDelegate>
 
 @property(nonatomic,strong)NSMutableArray * imageArr;
+@property(nonatomic,strong)NSMutableArray * BtnArr;
+@property(nonatomic,strong)NSMutableArray * TextArr;
+@property(nonatomic,strong)NSMutableArray * LbArr;
+@property(nonatomic,strong)UIScrollView *verticalScrollView;
+
+
 
 @end
 
@@ -20,7 +32,7 @@
     [super viewDidLoad];
   
     
-   
+    self.view.backgroundColor = RGB(229, 229, 229);
     [self setNavTitle:NSLocalizedString(@"home_title", nil)];
     [self showBarButton:NAV_RIGHT imageName:@"home_nav"];
     [self InitScView];
@@ -29,12 +41,95 @@
 
 -(void)SetupData
 {
-    _imageArr =[[NSMutableArray alloc]init];
+    _imageArr =[[NSMutableArray alloc]initWithObjects:@"home_btn_do_log",@"home_btn_pro",@"home_btn_house",@"home_btn_center", nil];
+    _BtnArr =[[NSMutableArray alloc]init];
+    _LbArr =[[NSMutableArray alloc]init];
     
-    for (NSInteger i = 1; i < 5; i++) {
+    _TextArr =[[NSMutableArray alloc]initWithObjects:NSLocalizedString(@"home_tab_log", nil),NSLocalizedString(@"home_tab_pro", nil),NSLocalizedString(@"home_tab_housue", nil),NSLocalizedString(@"home_tab_center", nil), nil];
+    
+    
+
+    
+    
+}
+
+-(void)SetupView
+{
+    
+    
+    // 4个功能键
+    for (NSInteger i = 0; i<4; i++) {
+        UIButton * btnF =[[UIButton alloc]init];
+        [btnF setImage:[UIImage imageNamed:_imageArr[i]] forState:UIControlStateNormal];
+        [btnF addTarget:self action:@selector(BtnF_ToucH:) forControlEvents:UIControlEventTouchUpInside];
+        btnF.tag = 2000+i;
+        [self.BtnArr addObject:btnF];
+        [self.view addSubview:btnF];
         
-        [self.imageArr addObject:[NSString stringWithFormat:@"home_vc_bg%ld.jpg",i]];
     }
+    
+    [_BtnArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:51 leadSpacing:26 tailSpacing:22];
+    [_BtnArr mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.top.equalTo(@195);
+        make.height.equalTo(@41);
+    }];
+    
+    // 字体
+    
+    for (NSInteger i = 0; i<4; i++) {
+        UILabel * lbaF =[[UILabel alloc]init];
+        lbaF.text =_TextArr[i];
+        lbaF.textColor =RGB(140, 140, 140);
+        lbaF.font =[UIFont fontWithName:@"PingFangSC-Regular" size:15];
+        [_LbArr addObject:lbaF];
+        [self.view addSubview:lbaF];
+    }
+    
+    
+    [_LbArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:31 leadSpacing:17 tailSpacing:15
+     ];
+    
+    [_LbArr mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@243);
+        make.height.equalTo(@14);
+    }];
+    
+
+    
+}
+
+
+// f
+- (void)BtnF_ToucH:(UIButton *)Buttonf
+{
+    NSInteger i =  Buttonf.tag -2000;
+    DoLogViewController * LogVC =[[DoLogViewController alloc]init];
+    ProViewController * proVC =[[ProViewController alloc]init];
+    HouseViewController * HouseVC =[[HouseViewController alloc]init];
+    CenterViewController * centerVC =[[CenterViewController alloc]init];
+    
+    
+    switch (i) {
+            
+        case 0:
+            [self.navigationController pushViewController:LogVC animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:proVC animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:HouseVC animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:centerVC animated:YES];
+            break;
+            
+        default:
+            break;
+    }
+
+    
     
 }
 
@@ -44,15 +139,15 @@
 - (void)InitScView
 {
     
-    UIScrollView *verticalScrollView = [[UIScrollView alloc] init];
-    verticalScrollView.backgroundColor = [UIColor greenColor];
-    verticalScrollView.pagingEnabled = YES;
+    _verticalScrollView = [[UIScrollView alloc] init];
+    _verticalScrollView.backgroundColor = [UIColor greenColor];
+    _verticalScrollView.pagingEnabled = YES;
     // 添加scrollView添加到父视图，并设置其约束
-    [self.view addSubview:verticalScrollView];
+    [self.view addSubview:_verticalScrollView];
     
     //*********************** Mansoy***************
     
-     UIView *currentView = verticalScrollView;
+     UIView *currentView = _verticalScrollView;
     // 水平方向滚动视图
     UIScrollView *horizontalScrollView = [[UIScrollView alloc] init];
     horizontalScrollView.pagingEnabled = YES;

@@ -8,7 +8,7 @@
 
 
 
-
+//6217 0038 1000 2572 918
 //tab
 
 "tabSquare" = "首页";
@@ -19,6 +19,25 @@
 
 // 首页
 "home_title" ="万兴智能工程系统";
+"home_tab_log" ="施工日志";
+"home_tab_pro" ="项目进度";
+"home_tab_housue" ="库存信息";
+"home_tab_center"="审批中心";
+"home_nav_add" = "添加";
+
+
+// 施工
+"main_sure" = "确定";
+"main_cancel" ="取消";
+
+// 日期
+"date_one" = "SUN";
+"date_two" = "MON";
+"date_thr" = "TUE";
+"date_fou" = "WED";
+"date_fiv" = "THU";
+"date_six" = "FRI";
+"date_seven" = "SAT";
 
 
 
@@ -38,10 +57,12 @@
 "Regist_reg"="立即注册";
 "Regist_back"="返回登录";
 "Regist_Suss" ="  恭喜你，注册成功!";
+"Regist_Login"= "前往登录";
 
 
 // 安全文字
 "Regist_sf_us" ="6位以上数字和字母组合";
 "Regist_sf_ps" ="限6~18位字母符号和数字组合";
 "Regist_sf_a_ps" ="确认密码";
+
 

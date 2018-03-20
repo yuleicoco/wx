@@ -28,6 +28,7 @@ typedef enum
 // 我的页面 消息
 
 - (void)showBarButton:(EzNavigationBar)position title:(NSString *)name fontColor:(UIColor *)color hide:(BOOL)hide;
+- (void)showBarButton:(EzNavigationBar)position title:(NSString *)name fontColor:(UIColor *)color font:(UIFont *)f hide:(BOOL)hide;
 
 
 - (void)showBarButton:(EzNavigationBar)position imageName:(NSString *)imageName;

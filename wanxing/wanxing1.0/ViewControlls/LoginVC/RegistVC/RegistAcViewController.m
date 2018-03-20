@@ -335,12 +335,13 @@
         
     }];
     
+    // 前往登录
     UIButton * Gobtn =[[UIButton alloc]init];
     Gobtn.layer.masksToBounds = YES;
     Gobtn.layer.cornerRadius = 5;
     Gobtn.backgroundColor = OrangerCol;
     [Gobtn addTarget:self action:@selector(GoRe) forControlEvents:UIControlEventTouchUpInside];
-    [Gobtn setTitle:@"前往登录" forState:UIControlStateNormal];
+    [Gobtn setTitle:NSLocalizedString(@"Regist_Login", nil) forState:UIControlStateNormal];
     [self.view addSubview:Gobtn];
     
     [Gobtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -356,7 +357,7 @@
 
 - (void)GoRe
 {
-    
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
