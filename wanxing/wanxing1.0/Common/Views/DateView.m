@@ -11,6 +11,7 @@
 
 
 
+
 @implementation DateView
 
 
@@ -20,6 +21,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         
+        
+        self.arrIndex = [NSMutableArray new];
         //背景蒙版
         self.backgroundColor =[[UIColor grayColor]colorWithAlphaComponent:0.9];
         UIView * MBview =[[UIView alloc]initWithFrame:self.bounds];
@@ -247,7 +250,6 @@
     NSInteger thisYear = [self.comps year];
    _tadayNum = [self.comps day];
     
-    NSLog(@"thisYear -- %ld,thisMonth -- %ld",(long)thisYear,(long)thisMonth);
     _totalDayThisMonth = [self getTotalDaysThisMonth:[NSDate date]];
     
    
@@ -256,16 +258,13 @@
     _totalDayLastMonth = [self getTotalDaysThisMonth:lastMonDate];
     
     
-    
-    
-    NSLog(@"_totalDayLastMonth -- %ld,_totalDayThisMonth -- %ld",_totalDayLastMonth,_totalDayThisMonth);
+
     
     
     _fisrtWeekDay          = [self getWeekdayWithYear:thisYear month:thisMonth day:1];
     _firstWeekDayNextMonth = [self getWeekdayWithYear:thisYear month:thisMonth + 1 day:1];
     
     
-    NSLog(@"_fisrtWeekDay -- %ld,_firstWeekDayNextMonth -- %ld",(long)_fisrtWeekDay,(long)_firstWeekDayNextMonth);
     
     if (_fisrtWeekDay == 7) {
         _lastSum = 0;
@@ -337,10 +336,16 @@
     CollViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"numdayid" forIndexPath:indexPath];
     if (indexPath.row == (_sumDays - _totalDayThisMonth + _tadayNum-1) ){
         
-        cell.layer.cornerRadius = 31/2;
-        cell.layer.masksToBounds = YES;
+        
+        NSNumber *number = [NSNumber numberWithInt:indexPath.row];
+        [self.arrIndex addObject:number];
+        cell.isBlue = YES;
         cell.numLb.textColor =[UIColor whiteColor];
         cell.numLb.backgroundColor  = RGB(9, 177, 239);
+    }else
+    {
+        
+        cell.isBlue = NO;
     }
     
     if (indexPath.row < _lastSum) {
@@ -392,21 +397,53 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     
-     CollViewCell  * cell =(CollViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-     if (indexPath.row ==_sumDays - _totalDayThisMonth + _tadayNum-1 ) {
-         // bug
-         cell.numLb.textColor  =   RGB(55, 55, 55);
-         cell.numLb.backgroundColor =[UIColor whiteColor];
-         
-     }else{
-   
-    cell.layer.cornerRadius = 31/2;
-    cell.layer.masksToBounds = YES;
-    cell.numLb.textColor =[UIColor whiteColor];
-    cell.numLb.backgroundColor  = RGB(9, 177, 239);
     
-  // [self.colletionView reloadItemsAtIndexPaths:@[[NSIndexPath indexPathForRow:7 inSection:0]]];
-     }
+     NSNumber *number = [NSNumber numberWithInt:indexPath.row];
+     CollViewCell  * cell =(CollViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    
+    if (cell.isBlue) {
+        //  选中
+        cell.isBlue = NO;
+        cell.numLb.textColor = RGB(55, 55, 55);
+        cell.numLb.backgroundColor =[UIColor whiteColor];
+        [self.arrIndex removeObject:number];
+
+    }else
+    {
+        if (self.arrIndex.count ==1) {
+           
+            NSIndexPath *indexPathc = [NSIndexPath indexPathForRow:[self.arrIndex[0] integerValue] inSection:0];
+            CollViewCell  * cellOne =(CollViewCell *)[collectionView cellForItemAtIndexPath:indexPathc];
+            cellOne.isBlue = NO;
+            cellOne.numLb.textColor = RGB(55, 55, 55);
+            cellOne.numLb.backgroundColor =[UIColor whiteColor];
+            [self.arrIndex removeAllObjects];
+            
+            cell.isBlue = YES;
+            cell.numLb.textColor =[UIColor whiteColor];
+            cell.numLb.backgroundColor  = RGB(9, 177, 239);
+            [self.arrIndex addObject:number];
+           
+            
+            
+            
+            
+        }else{
+        cell.isBlue = YES;
+        cell.numLb.textColor =[UIColor whiteColor];
+        cell.numLb.backgroundColor  = RGB(9, 177, 239);
+        [self.arrIndex addObject:number];
+            
+               FuckLog(@"444");
+        }
+        
+    }
+    
+   
+    
+    
+    
+    
     
 }
 
@@ -486,6 +523,7 @@
     if (self.delegate) {
         
         // 遵循协议 实现
+        [self.delegate SureB];
         
     }
     
@@ -496,7 +534,7 @@
     
     if (self.delegate) {
         
-        
+        [self.delegate CanceB];
     }
     
 }

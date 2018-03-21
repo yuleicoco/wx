@@ -11,6 +11,10 @@
 @interface CollViewCell : UICollectionViewCell
 
 @property (nonatomic,strong)UILabel * numLb;
+@property (nonatomic,assign)BOOL isBlue;
+
+
+
 
 
 @end

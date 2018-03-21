@@ -12,8 +12,8 @@
 
 @protocol DateviewDelegate <NSObject>
 
-- (void)SureDateBtn;
-- (void)CancelDateBtn;
+- (void)SureB;
+- (void)CanceB;
 
 
 
@@ -24,6 +24,7 @@
 
 @property (nonatomic,assign)id<DateviewDelegate>delegate;
 @property (nonatomic,strong)UICollectionView * colletionView;
+@property (nonatomic,strong)NSMutableArray * arrIndex;
 
 
 @property (nonatomic,strong) NSCalendar *calender;

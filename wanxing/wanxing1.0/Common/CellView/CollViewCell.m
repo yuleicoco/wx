@@ -16,8 +16,12 @@
     self = [super initWithFrame:frame];
     if (self) {
         
+        
+        _isBlue = NO;
         self.numLb =[UILabel new];
         self.numLb.text =@"1";
+        self.numLb.layer.cornerRadius = 31/2;
+        self.numLb.layer.masksToBounds = YES;
         self.numLb.font =[UIFont fontWithName:@"PingFangSC-Medium" size:12];
         self.numLb.textColor = RGB(55, 55, 55);
         self.numLb.textAlignment = NSTextAlignmentCenter;

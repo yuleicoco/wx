@@ -45,6 +45,22 @@
 //获取当前语言
 #define CurrentLanguage (［NSLocale preferredLanguages] objectAtIndex:0])
 
+
+// 项目颜色
+#define Blue_color   [UIColor colorWithRed:9/255.0 green:177/255.0 blue:239/255.0 alpha:1.0]
+#define Orange_color   [UIColor colorWithRed:252/255.0 green:151/255.0 blue:33/255.0 alpha:1.0]
+#define Green_color   [UIColor colorWithRed:38/255.0 green:190/255.0 blue:199/255.0 alpha:1.0]
+#define Gray_color   [UIColor colorWithRed:126/255.0 green:126/255.0 blue:126/255.0 alpha:1.0]
+#define Gray_color_uibrother   [UIColor colorWithRed:229/255.0 green:229/255.0 blue:229/255.0 alpha:1.0]
+
+// 项目字体
+
+#define Ping_M(r) [UIFont fontWithName:@"PingFangSC-Medium" size:r]
+#define Ping_B(r) [UIFont fontWithName:@"PingFangSC-Semibold" size:r]
+#define Ping_R(r) [UIFont fontWithName:@"PingFangSC-Regular" size:r]
+
+
+
 //带有RGBA的颜色设置
 #define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]

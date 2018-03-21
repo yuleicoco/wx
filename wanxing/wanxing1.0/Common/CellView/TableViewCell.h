@@ -10,4 +10,10 @@
 
 @interface TableViewCell : UITableViewCell
 
+@property (nonatomic,strong)UILabel * LogName; // 项目名字
+@property (nonatomic,strong)UILabel * LogPerson; // 负责人
+@property (nonatomic,strong)UILabel * LogDate; // 日期
+@property (nonatomic,strong)UILabel * LogIntro; // 介绍
+
+
 @end
