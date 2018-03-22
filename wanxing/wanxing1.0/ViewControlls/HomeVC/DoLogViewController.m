@@ -289,8 +289,11 @@ static NSString * cellId = @"LogTabid";
 // 点击cell--本次选择的cell
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+  //
     TableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-
+    LgoInforViewController * logVC =[[LgoInforViewController alloc]init];
+    [self.navigationController pushViewController:logVC animated:YES];
+    
      NSLog(@"222");
 }
 

@@ -10,4 +10,8 @@
 
 @interface ChooseCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic,strong) UIButton * btn;
+@property (nonatomic,strong) UILabel * lb;
+@property (nonatomic,strong) UILabel * line;
+
 @end

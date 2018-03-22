@@ -22,6 +22,9 @@
 // 选择项目
 @interface ChooseView : UIView<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic,assign)id<ChooseViewDelegate>delegate;
+@property (nonatomic,strong)UICollectionView * ChoseCollView;
+@property (nonatomic,assign)BOOL didAddSperateVerticalLine;
+
 
 
 @end

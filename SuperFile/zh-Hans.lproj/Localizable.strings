@@ -24,6 +24,8 @@
 "home_tab_housue" ="库存信息";
 "home_tab_center"="审批中心";
 "home_nav_add" = "添加";
+"home_log_write" ="编辑";
+"home_log_Text"= "日志内容";
 
 
 // 施工
@@ -38,6 +40,10 @@
 "date_fiv" = "THU";
 "date_six" = "FRI";
 "date_seven" = "SAT";
+
+// 办公
+"work_q_c" ="快速打卡";
+"work_nav"="历史查询";
 
 
 

@@ -7,7 +7,9 @@
 //
 
 #import "BaseViewController.h"
+#import "DoTableViewCell.h"
+#import "BaseTabViewController.h"
 
-@interface DoViewController : BaseViewController
+@interface DoViewController :BaseTabViewController
 
 @end

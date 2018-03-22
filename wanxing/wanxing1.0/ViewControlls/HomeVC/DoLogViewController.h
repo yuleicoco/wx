@@ -8,6 +8,7 @@
 
 #import "BaseViewController.h"
 #import "BaseTabViewController.h"
+#import "LgoInforViewController.h"
 
 @interface DoLogViewController : BaseTabViewController
 
