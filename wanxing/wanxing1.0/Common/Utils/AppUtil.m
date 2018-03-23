@@ -55,7 +55,13 @@ static NSString * getServer3 =@"http://180.97.80.227:8082/";
 }
 
 
-
++ (NSString*)getCurrentTime {
+    
+    NSDateFormatter*formatter = [[NSDateFormatter alloc]init];[formatter setDateFormat:@"HH:mm:ss"];
+    NSString*dateTime = [formatter stringFromDate:[NSDate date]];
+    return dateTime;
+    
+}
 
 
 

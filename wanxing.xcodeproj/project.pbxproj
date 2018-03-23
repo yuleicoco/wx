@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2603AF2B2064F3AA008E362D /* unclock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF292064F3AA008E362D /* unclock@3x.png */; };
+		2603AF2C2064F3AA008E362D /* unclock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF2A2064F3AA008E362D /* unclock@2x.png */; };
+		2603AF2F2064F4DB008E362D /* ClockHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603AF2E2064F4DB008E362D /* ClockHistoryViewController.m */; };
+		2603AF362064F96A008E362D /* work_left_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF302064F969008E362D /* work_left_clock@3x.png */; };
+		2603AF372064F96A008E362D /* work_right_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF312064F969008E362D /* work_right_clock@3x.png */; };
+		2603AF382064F96A008E362D /* work_search_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF322064F969008E362D /* work_search_clock@2x.png */; };
+		2603AF392064F96A008E362D /* work_left_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF332064F96A008E362D /* work_left_clock@2x.png */; };
+		2603AF3A2064F96A008E362D /* work_search_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF342064F96A008E362D /* work_search_clock@3x.png */; };
+		2603AF3B2064F96A008E362D /* work_right_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF352064F96A008E362D /* work_right_clock@2x.png */; };
+		2603AF3D20650017008E362D /* clockTabCellHaed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF3C20650017008E362D /* clockTabCellHaed.xib */; };
 		26087D002058DF0A00B66144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087CFF2058DF0A00B66144 /* AppDelegate.m */; };
 		26087D032058DF0A00B66144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D022058DF0A00B66144 /* ViewController.m */; };
 		26087D062058DF0A00B66144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26087D042058DF0A00B66144 /* Main.storyboard */; };
@@ -68,6 +78,23 @@
 		261C84692063AACA00A55C39 /* work_relax@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C84672063AAC900A55C39 /* work_relax@2x.png */; };
 		261C846A2063AACA00A55C39 /* work_relax@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C84682063AACA00A55C39 /* work_relax@3x.png */; };
 		261C84712063AD5E00A55C39 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C84702063AD5E00A55C39 /* ClockViewController.m */; };
+		261C848320648C6000A55C39 /* clock_linefo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847320648C5E00A55C39 /* clock_linefo@2x.png */; };
+		261C848420648C6000A55C39 /* work_gray_point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847420648C5E00A55C39 /* work_gray_point@3x.png */; };
+		261C848520648C6000A55C39 /* clock_linetwo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847520648C5E00A55C39 /* clock_linetwo@2x.png */; };
+		261C848620648C6000A55C39 /* clock_qu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847620648C5E00A55C39 /* clock_qu@2x.png */; };
+		261C848720648C6000A55C39 /* clock_qu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847720648C5E00A55C39 /* clock_qu@3x.png */; };
+		261C848820648C6000A55C39 /* clock_lineone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847820648C5F00A55C39 /* clock_lineone@2x.png */; };
+		261C848920648C6000A55C39 /* work_point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847920648C5F00A55C39 /* work_point@2x.png */; };
+		261C848A20648C6000A55C39 /* clock_linetwo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847A20648C5F00A55C39 /* clock_linetwo@3x.png */; };
+		261C848B20648C6000A55C39 /* work_gray_point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847B20648C5F00A55C39 /* work_gray_point@2x.png */; };
+		261C848C20648C6000A55C39 /* work_point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847C20648C5F00A55C39 /* work_point@3x.png */; };
+		261C848D20648C6000A55C39 /* clock_lineth@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847D20648C5F00A55C39 /* clock_lineth@3x.png */; };
+		261C848E20648C6000A55C39 /* work_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847E20648C5F00A55C39 /* work_clock@3x.png */; };
+		261C848F20648C6000A55C39 /* clock_lineth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C847F20648C5F00A55C39 /* clock_lineth@2x.png */; };
+		261C849020648C6000A55C39 /* clock_lineone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C848020648C6000A55C39 /* clock_lineone@3x.png */; };
+		261C849120648C6000A55C39 /* work_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C848120648C6000A55C39 /* work_clock@2x.png */; };
+		261C849220648C6000A55C39 /* clock_linefo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C848220648C6000A55C39 /* clock_linefo@3x.png */; };
+		261C8494206490B900A55C39 /* tse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 261C8493206490B900A55C39 /* tse.jpg */; };
 		263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0254205B520C009BA404 /* JDGuidePageView.m */; };
 		263D026B205B5592009BA404 /* JDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0269205B5592009BA404 /* JDUtils.m */; };
 		263D026C205B5592009BA404 /* UIView+JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D026A205B5592009BA404 /* UIView+JDView.m */; };
@@ -209,6 +236,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2603AF292064F3AA008E362D /* unclock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unclock@3x.png"; sourceTree = "<group>"; };
+		2603AF2A2064F3AA008E362D /* unclock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unclock@2x.png"; sourceTree = "<group>"; };
+		2603AF2D2064F4DB008E362D /* ClockHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockHistoryViewController.h; sourceTree = "<group>"; };
+		2603AF2E2064F4DB008E362D /* ClockHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockHistoryViewController.m; sourceTree = "<group>"; };
+		2603AF302064F969008E362D /* work_left_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_left_clock@3x.png"; sourceTree = "<group>"; };
+		2603AF312064F969008E362D /* work_right_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_right_clock@3x.png"; sourceTree = "<group>"; };
+		2603AF322064F969008E362D /* work_search_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_search_clock@2x.png"; sourceTree = "<group>"; };
+		2603AF332064F96A008E362D /* work_left_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_left_clock@2x.png"; sourceTree = "<group>"; };
+		2603AF342064F96A008E362D /* work_search_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_search_clock@3x.png"; sourceTree = "<group>"; };
+		2603AF352064F96A008E362D /* work_right_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_right_clock@2x.png"; sourceTree = "<group>"; };
+		2603AF3C20650017008E362D /* clockTabCellHaed.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = clockTabCellHaed.xib; sourceTree = "<group>"; };
 		26087CFB2058DF0A00B66144 /* wanxing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanxing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26087CFE2058DF0A00B66144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26087CFF2058DF0A00B66144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -291,6 +329,23 @@
 		261C84682063AACA00A55C39 /* work_relax@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_relax@3x.png"; sourceTree = "<group>"; };
 		261C846F2063AD5E00A55C39 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
 		261C84702063AD5E00A55C39 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		261C847320648C5E00A55C39 /* clock_linefo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_linefo@2x.png"; sourceTree = "<group>"; };
+		261C847420648C5E00A55C39 /* work_gray_point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_gray_point@3x.png"; sourceTree = "<group>"; };
+		261C847520648C5E00A55C39 /* clock_linetwo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_linetwo@2x.png"; sourceTree = "<group>"; };
+		261C847620648C5E00A55C39 /* clock_qu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_qu@2x.png"; sourceTree = "<group>"; };
+		261C847720648C5E00A55C39 /* clock_qu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_qu@3x.png"; sourceTree = "<group>"; };
+		261C847820648C5F00A55C39 /* clock_lineone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_lineone@2x.png"; sourceTree = "<group>"; };
+		261C847920648C5F00A55C39 /* work_point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_point@2x.png"; sourceTree = "<group>"; };
+		261C847A20648C5F00A55C39 /* clock_linetwo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_linetwo@3x.png"; sourceTree = "<group>"; };
+		261C847B20648C5F00A55C39 /* work_gray_point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_gray_point@2x.png"; sourceTree = "<group>"; };
+		261C847C20648C5F00A55C39 /* work_point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_point@3x.png"; sourceTree = "<group>"; };
+		261C847D20648C5F00A55C39 /* clock_lineth@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_lineth@3x.png"; sourceTree = "<group>"; };
+		261C847E20648C5F00A55C39 /* work_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_clock@3x.png"; sourceTree = "<group>"; };
+		261C847F20648C5F00A55C39 /* clock_lineth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_lineth@2x.png"; sourceTree = "<group>"; };
+		261C848020648C6000A55C39 /* clock_lineone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_lineone@3x.png"; sourceTree = "<group>"; };
+		261C848120648C6000A55C39 /* work_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_clock@2x.png"; sourceTree = "<group>"; };
+		261C848220648C6000A55C39 /* clock_linefo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_linefo@3x.png"; sourceTree = "<group>"; };
+		261C8493206490B900A55C39 /* tse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tse.jpg; sourceTree = "<group>"; };
 		263D0253205B520C009BA404 /* JDGuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGuidePageView.h; sourceTree = "<group>"; };
 		263D0254205B520C009BA404 /* JDGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGuidePageView.m; sourceTree = "<group>"; };
 		263D0266205B5591009BA404 /* JDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUtils.h; sourceTree = "<group>"; };
@@ -571,10 +626,45 @@
 		261C846B2063ABA100A55C39 /* work_next */ = {
 			isa = PBXGroup;
 			children = (
+				261C8493206490B900A55C39 /* tse.jpg */,
 				261C846F2063AD5E00A55C39 /* ClockViewController.h */,
 				261C84702063AD5E00A55C39 /* ClockViewController.m */,
+				2603AF2D2064F4DB008E362D /* ClockHistoryViewController.h */,
+				2603AF2E2064F4DB008E362D /* ClockHistoryViewController.m */,
+				2603AF3C20650017008E362D /* clockTabCellHaed.xib */,
 			);
 			path = work_next;
+			sourceTree = "<group>";
+		};
+		261C847220648C4D00A55C39 /* clockimage */ = {
+			isa = PBXGroup;
+			children = (
+				2603AF332064F96A008E362D /* work_left_clock@2x.png */,
+				2603AF302064F969008E362D /* work_left_clock@3x.png */,
+				2603AF352064F96A008E362D /* work_right_clock@2x.png */,
+				2603AF312064F969008E362D /* work_right_clock@3x.png */,
+				2603AF322064F969008E362D /* work_search_clock@2x.png */,
+				2603AF342064F96A008E362D /* work_search_clock@3x.png */,
+				2603AF2A2064F3AA008E362D /* unclock@2x.png */,
+				2603AF292064F3AA008E362D /* unclock@3x.png */,
+				261C847620648C5E00A55C39 /* clock_qu@2x.png */,
+				261C847720648C5E00A55C39 /* clock_qu@3x.png */,
+				261C847520648C5E00A55C39 /* clock_linetwo@2x.png */,
+				261C847A20648C5F00A55C39 /* clock_linetwo@3x.png */,
+				261C847F20648C5F00A55C39 /* clock_lineth@2x.png */,
+				261C847D20648C5F00A55C39 /* clock_lineth@3x.png */,
+				261C847320648C5E00A55C39 /* clock_linefo@2x.png */,
+				261C848220648C6000A55C39 /* clock_linefo@3x.png */,
+				261C847820648C5F00A55C39 /* clock_lineone@2x.png */,
+				261C848020648C6000A55C39 /* clock_lineone@3x.png */,
+				261C848120648C6000A55C39 /* work_clock@2x.png */,
+				261C847E20648C5F00A55C39 /* work_clock@3x.png */,
+				261C847B20648C5F00A55C39 /* work_gray_point@2x.png */,
+				261C847420648C5E00A55C39 /* work_gray_point@3x.png */,
+				261C847920648C5F00A55C39 /* work_point@2x.png */,
+				261C847C20648C5F00A55C39 /* work_point@3x.png */,
+			);
+			path = clockimage;
 			sourceTree = "<group>";
 		};
 		263D0251205B51EE009BA404 /* Function */ = {
@@ -966,6 +1056,7 @@
 		2644A718205A0648009574CD /* Work_inage */ = {
 			isa = PBXGroup;
 			children = (
+				261C847220648C4D00A55C39 /* clockimage */,
 				261C84672063AAC900A55C39 /* work_relax@2x.png */,
 				261C84682063AACA00A55C39 /* work_relax@3x.png */,
 				261C845720639ACB00A55C39 /* work_open@2x.png */,
@@ -1281,9 +1372,13 @@
 				2656480220620A5600771321 /* do_log_down@2x.png in Resources */,
 				263D0270205B61C8009BA404 /* bg.jpeg in Resources */,
 				261C843F2063900C00A55C39 /* do_cell_pro.png in Resources */,
+				261C849020648C6000A55C39 /* clock_lineone@3x.png in Resources */,
 				26CDA8C3205A625600560034 /* home_nav.png in Resources */,
 				261C84452063900C00A55C39 /* do_cell_sa@3x.png in Resources */,
+				2603AF372064F96A008E362D /* work_right_clock@3x.png in Resources */,
+				261C848420648C6000A55C39 /* work_gray_point@3x.png in Resources */,
 				266B8B2D205CBD18003D5687 /* Regist_un_choose@2x.png in Resources */,
+				261C8494206490B900A55C39 /* tse.jpg in Resources */,
 				261C84432063900C00A55C39 /* do_cell_tai@3x.png in Resources */,
 				26CDA88C205A543E00560034 /* home_tab@3x.png in Resources */,
 				265647CC205F4E5C00771321 /* home_btn_center@3x.png in Resources */,
@@ -1295,12 +1390,15 @@
 				261C84542063900C00A55C39 /* do_cell_po@2x.png in Resources */,
 				265647C0205F4DC900771321 /* home_btn_pro.png in Resources */,
 				263D029C205BB8EE009BA404 /* Login_for@3x.png in Resources */,
+				261C848C20648C6000A55C39 /* work_point@3x.png in Resources */,
 				26CDA8B2205A5F5500560034 /* InfoPlist.strings in Resources */,
 				26CDA883205A543E00560034 /* work_tab@3x.png in Resources */,
 				26087D0B2058DF0A00B66144 /* LaunchScreen.storyboard in Resources */,
+				261C848520648C6000A55C39 /* clock_linetwo@2x.png in Resources */,
 				265647EC205FB69600771321 /* date_in@3x.png in Resources */,
 				261C84562063900C00A55C39 /* do_cell_info@3x.png in Resources */,
 				265647B9205F4D5200771321 /* home_btn_do_log@3x.png in Resources */,
+				261C848720648C6000A55C39 /* clock_qu@3x.png in Resources */,
 				261C844A2063900C00A55C39 /* do_cell_info@2x.png in Resources */,
 				265647DC205F840C00771321 /* home_back@2x.png in Resources */,
 				261C846220639ACC00A55C39 /* work_open@3x.png in Resources */,
@@ -1312,6 +1410,8 @@
 				265647F72060AABC00771321 /* TableViewCell.xib in Resources */,
 				261C845D20639ACC00A55C39 /* work_open@2x.png in Resources */,
 				26CDA87B205A543E00560034 /* home_tab@2x.png in Resources */,
+				2603AF2C2064F3AA008E362D /* unclock@2x.png in Resources */,
+				2603AF3A2064F96A008E362D /* work_search_clock@3x.png in Resources */,
 				265647BF205F4DC900771321 /* home_btn_pro@2x.png in Resources */,
 				26CDA889205A543E00560034 /* un_home_tab@2x.png in Resources */,
 				261C844F2063900C00A55C39 /* do_cell_control@3x.png in Resources */,
@@ -1329,11 +1429,16 @@
 				26CDA88D205A543E00560034 /* un_work_tab@3x.png in Resources */,
 				261C844C2063900C00A55C39 /* do_cell_excel.@3x.png in Resources */,
 				261C845E20639ACC00A55C39 /* work_search@3x.png in Resources */,
+				261C848820648C6000A55C39 /* clock_lineone@2x.png in Resources */,
 				26CDA8B9205A5FDE00560034 /* Localizable.strings in Resources */,
 				26CDA8CF205A72E600560034 /* home_vc_bg@3x.png in Resources */,
+				2603AF362064F96A008E362D /* work_left_clock@3x.png in Resources */,
 				26CDA8A0205A56A200560034 /* MeViewController.xib in Resources */,
 				26CDA881205A543E00560034 /* un_me_tab@2x.png in Resources */,
+				261C848E20648C6000A55C39 /* work_clock@3x.png in Resources */,
 				266B8B2F205CBD18003D5687 /* Regist_un-choose@3x.png in Resources */,
+				2603AF382064F96A008E362D /* work_search_clock@2x.png in Resources */,
+				2603AF3D20650017008E362D /* clockTabCellHaed.xib in Resources */,
 				26087D062058DF0A00B66144 /* Main.storyboard in Resources */,
 				263D0287205B9763009BA404 /* Login_bg@2x.png in Resources */,
 				265647EA205FB69600771321 /* date_in@2x.png in Resources */,
@@ -1349,9 +1454,11 @@
 				263D0296205BA825009BA404 /* Login_ps@3x.png in Resources */,
 				261C84462063900C00A55C39 /* do_cell_excel@2x.png in Resources */,
 				26CDA8D0205A72E600560034 /* home_vc_bg.png in Resources */,
+				261C848B20648C6000A55C39 /* work_gray_point@2x.png in Resources */,
 				261C8413206347D900A55C39 /* log_cell_choose.png in Resources */,
 				261C84502063900C00A55C39 /* do_cell_more@2x.png in Resources */,
 				26CDA88A205A543E00560034 /* work_tab@2x.png in Resources */,
+				261C848620648C6000A55C39 /* clock_qu@2x.png in Resources */,
 				265647BB205F4D5200771321 /* home_btn_do_log@2x.png in Resources */,
 				261C8411206347D900A55C39 /* log_cell_choose@3x.png in Resources */,
 				263D029D205BB8EE009BA404 /* Login_for@2x.png in Resources */,
@@ -1360,7 +1467,9 @@
 				263D0286205B9763009BA404 /* Login_bg@3x.png in Resources */,
 				261C846A2063AACA00A55C39 /* work_relax@3x.png in Resources */,
 				266B8B2C205CBD18003D5687 /* Regist_choose@2x.png in Resources */,
+				2603AF3B2064F96A008E362D /* work_right_clock@2x.png in Resources */,
 				265647E3205FB65F00771321 /* date_line@3x.png in Resources */,
+				2603AF392064F96A008E362D /* work_left_clock@2x.png in Resources */,
 				26CDA882205A543E00560034 /* un_work_tab@2x.png in Resources */,
 				26564808206210C200771321 /* do_log_box@2x.png in Resources */,
 				26CDA880205A543E00560034 /* un_do_tab@3x.png in Resources */,
@@ -1378,9 +1487,11 @@
 				261C840820633C8C00A55C39 /* HeaderViewCollection.xib in Resources */,
 				261C844B2063900C00A55C39 /* do_cell_sa.png in Resources */,
 				26CDA888205A543E00560034 /* un_me_tab@3x.png in Resources */,
+				261C849220648C6000A55C39 /* clock_linefo@3x.png in Resources */,
 				265647E4205FB65F00771321 /* date_line@2x.png in Resources */,
 				26CDA87C205A543E00560034 /* home_tab.png in Resources */,
 				2656480120620A5600771321 /* do_log_down.png in Resources */,
+				2603AF2B2064F3AA008E362D /* unclock@3x.png in Resources */,
 				26CDA8C2205A625600560034 /* home_nav@3x.png in Resources */,
 				261C84162063751B00A55C39 /* log_white@2x.png in Resources */,
 				26CDA88B205A543E00560034 /* do_tab.png in Resources */,
@@ -1390,18 +1501,24 @@
 				261C84442063900C00A55C39 /* do_cell_tai@2x.png in Resources */,
 				26564807206210C200771321 /* do_log_box@3x.png in Resources */,
 				261C8412206347D900A55C39 /* log_cell_unchoose.png in Resources */,
+				261C848F20648C6000A55C39 /* clock_lineth@2x.png in Resources */,
 				265647CD205F4E5C00771321 /* home_btn_center.png in Resources */,
 				265647CB205F4E5C00771321 /* home_btn_center@2x.png in Resources */,
+				261C848320648C6000A55C39 /* clock_linefo@2x.png in Resources */,
 				261C84402063900C00A55C39 /* do_cell_po@3x.png in Resources */,
+				261C848D20648C6000A55C39 /* clock_lineth@3x.png in Resources */,
 				26CDA878205A543E00560034 /* me_tab@3x.png in Resources */,
 				26CDA8C8205A673D00560034 /* home_nav_bg.png in Resources */,
 				26CDA885205A543E00560034 /* do_tab@2x.png in Resources */,
 				265647DD205F840C00771321 /* home_back@3x.png in Resources */,
+				261C848A20648C6000A55C39 /* clock_linetwo@3x.png in Resources */,
 				265647EB205FB69600771321 /* date_un@2x.png in Resources */,
 				261C84532063900C00A55C39 /* do_cell_po.png in Resources */,
 				26CDA8A5205A56B200560034 /* WorkViewController.xib in Resources */,
+				261C848920648C6000A55C39 /* work_point@2x.png in Resources */,
 				265647C6205F4E2200771321 /* home_btn_house@3x.png in Resources */,
 				261C843E2063900C00A55C39 /* do_cell_info.png in Resources */,
+				261C849120648C6000A55C39 /* work_clock@2x.png in Resources */,
 				26CDA886205A543E00560034 /* un_me_tab.png in Resources */,
 				26CDA87D205A543E00560034 /* un_do_tab.png in Resources */,
 				266B8B2B205CBD18003D5687 /* Regist_hud@2x.png in Resources */,
@@ -1619,6 +1736,7 @@
 				263D026B205B5592009BA404 /* JDUtils.m in Sources */,
 				265647F12060AAA100771321 /* CollViewCell.m in Sources */,
 				2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */,
+				2603AF2F2064F4DB008E362D /* ClockHistoryViewController.m in Sources */,
 				26CDA896205A55E800560034 /* HomeViewController.m in Sources */,
 				265647D3205F7F4F00771321 /* ProViewController.m in Sources */,
 				266B8B34205CC712003D5687 /* AggreMentViewController.m in Sources */,

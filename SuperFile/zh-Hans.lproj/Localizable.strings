@@ -44,6 +44,10 @@
 // 办公
 "work_q_c" ="快速打卡";
 "work_nav"="历史查询";
+"work_clock_history" ="打卡记录";
+"work_clock_ho" = "请假记录";
+
+
 
 
 
