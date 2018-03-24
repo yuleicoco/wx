@@ -17,6 +17,8 @@
 		2603AF3A2064F96A008E362D /* work_search_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF342064F96A008E362D /* work_search_clock@3x.png */; };
 		2603AF3B2064F96A008E362D /* work_right_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF352064F96A008E362D /* work_right_clock@2x.png */; };
 		2603AF3D20650017008E362D /* clockTabCellHaed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF3C20650017008E362D /* clockTabCellHaed.xib */; };
+		2603AF402065FADE008E362D /* ClockHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603AF3F2065FADE008E362D /* ClockHeadView.m */; };
+		2603AF432065FE5E008E362D /* ClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603AF422065FE5E008E362D /* ClockTableViewCell.m */; };
 		26087D002058DF0A00B66144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087CFF2058DF0A00B66144 /* AppDelegate.m */; };
 		26087D032058DF0A00B66144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26087D022058DF0A00B66144 /* ViewController.m */; };
 		26087D062058DF0A00B66144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26087D042058DF0A00B66144 /* Main.storyboard */; };
@@ -95,6 +97,25 @@
 		261C849120648C6000A55C39 /* work_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C848120648C6000A55C39 /* work_clock@2x.png */; };
 		261C849220648C6000A55C39 /* clock_linefo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C848220648C6000A55C39 /* clock_linefo@3x.png */; };
 		261C8494206490B900A55C39 /* tse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 261C8493206490B900A55C39 /* tse.jpg */; };
+		26215050206623570047AB1A /* Seachclockview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621504F206623570047AB1A /* Seachclockview.m */; };
+		26215054206652950047AB1A /* InforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26215053206652950047AB1A /* InforViewController.m */; };
+		262150572066534B0047AB1A /* me_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262150552066534B0047AB1A /* me_bg@2x.png */; };
+		262150582066534B0047AB1A /* me_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262150562066534B0047AB1A /* me_bg@3x.png */; };
+		2621505D206654540047AB1A /* me_test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26215059206654530047AB1A /* me_test@2x.png */; };
+		2621505E206654540047AB1A /* me_test@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621505A206654530047AB1A /* me_test@3x.png */; };
+		2621505F206654540047AB1A /* me_meet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621505B206654530047AB1A /* me_meet@2x.png */; };
+		26215060206654540047AB1A /* me_meet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621505C206654530047AB1A /* me_meet@3x.png */; };
+		26215063206657F80047AB1A /* me_po@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26215061206657F80047AB1A /* me_po@3x.png */; };
+		26215064206657F80047AB1A /* me_po@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26215062206657F80047AB1A /* me_po@2x.png */; };
+		26215067206658150047AB1A /* me_clock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26215065206658140047AB1A /* me_clock@3x.png */; };
+		26215068206658150047AB1A /* me_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26215066206658140047AB1A /* me_clock@2x.png */; };
+		2621506B2066581F0047AB1A /* me_task@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262150692066581E0047AB1A /* me_task@2x.png */; };
+		2621506C2066581F0047AB1A /* me_task@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621506A2066581E0047AB1A /* me_task@3x.png */; };
+		262150712066583A0047AB1A /* me_account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621506D206658390047AB1A /* me_account@2x.png */; };
+		262150722066583A0047AB1A /* me_account@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621506E206658390047AB1A /* me_account@3x.png */; };
+		262150732066583A0047AB1A /* me_message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621506F206658390047AB1A /* me_message@2x.png */; };
+		262150742066583A0047AB1A /* me_message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262150702066583A0047AB1A /* me_message@3x.png */; };
+		26215078206666510047AB1A /* JobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26215077206666510047AB1A /* JobViewController.m */; };
 		263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0254205B520C009BA404 /* JDGuidePageView.m */; };
 		263D026B205B5592009BA404 /* JDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D0269205B5592009BA404 /* JDUtils.m */; };
 		263D026C205B5592009BA404 /* UIView+JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263D026A205B5592009BA404 /* UIView+JDView.m */; };
@@ -247,6 +268,10 @@
 		2603AF342064F96A008E362D /* work_search_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_search_clock@3x.png"; sourceTree = "<group>"; };
 		2603AF352064F96A008E362D /* work_right_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_right_clock@2x.png"; sourceTree = "<group>"; };
 		2603AF3C20650017008E362D /* clockTabCellHaed.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = clockTabCellHaed.xib; sourceTree = "<group>"; };
+		2603AF3E2065FADE008E362D /* ClockHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockHeadView.h; sourceTree = "<group>"; };
+		2603AF3F2065FADE008E362D /* ClockHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockHeadView.m; sourceTree = "<group>"; };
+		2603AF412065FE5E008E362D /* ClockTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockTableViewCell.h; sourceTree = "<group>"; };
+		2603AF422065FE5E008E362D /* ClockTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTableViewCell.m; sourceTree = "<group>"; };
 		26087CFB2058DF0A00B66144 /* wanxing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanxing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26087CFE2058DF0A00B66144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26087CFF2058DF0A00B66144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -346,6 +371,28 @@
 		261C848120648C6000A55C39 /* work_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work_clock@2x.png"; sourceTree = "<group>"; };
 		261C848220648C6000A55C39 /* clock_linefo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_linefo@3x.png"; sourceTree = "<group>"; };
 		261C8493206490B900A55C39 /* tse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tse.jpg; sourceTree = "<group>"; };
+		2621504E206623570047AB1A /* Seachclockview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Seachclockview.h; sourceTree = "<group>"; };
+		2621504F206623570047AB1A /* Seachclockview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Seachclockview.m; sourceTree = "<group>"; };
+		26215052206652950047AB1A /* InforViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InforViewController.h; sourceTree = "<group>"; };
+		26215053206652950047AB1A /* InforViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InforViewController.m; sourceTree = "<group>"; };
+		262150552066534B0047AB1A /* me_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_bg@2x.png"; sourceTree = "<group>"; };
+		262150562066534B0047AB1A /* me_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_bg@3x.png"; sourceTree = "<group>"; };
+		26215059206654530047AB1A /* me_test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_test@2x.png"; sourceTree = "<group>"; };
+		2621505A206654530047AB1A /* me_test@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_test@3x.png"; sourceTree = "<group>"; };
+		2621505B206654530047AB1A /* me_meet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_meet@2x.png"; sourceTree = "<group>"; };
+		2621505C206654530047AB1A /* me_meet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_meet@3x.png"; sourceTree = "<group>"; };
+		26215061206657F80047AB1A /* me_po@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_po@3x.png"; sourceTree = "<group>"; };
+		26215062206657F80047AB1A /* me_po@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_po@2x.png"; sourceTree = "<group>"; };
+		26215065206658140047AB1A /* me_clock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_clock@3x.png"; sourceTree = "<group>"; };
+		26215066206658140047AB1A /* me_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_clock@2x.png"; sourceTree = "<group>"; };
+		262150692066581E0047AB1A /* me_task@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_task@2x.png"; sourceTree = "<group>"; };
+		2621506A2066581E0047AB1A /* me_task@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_task@3x.png"; sourceTree = "<group>"; };
+		2621506D206658390047AB1A /* me_account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_account@2x.png"; sourceTree = "<group>"; };
+		2621506E206658390047AB1A /* me_account@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_account@3x.png"; sourceTree = "<group>"; };
+		2621506F206658390047AB1A /* me_message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_message@2x.png"; sourceTree = "<group>"; };
+		262150702066583A0047AB1A /* me_message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_message@3x.png"; sourceTree = "<group>"; };
+		26215076206666510047AB1A /* JobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobViewController.h; sourceTree = "<group>"; };
+		26215077206666510047AB1A /* JobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobViewController.m; sourceTree = "<group>"; };
 		263D0253205B520C009BA404 /* JDGuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGuidePageView.h; sourceTree = "<group>"; };
 		263D0254205B520C009BA404 /* JDGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGuidePageView.m; sourceTree = "<group>"; };
 		263D0266205B5591009BA404 /* JDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUtils.h; sourceTree = "<group>"; };
@@ -632,6 +679,10 @@
 				2603AF2D2064F4DB008E362D /* ClockHistoryViewController.h */,
 				2603AF2E2064F4DB008E362D /* ClockHistoryViewController.m */,
 				2603AF3C20650017008E362D /* clockTabCellHaed.xib */,
+				2603AF3E2065FADE008E362D /* ClockHeadView.h */,
+				2603AF3F2065FADE008E362D /* ClockHeadView.m */,
+				2603AF412065FE5E008E362D /* ClockTableViewCell.h */,
+				2603AF422065FE5E008E362D /* ClockTableViewCell.m */,
 			);
 			path = work_next;
 			sourceTree = "<group>";
@@ -665,6 +716,24 @@
 				261C847C20648C5F00A55C39 /* work_point@3x.png */,
 			);
 			path = clockimage;
+			sourceTree = "<group>";
+		};
+		262150512066527A0047AB1A /* informationVC */ = {
+			isa = PBXGroup;
+			children = (
+				26215052206652950047AB1A /* InforViewController.h */,
+				26215053206652950047AB1A /* InforViewController.m */,
+			);
+			path = informationVC;
+			sourceTree = "<group>";
+		};
+		26215075206666420047AB1A /* jobvc */ = {
+			isa = PBXGroup;
+			children = (
+				26215076206666510047AB1A /* JobViewController.h */,
+				26215077206666510047AB1A /* JobViewController.m */,
+			);
+			path = jobvc;
 			sourceTree = "<group>";
 		};
 		263D0251205B51EE009BA404 /* Function */ = {
@@ -800,6 +869,8 @@
 				265647DF205F8DC900771321 /* DateView.m */,
 				261C83FA206255C900A55C39 /* ChooseView.h */,
 				261C83FB206255C900A55C39 /* ChooseView.m */,
+				2621504E206623570047AB1A /* Seachclockview.h */,
+				2621504F206623570047AB1A /* Seachclockview.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -871,6 +942,8 @@
 		2644A70B205A04AE009574CD /* MeVC */ = {
 			isa = PBXGroup;
 			children = (
+				26215075206666420047AB1A /* jobvc */,
+				262150512066527A0047AB1A /* informationVC */,
 				26CDA89C205A56A200560034 /* MeViewController.h */,
 				26CDA89D205A56A200560034 /* MeViewController.m */,
 				26CDA89E205A56A200560034 /* MeViewController.xib */,
@@ -1070,6 +1143,22 @@
 		2644A719205A0648009574CD /* Me_image */ = {
 			isa = PBXGroup;
 			children = (
+				2621506F206658390047AB1A /* me_message@2x.png */,
+				262150702066583A0047AB1A /* me_message@3x.png */,
+				2621506D206658390047AB1A /* me_account@2x.png */,
+				2621506E206658390047AB1A /* me_account@3x.png */,
+				262150692066581E0047AB1A /* me_task@2x.png */,
+				2621506A2066581E0047AB1A /* me_task@3x.png */,
+				26215066206658140047AB1A /* me_clock@2x.png */,
+				26215065206658140047AB1A /* me_clock@3x.png */,
+				26215062206657F80047AB1A /* me_po@2x.png */,
+				26215061206657F80047AB1A /* me_po@3x.png */,
+				26215059206654530047AB1A /* me_test@2x.png */,
+				2621505B206654530047AB1A /* me_meet@2x.png */,
+				2621505C206654530047AB1A /* me_meet@3x.png */,
+				2621505A206654530047AB1A /* me_test@3x.png */,
+				262150552066534B0047AB1A /* me_bg@2x.png */,
+				262150562066534B0047AB1A /* me_bg@3x.png */,
 			);
 			path = Me_image;
 			sourceTree = "<group>";
@@ -1367,12 +1456,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26215060206654540047AB1A /* me_meet@3x.png in Resources */,
 				265647C5205F4E2200771321 /* home_btn_house.png in Resources */,
 				266B8B2E205CBD18003D5687 /* Regist_choose@3x.png in Resources */,
+				2621505E206654540047AB1A /* me_test@3x.png in Resources */,
 				2656480220620A5600771321 /* do_log_down@2x.png in Resources */,
 				263D0270205B61C8009BA404 /* bg.jpeg in Resources */,
 				261C843F2063900C00A55C39 /* do_cell_pro.png in Resources */,
 				261C849020648C6000A55C39 /* clock_lineone@3x.png in Resources */,
+				2621505F206654540047AB1A /* me_meet@2x.png in Resources */,
 				26CDA8C3205A625600560034 /* home_nav.png in Resources */,
 				261C84452063900C00A55C39 /* do_cell_sa@3x.png in Resources */,
 				2603AF372064F96A008E362D /* work_right_clock@3x.png in Resources */,
@@ -1383,6 +1475,8 @@
 				26CDA88C205A543E00560034 /* home_tab@3x.png in Resources */,
 				265647CC205F4E5C00771321 /* home_btn_center@3x.png in Resources */,
 				265647C7205F4E2200771321 /* home_btn_house@2x.png in Resources */,
+				262150732066583A0047AB1A /* me_message@2x.png in Resources */,
+				262150712066583A0047AB1A /* me_account@2x.png in Resources */,
 				261C84492063900C00A55C39 /* do_cell_bar@3x.png in Resources */,
 				261C843C2063900C00A55C39 /* do_cell_control.png in Resources */,
 				263D029F205BB8EE009BA404 /* Login_reg@2x.png in Resources */,
@@ -1404,6 +1498,7 @@
 				261C846220639ACC00A55C39 /* work_open@3x.png in Resources */,
 				263D0297205BA825009BA404 /* Login_user@3x.png in Resources */,
 				261C8414206347D900A55C39 /* log_cell_unchoose@2x.png in Resources */,
+				2621506C2066581F0047AB1A /* me_task@3x.png in Resources */,
 				26CDA887205A543E00560034 /* un_work_tab.png in Resources */,
 				26CDA87E205A543E00560034 /* un_home_tab@3x.png in Resources */,
 				26CDA884205A543E00560034 /* me_tab.png in Resources */,
@@ -1438,15 +1533,18 @@
 				261C848E20648C6000A55C39 /* work_clock@3x.png in Resources */,
 				266B8B2F205CBD18003D5687 /* Regist_un-choose@3x.png in Resources */,
 				2603AF382064F96A008E362D /* work_search_clock@2x.png in Resources */,
+				262150572066534B0047AB1A /* me_bg@2x.png in Resources */,
 				2603AF3D20650017008E362D /* clockTabCellHaed.xib in Resources */,
 				26087D062058DF0A00B66144 /* Main.storyboard in Resources */,
 				263D0287205B9763009BA404 /* Login_bg@2x.png in Resources */,
 				265647EA205FB69600771321 /* date_in@2x.png in Resources */,
 				26CDA8C4205A625600560034 /* home_nav@2x.png in Resources */,
 				261C84472063900C00A55C39 /* do_cell_sa@2x.png in Resources */,
+				262150742066583A0047AB1A /* me_message@3x.png in Resources */,
 				261C8410206347D900A55C39 /* log_cell_unchoose@3x.png in Resources */,
 				263D0295205BA825009BA404 /* Login_user@2x.png in Resources */,
 				261C84552063900C00A55C39 /* do_cell_pro@3x.png in Resources */,
+				2621505D206654540047AB1A /* me_test@2x.png in Resources */,
 				261C844E2063900C00A55C39 /* do_cell_bar@2x.png in Resources */,
 				26CDA87A205A543E00560034 /* do_tab@3x.png in Resources */,
 				265647FF20620A5600771321 /* do_log_choo@2x.png in Resources */,
@@ -1466,9 +1564,11 @@
 				26CDA89B205A569200560034 /* DoViewController.xib in Resources */,
 				263D0286205B9763009BA404 /* Login_bg@3x.png in Resources */,
 				261C846A2063AACA00A55C39 /* work_relax@3x.png in Resources */,
+				2621506B2066581F0047AB1A /* me_task@2x.png in Resources */,
 				266B8B2C205CBD18003D5687 /* Regist_choose@2x.png in Resources */,
 				2603AF3B2064F96A008E362D /* work_right_clock@2x.png in Resources */,
 				265647E3205FB65F00771321 /* date_line@3x.png in Resources */,
+				262150582066534B0047AB1A /* me_bg@3x.png in Resources */,
 				2603AF392064F96A008E362D /* work_left_clock@2x.png in Resources */,
 				26CDA882205A543E00560034 /* un_work_tab@2x.png in Resources */,
 				26564808206210C200771321 /* do_log_box@2x.png in Resources */,
@@ -1482,6 +1582,7 @@
 				265647BA205F4D5200771321 /* home_btn_do_log.png in Resources */,
 				261C84482063900C00A55C39 /* do_cell_pro@2x.png in Resources */,
 				2656480320620A5600771321 /* do_log_down@3x.png in Resources */,
+				26215063206657F80047AB1A /* me_po@3x.png in Resources */,
 				26CDA877205A543E00560034 /* un_home_tab.png in Resources */,
 				263D0294205BA825009BA404 /* Login_ps@2x.png in Resources */,
 				261C840820633C8C00A55C39 /* HeaderViewCollection.xib in Resources */,
@@ -1489,6 +1590,7 @@
 				26CDA888205A543E00560034 /* un_me_tab@3x.png in Resources */,
 				261C849220648C6000A55C39 /* clock_linefo@3x.png in Resources */,
 				265647E4205FB65F00771321 /* date_line@2x.png in Resources */,
+				26215068206658150047AB1A /* me_clock@2x.png in Resources */,
 				26CDA87C205A543E00560034 /* home_tab.png in Resources */,
 				2656480120620A5600771321 /* do_log_down.png in Resources */,
 				2603AF2B2064F3AA008E362D /* unclock@3x.png in Resources */,
@@ -1506,6 +1608,7 @@
 				265647CB205F4E5C00771321 /* home_btn_center@2x.png in Resources */,
 				261C848320648C6000A55C39 /* clock_linefo@2x.png in Resources */,
 				261C84402063900C00A55C39 /* do_cell_po@3x.png in Resources */,
+				26215064206657F80047AB1A /* me_po@2x.png in Resources */,
 				261C848D20648C6000A55C39 /* clock_lineth@3x.png in Resources */,
 				26CDA878205A543E00560034 /* me_tab@3x.png in Resources */,
 				26CDA8C8205A673D00560034 /* home_nav_bg.png in Resources */,
@@ -1513,6 +1616,7 @@
 				265647DD205F840C00771321 /* home_back@3x.png in Resources */,
 				261C848A20648C6000A55C39 /* clock_linetwo@3x.png in Resources */,
 				265647EB205FB69600771321 /* date_un@2x.png in Resources */,
+				262150722066583A0047AB1A /* me_account@3x.png in Resources */,
 				261C84532063900C00A55C39 /* do_cell_po.png in Resources */,
 				26CDA8A5205A56B200560034 /* WorkViewController.xib in Resources */,
 				261C848920648C6000A55C39 /* work_point@2x.png in Resources */,
@@ -1520,6 +1624,7 @@
 				261C843E2063900C00A55C39 /* do_cell_info.png in Resources */,
 				261C849120648C6000A55C39 /* work_clock@2x.png in Resources */,
 				26CDA886205A543E00560034 /* un_me_tab.png in Resources */,
+				26215067206658150047AB1A /* me_clock@3x.png in Resources */,
 				26CDA87D205A543E00560034 /* un_do_tab.png in Resources */,
 				266B8B2B205CBD18003D5687 /* Regist_hud@2x.png in Resources */,
 			);
@@ -1703,6 +1808,7 @@
 				263D0273205B63D5009BA404 /* LoginViewController.m in Sources */,
 				263D025E205B520C009BA404 /* JDGuidePageView.m in Sources */,
 				261C841A20637DA700A55C39 /* LgoInforViewController.m in Sources */,
+				2603AF432065FE5E008E362D /* ClockTableViewCell.m in Sources */,
 				266B8B37205CDE54003D5687 /* ShowAlertView.m in Sources */,
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
 				26CDA859205A481B00560034 /* UIButton+Blocks.m in Sources */,
@@ -1713,6 +1819,7 @@
 				2608C6FF205A1AC2007D04D2 /* MainTabViewController.m in Sources */,
 				265647D9205F7FA700771321 /* CenterViewController.m in Sources */,
 				263D0283205B68F2009BA404 /* LoginModel.m in Sources */,
+				26215078206666510047AB1A /* JobViewController.m in Sources */,
 				2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */,
 				26CDA89F205A56A200560034 /* MeViewController.m in Sources */,
 				26087D0E2058DF0A00B66144 /* main.m in Sources */,
@@ -1720,6 +1827,7 @@
 				26CDA85A205A481B00560034 /* UIImage-Extensions.m in Sources */,
 				263D0276205B672F009BA404 /* AccountManager.m in Sources */,
 				2644A71F205A0E2F009574CD /* AppDelegate+Launcher.m in Sources */,
+				26215054206652950047AB1A /* InforViewController.m in Sources */,
 				263D02A7205BBD09009BA404 /* RegistAcViewController.m in Sources */,
 				26CDA83A205A46A800560034 /* BaseModel.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,
@@ -1733,6 +1841,8 @@
 				2608C705205A22B2007D04D2 /* UITabBar+Badge.m in Sources */,
 				265647D0205F7EF900771321 /* DoLogViewController.m in Sources */,
 				26CDA8A4205A56B200560034 /* WorkViewController.m in Sources */,
+				26215050206623570047AB1A /* Seachclockview.m in Sources */,
+				2603AF402065FADE008E362D /* ClockHeadView.m in Sources */,
 				263D026B205B5592009BA404 /* JDUtils.m in Sources */,
 				265647F12060AAA100771321 /* CollViewCell.m in Sources */,
 				2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */,

@@ -11,12 +11,12 @@
 #import "DateView.h"
 #import "TableViewCell.h"
 #import "ChooseView.h"
-
 static NSString * cellId = @"LogTabid";
 @interface DoLogViewController ()<DateviewDelegate,ChooseViewDelegate>
 
 @property (nonatomic,strong)DateView * daVW;
 @property (nonatomic,strong)ChooseView * chooseVW;
+
 
 
 @end
@@ -151,9 +151,7 @@ static NSString * cellId = @"LogTabid";
     }];
     
     [self.tableView registerClass:[TableViewCell class] forCellReuseIdentifier:cellId];
-//    self.tableView.separatorInset = UIEdgeInsetsZero;
-//    self.tableView.layoutMargins  =UIEdgeInsetsZero;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     
     

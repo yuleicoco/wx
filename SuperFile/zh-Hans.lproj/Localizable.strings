@@ -47,7 +47,11 @@
 "work_clock_history" ="打卡记录";
 "work_clock_ho" = "请假记录";
 
-
+"clock_name"  = "姓名";
+"clock_pro"  = "部门";
+"clock_go"  = "上班打卡";
+"clock_off"  = "下班打卡";
+"clock_search" ="查询";
 
 
 

@@ -12,5 +12,4 @@
 
 @interface DoLogViewController : BaseTabViewController
 
-
 @end

@@ -15,7 +15,7 @@ typedef enum
     NAV_RIGHT                   =1,
 } EzNavigationBar;
 
-@interface BaseViewController : UIViewController
+@interface BaseViewController : UIViewController<UINavigationControllerDelegate>
 
 //view基类
 
@@ -42,6 +42,10 @@ typedef enum
 - (void)doRightButtonTouch;
 
 - (void) setNavTitle:(NSString*) navTitle;
+
+- (void)hideNav;
+- (void)setleftItem:(NSString *)Title;
+
 
 
 

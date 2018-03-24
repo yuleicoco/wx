@@ -7,12 +7,21 @@
 //
 
 #import "ClockHistoryViewController.h"
+#import "ClockHeadView.h"
+#import "ClockTableViewCell.h"
+#import "Seachclockview.h"
 
-@interface ClockHistoryViewController ()
+
+
+static NSString * cellId = @"clockTabid";
+
+@interface ClockHistoryViewController ()<SearchViewDelegate>
 
 @end
 
 @implementation ClockHistoryViewController
+@synthesize SearView;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -77,6 +86,7 @@
     
     UIButton * searchbtn =[UIButton new];
     [searchbtn setImage:[UIImage imageNamed:@"work_search_clock"] forState:UIControlStateNormal];
+    [searchbtn addTarget:self action:@selector(srarchBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:searchbtn];
     [searchbtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(15);
@@ -94,16 +104,114 @@
         make.top.equalTo(self.view).offset(45);
         make.height.equalTo(@5);
     }];
+    
+   // *********tab
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(50);
         make.right.and.left.and.bottom.equalTo(self.view).offset(0);
 
     }];
     
+     [self.tableView registerClass:[ClockTableViewCell class] forCellReuseIdentifier:cellId];
+      self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+
     
+}
+
+#pragma MARK---------------------TAB协议
+
+- (void)srarchBtn:(UIButton *)sender
+{
+
+    SearView =[[Seachclockview alloc]init];
+    SearView.delegate = self;
+    [self.view addSubview:SearView];
+    
+    [SearView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view).offset(50);
+        make.right.left.equalTo(self.view).offset(0);
+        make.bottom.equalTo(self.view).offset(0);
+    }];
     
     
 }
+
+- (void)Seacrch
+{
+    [SearView removeFromSuperview];
+}
+
+
+
+
+#pragma MARK---------------------TAB协议^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    //return self.dataSource.count;
+    return 6;
+    
+}
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 47;
+    
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    ClockTableViewCell * cell =  [tableView dequeueReusableCellWithIdentifier:cellId];
+    cell.lbone.text =@"上官蕴奇";
+    cell.lbtw.text =@"穿越部";
+    cell.lbth.text =@"9：03";
+    cell.lbfo.text =@"尚未打卡";
+    
+    UIView *view_bg = [[UIView alloc]initWithFrame:cell.frame];
+    view_bg.backgroundColor = Gray_color_uibrother;
+    cell.selectedBackgroundView = view_bg;
+    return cell;
+    
+}
+
+
+
+- (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    static NSString *viewIdentfier = @"headView";
+    ClockHeadView *sectionHeadView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:viewIdentfier];
+    if(!sectionHeadView){
+        
+        sectionHeadView = [[ClockHeadView alloc] initWithReuseIdentifier:viewIdentfier];
+    }
+    return sectionHeadView;
+    
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+
+{
+    
+    return 37;
+    
+}
+
+// 点击cell--本次选择的cell
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
+
+    NSLog(@"222");
+}
+
+
 
 #pragma makr - btnmethod
 

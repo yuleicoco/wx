@@ -7,7 +7,8 @@
 //
 
 #import "BaseViewController.h"
+#import "BaseTabViewController.h"
 
-@interface MeViewController : BaseViewController
+@interface MeViewController : BaseTabViewController
 
 @end

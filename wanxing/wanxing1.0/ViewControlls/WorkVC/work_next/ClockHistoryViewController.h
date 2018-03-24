@@ -7,7 +7,10 @@
 //
 
 #import "BaseTabViewController.h"
+#import "Seachclockview.h"
 
 @interface ClockHistoryViewController : BaseTabViewController
+
+@property (nonatomic,strong)Seachclockview * SearView;
 
 @end

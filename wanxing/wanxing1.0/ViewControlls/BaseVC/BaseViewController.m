@@ -82,6 +82,20 @@
     
 }
 
+- (void)hideNav
+{
+    self.navigationController.delegate = self;
+    
+}
+// 将要显示控制器
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    // 判断要显示的控制器是否是自己
+    BOOL isShowHomePage = [viewController isKindOfClass:[self class]];
+    
+    [self.navigationController setNavigationBarHidden:isShowHomePage animated:YES];
+}
+
+
 - (void)showBarButton:(EzNavigationBar)position title:(NSString *)name fontColor:(UIColor *)color hide:(BOOL)hide{
     
     UIButton *button ;
@@ -175,15 +189,22 @@
     CGSize titleSize =self.navigationController.navigationBar.bounds.size;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, titleSize.width/2,titleSize.height)];
     label.backgroundColor = [UIColor clearColor];
-   // label.textColor = UIColorFromHex(333333);
     label.textColor =[UIColor whiteColor];
     label.textAlignment = NSTextAlignmentCenter;
     label.text=navTitle;
     label.font = [UIFont fontWithName:@"PingFangSC-Semibold" size:19];
-
     self.navigationItem.titleView=label;
     
 }
+
+- (void)setleftItem:(NSString *)Title
+{
+    UIBarButtonItem *backbutton = [[UIBarButtonItem alloc]init];
+    backbutton.title = Title;
+    self.navigationItem.backBarButtonItem = backbutton;
+    
+}
+
 //  返回
 
 - (void)BackButtion{
@@ -195,10 +216,8 @@
         leftbutton.frame = CGRectMake(0, 0, 30, 30);
         [leftbutton setTitleEdgeInsets:UIEdgeInsetsMake(-1, -18, 0, 0)];
         [leftbutton setImageEdgeInsets:UIEdgeInsetsMake(-1, -18, 0, 0)];
-        
         [leftbutton setImage:[UIImage imageNamed:@"home_back"] forState:UIControlStateNormal];
         self.tabBarController.tabBar.hidden= YES;
-        
         [self showBarButton:NAV_LEFT button:leftbutton];
     }
     
@@ -209,6 +228,9 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
+}
+- (void)dealloc {
+    self.navigationController.delegate = nil;
 }
 
 @end

@@ -46,6 +46,8 @@
 #define CurrentLanguage (［NSLocale preferredLanguages] objectAtIndex:0])
 
 
+#define NUMBERS @"0123456789n"
+
 // 项目颜色
 #define Blue_color   [UIColor colorWithRed:9/255.0 green:177/255.0 blue:239/255.0 alpha:1.0]
 #define Orange_color   [UIColor colorWithRed:252/255.0 green:151/255.0 blue:33/255.0 alpha:1.0]
@@ -53,7 +55,10 @@
 #define Gray_color   [UIColor colorWithRed:126/255.0 green:126/255.0 blue:126/255.0 alpha:1.0]
 #define Gray_color_uibrother   [UIColor colorWithRed:229/255.0 green:229/255.0 blue:229/255.0 alpha:1.0]
 
+
 // 项目字体
+#define Gray_color_tt   [UIColor colorWithRed:140/255.0 green:140/255.0 blue:140/255.0 alpha:1.0]
+#define Gray_color_b   [UIColor colorWithRed:55/255.0 green:55/255.0 blue:55/255.0 alpha:1.0]
 
 #define Ping_M(r) [UIFont fontWithName:@"PingFangSC-Medium" size:r]
 #define Ping_B(r) [UIFont fontWithName:@"PingFangSC-Semibold" size:r]
