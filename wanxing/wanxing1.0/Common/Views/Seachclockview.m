@@ -106,7 +106,6 @@ static NSString * searchid = @"searchid";
         }];
         
         UITextField *textField = [UITextField new];
-        
         textField.text = @"点击试试";
         textField.layer.borderWidth =0.5;
         textField.layer.cornerRadius =3;

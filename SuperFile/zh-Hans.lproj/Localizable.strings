@@ -54,6 +54,24 @@
 "clock_search" ="查询";
 
 
+//Me
+"me_vc_message" ="系统消息";
+"me_vc_des" ="清空消息";
+"me_vc_add"="添加任务";
+"me_vc_add_f"="完成";
+"me_vc_duty"= "我的任务";
+"me_vc_text" ="我的草稿";
+"me_vc_word"="关键词";
+"me_vc_person" ="创建人";
+"me_vc_state" ="状态";
+"me_vc_mypolic" = "我的预警";
+"me_vc_meet"="会议记录";
+"me_vc_kaoqin" ="考勤信息";
+"me_vc_shengpi" ="审批信息";
+
+
+
+
 
 //实施
 "do_title" = "实施";

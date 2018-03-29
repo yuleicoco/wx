@@ -25,6 +25,7 @@
 #import "UIButton+Blocks.h"
 #import "UIViewController+HUD.h"
 #import "UIView+Sizes.h"
+#import "UITextView+PearNumview.h"
 
 
 #endif /* PrefixHeader_pch */

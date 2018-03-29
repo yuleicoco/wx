@@ -10,6 +10,11 @@
 #import "InforViewController.h"
 #import "DoTableViewCell.h"
 #import "JobViewController.h"
+#import "MypolicViewController.h"
+#import "MeetViewController.h"
+#import "TestViewController.h"
+#import "AllowViewController.h"
+
 
 static NSString * cellId = @"meTabid";
 
@@ -155,6 +160,10 @@ static NSString * cellId = @"meTabid";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
      JobViewController * VC =[[JobViewController alloc]init];
+     MypolicViewController * myVC =[[MypolicViewController alloc]init];
+    MeetViewController * meeVC =[[MeetViewController alloc]init];
+    TestViewController * tesVC =[[TestViewController alloc]init];
+    AllowViewController * alVC =[[AllowViewController alloc]init];
     
     NSInteger s = indexPath.row;
     switch (s) {
@@ -162,16 +171,16 @@ static NSString * cellId = @"meTabid";
             [self.navigationController pushViewController:VC animated:YES];
             break;
         case 1:
-            
+            [self.navigationController pushViewController:myVC animated:YES];
             break;
         case 2:
-            
+             [self.navigationController pushViewController:meeVC animated:YES];
             break;
         case 3:
-            
+             [self.navigationController pushViewController:tesVC animated:YES];
             break;
         case 4:
-            
+             [self.navigationController pushViewController:alVC animated:YES];
             break;
         default:
             break;

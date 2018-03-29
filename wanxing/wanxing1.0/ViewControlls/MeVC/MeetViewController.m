@@ -1,40 +1,30 @@
 //
-//  JobViewController.m
+//  MeetViewController.m
 //  wanxing
 //
-//  Created by osyu on 2018/3/24.
+//  Created by osyu on 2018/3/28.
 //  Copyright © 2018年 osyu. All rights reserved.
 //
 
-#import "JobViewController.h"
-#import "jobTabCell.h"
-#import "AddViewController.h"
-#import "MycodeViewController.h"
-#import "Seachclockview.h"
-#import "SearchJobView.h"
+#import "MeetViewController.h"
 
-
-static NSString * cellId = @"jobTabid";
-@interface JobViewController ()<SearchJobViewDelegate>
-@property (nonatomic,strong)UITableView * tabJob;
-
+@interface MeetViewController ()
 
 @end
 
-@implementation JobViewController
-@synthesize SearView;
+@implementation MeetViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
- 
-
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.view.backgroundColor =[UIColor whiteColor];
+    
+    
     //设置下一级视图控制器导航返回按钮
     UIButton *btnMess = [UIButton new];
     btnMess.frame = CGRectMake(0, 0, 110, 30);
     btnMess.titleLabel.font = Ping_B(19);
-    [btnMess setTitle:@"我的任务" forState:UIControlStateNormal];
+    [btnMess setTitle:@"会议记录" forState:UIControlStateNormal];
     btnMess.imageEdgeInsets = UIEdgeInsetsMake(0, -18, 0, 0);
     btnMess.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
     [btnMess addTarget:self action:@selector(backbtn:) forControlEvents:UIControlEventTouchUpInside];
@@ -47,10 +37,10 @@ static NSString * cellId = @"jobTabid";
     [searchBtn setImage:[UIImage imageNamed:@"job_search"] forState:UIControlStateNormal];
     [searchBtn sizeToFit];
     UIBarButtonItem *searchBtnItem = [[UIBarButtonItem alloc] initWithCustomView:searchBtn];
-
+    
     UIBarButtonItem *fixedSpaceBarButtonItemONE = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     fixedSpaceBarButtonItemONE.width = 20;
-
+    
     UIButton *informationCardBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [informationCardBtn addTarget:self action:@selector(addBtn:) forControlEvents:UIControlEventTouchUpInside];
     [informationCardBtn setImage:[UIImage imageNamed:@"job_add"] forState:UIControlStateNormal];
@@ -63,19 +53,17 @@ static NSString * cellId = @"jobTabid";
     
     
     UIButton *settingBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [settingBtn addTarget:self action:@selector(infomessage:) forControlEvents:UIControlEventTouchUpInside];
-    [settingBtn setImage:[UIImage imageNamed:@"job_text"] forState:UIControlStateNormal];
+    [settingBtn addTarget:self action:@selector(file:) forControlEvents:UIControlEventTouchUpInside];
+    [settingBtn setImage:[UIImage imageNamed:@"meet_vc_fil"] forState:UIControlStateNormal];
     [settingBtn sizeToFit];
     UIBarButtonItem *settingBtnItem = [[UIBarButtonItem alloc] initWithCustomView:settingBtn];
     self.navigationItem.rightBarButtonItems  = @[searchBtnItem,fixedSpaceBarButtonItemONE,settingBtnItem,fixedSpaceBarButtonItem,informationCardItem];
     
-    [self setupjovview];
+    [self setupmeetview];
     
 }
 
-// ************************************************界面*********************
-
-- (void)setupjovview
+- (void)setupmeetview
 {
     
     UILabel * DateLB =[UILabel new];
@@ -135,90 +123,10 @@ static NSString * cellId = @"jobTabid";
         
     }];
     
-    // tab
-    self.tabJob = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
-    self.tabJob.backgroundColor = [UIColor whiteColor];
-    self.tabJob.userInteractionEnabled = YES;
-    self.tabJob.layer.borderWidth =0.5;
-    self.tabJob.layer.borderColor = Gray_color_tt.CGColor;
-    self.tabJob.separatorInset = UIEdgeInsetsZero;
-    self.tabJob.layoutMargins = UIEdgeInsetsZero;
-    self.tabJob.delegate =self;
-    self.tabJob.dataSource = self;
-    self.tabJob.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [self.view addSubview:self.tabJob];
-    [self.tabJob registerClass:[jobTabCell class] forCellReuseIdentifier:cellId];
-    [self.tabJob reloadData];
-    [self.tabJob mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(lineFor.mas_bottom).offset(0);
-        make.left.and.right.and.bottom.equalTo(self.view).offset(0);
-    }];
-    
-    
     
 }
 
-
-
-// 选择日期
-
-- (void)Date_btn:(UIButton *)sender
-{
-    NSInteger tag  = sender.tag -6666;
-    
-    
-    
-}
-
-
-
-
-//  搜索
-- (void)searchbt:(UIButton *)sender
-{
-    
-    SearView =[[SearchJobView alloc]init];
-    SearView.delegate = self;
-    [self.view addSubview:SearView];
-    
-    
-    [SearView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.view).offset(0);
-        make.right.left.equalTo(self.view).offset(0);
-        make.bottom.equalTo(self.view).offset(0);
-    }];
-    
-    
-}
-
-- (void)SeacrchJob
-{
-    
-    [SearView removeFromSuperview];
-
-    
-}
-
-
-// 文本
-- (void)infomessage:(UIButton *)sender
-{
-    MycodeViewController * vc =[[MycodeViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
-    
-}
-
-// add
-
-- (void)addBtn:(UIButton *)sender
-{
-    AddViewController * vc =[[AddViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
-
-    
-}
-
-
+#pragma mark -- nav **************************************************************
 
 - (void)backbtn:(UIButton *)sender
 {
@@ -227,64 +135,30 @@ static NSString * cellId = @"jobTabid";
     
 }
 
-#pragma MARK---------------------TAB协议^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+//  搜索
+- (void)searchbt:(UIButton *)sender
 {
-    return 1;
+
+
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (void)file:(UIButton *)dender
 {
-    //return self.dataSource.count;
-    return 6;
+    
+    
+}
+
+- (void)addBtn:(UIButton *)sender
+{
+    
     
 }
 
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 90;
-    
-}
+#pragma mark -- nav **************************************************************
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    jobTabCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
-    if (cell == nil) {
-        cell = [[jobTabCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellId];
-    }
-    cell.contentView.userInteractionEnabled = YES;
-    cell.LogName.text =@"重庆川仪项目";
-    cell.LogDate.text =@"2018-2-13";
-    cell.LogPerson.text =@"创建人:余磊 |计划结束:2-28 8:40";
-    cell.LogIntro.text =@"现场文明试岗爱爱后方好好好哦啊好哦啊后你把护发偶吼吼啊哈哈佛号";
-    cell.isOver.text =@"正在执行";
-//    [cell.btn  addTarget:self action:@selector(houxua:) forControlEvents:UIControlEventTouchUpInside];
-    cell.btn.hidden = YES;
-
-    UIView *view_bg = [[UIView alloc]initWithFrame:cell.frame];
-    view_bg.backgroundColor = [UIColor redColor];
-    cell.selectedBackgroundView = view_bg;
-    return cell;
-    
-}
-
-- (void)houxua:(UIButton *)sender
-{
-    sender.selected = !sender.selected;
-    FuckLog(@"1");
-    
-}
-
-
-// 点击cell--本次选择的cell
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
- //   FuckLog(@"3");
-   
-    
-}
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -296,7 +170,6 @@ static NSString * cellId = @"jobTabid";
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 
 @end

@@ -415,7 +415,7 @@
 {
     
     [super viewWillDisappear:animated];
-    dispatch_cancel(self.timer);
+//    dispatch_cancel(self.timer);
     self.timer = nil;
     
 }

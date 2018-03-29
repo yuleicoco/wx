@@ -24,6 +24,8 @@
 @property (nonatomic,assign)id<ChooseViewDelegate>delegate;
 @property (nonatomic,strong)UICollectionView * ChoseCollView;
 @property (nonatomic,assign)BOOL didAddSperateVerticalLine;
+@property (nonatomic,strong)NSMutableArray * dataArr;
+
 
 
 

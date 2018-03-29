@@ -7,7 +7,10 @@
 //
 
 #import "BaseTabViewController.h"
+#import "SearchJobView.h"
 
-@interface JobViewController : BaseTabViewController
+@interface JobViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property(nonatomic,strong)SearchJobView   * SearView ;
 
 @end

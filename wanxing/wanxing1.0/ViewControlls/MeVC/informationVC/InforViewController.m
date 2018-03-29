@@ -17,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [self setNavTitle:NSLocalizedString(@"me_vc_message", nil)];
+    [self showBarButton:NAV_RIGHT title:NSLocalizedString(@"me_vc_des", nil) fontColor:RGB(255, 255, 255) font:[UIFont fontWithName:@"PingFangSC-Regular" size:14] hide:NO];
+}
+
+
+- (void)SetupView
+
+{
+    [super SetupView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,14 +36,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
