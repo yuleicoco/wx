@@ -6,8 +6,9 @@
 //  Copyright © 2018年 osyu. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseTabViewController.h"
+#import "DoTableViewCell.h"
 
-@interface HouseViewController : BaseViewController
+@interface HouseViewController : BaseTabViewController
 
 @end

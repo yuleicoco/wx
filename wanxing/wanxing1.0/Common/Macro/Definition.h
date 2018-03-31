@@ -112,6 +112,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
 
 #define OrangerCol RGB(257, 130, 77);
 
+#define Best_string  [NSString    stringWithFormat:@"eyJpZCI6ImNoZW5kYW4iLCJwd2QiOiIxMjM0NTYiLCJlcXVpcF90eXBlIjoiYW5kcm9pZCIsInZlcnNpb24iOiIxLjAuMC4wIiwibWV0aG9kIjoiSk9VUk5fR2V0TGlzdCJ9"]
+#define Best_null [NSString  stringWithFormat:@""]
 
 //判断是否 Retina屏、设备是否%fhone 5、是否是iPad
 #define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)

@@ -31,5 +31,10 @@
 + (BOOL) isValidateMobile:(NSString *)mobile;
 + (NSString*)getCurrentTime;
 
+// 加密heads
+
++ (NSString *)heads:(NSString *)heads;
+
+
 
 @end

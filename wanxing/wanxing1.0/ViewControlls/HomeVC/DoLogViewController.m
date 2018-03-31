@@ -11,6 +11,11 @@
 #import "DateView.h"
 #import "TableViewCell.h"
 #import "ChooseView.h"
+#import "DologModel.h"
+#import "DologInforModel.h"
+#import "AFHttpClient+DoLogClient.h"
+
+
 static NSString * cellId = @"LogTabid";
 @interface DoLogViewController ()<DateviewDelegate,ChooseViewDelegate>
 
@@ -142,6 +147,7 @@ static NSString * cellId = @"LogTabid";
     }];
     
     //    tab
+  
 
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(lineFor.mas_bottom).offset(0);
@@ -156,9 +162,34 @@ static NSString * cellId = @"LogTabid";
     
     
     
+    [self RequsetAFProjectList];
     
     
+}
+
+// 日志列表
+- (void)RequsetAFlogList
+{
+    [[AFHttpClient sharedAFHttpClient]queryDoLogList:Best_string sel_Keyword:Best_null stime:@"2016-02-06" etime:Best_null checktime:Best_null page:Best_null rows:Best_null complete:^(BaseModel *model) {
+        DologModel * loginModel = [[DologModel alloc]initWithDictionary:model.ResultData error:nil];
+        loginModel.rows =[DologInforModel arrayOfModelsFromDictionaries:loginModel.rows];
+        
+        
+    }];
     
+}
+// 项目列表
+
+- (void)RequsetAFProjectList
+{
+    [[AFHttpClient sharedAFHttpClient]queryDoProList:@"eyJpZCI6ImNoZW5kYW4iLCJwd2QiOiIxMjM0NTYiLCJlcXVpcF90eXBlIjoiYW5kcm9pZCIsInZlcnNpb24iOiIxLjAuMC4wIiwibWV0aG9kIjoiUFJPSkVDVF9HZXRQcm9qZWN0In0=" sel_Keyword:Best_null bt:@"0" page:Best_null rows:Best_null complete:^(BaseModel *model) {
+        
+        FuckLog(@"22");
+        
+    }];
+    
+    
+   
 }
 
 
@@ -294,6 +325,7 @@ static NSString * cellId = @"LogTabid";
     
      NSLog(@"222");
 }
+
 
 
 

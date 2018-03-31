@@ -47,6 +47,8 @@
 
 
 
+
+
 - (void)SetupView{
     
     _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:self.bGroupView ? UITableViewStyleGrouped : UITableViewStylePlain];

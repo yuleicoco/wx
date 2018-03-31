@@ -32,6 +32,9 @@
 "main_sure" = "确定";
 "main_cancel" ="取消";
 
+// 仓库
+"house_info_ti" = ""
+
 // 日期
 "date_one" = "SUN";
 "date_two" = "MON";
@@ -68,6 +71,23 @@
 "me_vc_meet"="会议记录";
 "me_vc_kaoqin" ="考勤信息";
 "me_vc_shengpi" ="审批信息";
+
+//安全
+"safe_vc_titl" ="安全中心";
+
+//质量管理
+"quilt_vc_title" ="质量管理";
+
+// 报表统计
+"all_vc_tit" ="报表统计";
+
+// 单据管理
+"single_vc_title" ="单据管理";
+
+// 台账管理
+"tai_vc_tiel" ="台账管理";
+
+
 
 
 

@@ -26,6 +26,8 @@
 #import "UIViewController+HUD.h"
 #import "UIView+Sizes.h"
 #import "UITextView+PearNumview.h"
+#import "ChooseView.h"
+#import "DateView.h"
 
 
 #endif /* PrefixHeader_pch */

@@ -11,15 +11,7 @@
 
 //共用url字段
 #define BASE_URL    @"http://180.97.80.227:8082/"
-#define BASE_URL_Test              @"http://180.97.81.213:16202/sego2/"
-
-#define BASE_URL_Test2 @"http://180.97.80.227:15102/"
-
-#define BASE_URL_S @"http://180.97.81.213:15102/"
-
-#define BASE_guntong_S @"http://180.97.80.227:16102/"
-
-
+#define BASE_URL_Test       @"http://192.168.0.199:8081/Data/getApiData.ashx/"
 @interface AFHttpClient : AFHTTPRequestOperationManager
 
 /**

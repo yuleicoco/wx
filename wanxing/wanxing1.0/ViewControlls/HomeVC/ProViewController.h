@@ -6,8 +6,9 @@
 //  Copyright © 2018年 osyu. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseTabViewController.h"
+#import "ProInforViewController.h"
 
-@interface ProViewController : BaseViewController
+@interface ProViewController : BaseTabViewController
 
 @end

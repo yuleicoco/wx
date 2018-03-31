@@ -7,6 +7,7 @@
 //
 
 #import "AppUtil.h"
+#import <CommonCrypto/CommonCryptor.h>
 
 @implementation AppUtil
 
@@ -62,6 +63,63 @@ static NSString * getServer3 =@"http://180.97.80.227:8082/";
     return dateTime;
     
 }
+
++ (NSString *)heads:(NSString *)heads
+{
+    
+    NSMutableDictionary * params = [[NSMutableDictionary alloc]init];
+    params[@"method"] = heads;
+    params[@"equip_type"] = @"ios";
+    params[@"version"] = @"";
+    params[@"id"] = @"chendan";
+    params[@"pwd"] = @"123456";
+    NSDictionary * dic =@{@"heads":params};
+    
+    // json
+    NSError *error;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
+    NSString *jsonString;
+    if (!jsonData) {
+        NSLog(@"%@",error);
+    }else{
+        jsonString = [[NSString alloc]initWithData:jsonData encoding:NSUTF8StringEncoding];
+        
+    }
+    NSMutableString *mutStr = [NSMutableString stringWithString:jsonString];
+    
+    // base64
+    NSData *encodeData = [mutStr dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *base64String = [encodeData base64EncodedStringWithOptions:0];
+   
+    // DES 加密
+    
+    /*
+    NSString *ciphertext = nil;
+    NSData *textData = [base64String dataUsingEncoding:NSUTF8StringEncoding];
+    NSUInteger dataLength = [textData length];
+    unsigned char buffer[1024 * 5];
+    memset(buffer, 0, sizeof(char));
+    size_t numBytesEncrypted = 0;
+    CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt, kCCAlgorithmDES,
+                                          kCCOptionPKCS7Padding,
+                                          [key UTF8String], kCCKeySizeDES,
+                                          [iv UTF8String],
+                                          [textData bytes], dataLength,
+                                          buffer, 1024,
+                                          &numBytesEncrypted);
+    if (cryptStatus == kCCSuccess) {
+        NSData *data = [NSData dataWithBytes:buffer length:(NSUInteger)numBytesEncrypted];
+        ciphertext = [data base64EncodedStringWithOptions:0];
+    }
+    return ciphertext;
+    */
+    
+    
+    return heads;
+    
+}
+
+
 
 
 

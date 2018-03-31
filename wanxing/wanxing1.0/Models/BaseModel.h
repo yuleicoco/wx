@@ -12,16 +12,9 @@
 
 @interface BaseModel : JSONModel
 
-@property (nonatomic, copy) NSDictionary<Optional> *retVal;
+@property (nonatomic, copy) NSDictionary<Optional> *ResultData;
+@property (nonatomic, copy) NSString<Optional> *Status; //状态 0 错误信息  -1重新登录
+@property (nonatomic, copy) NSString<Optional> *retCode; // 错误信息  重新登录
 
-@property (nonatomic, copy) NSString<Optional> *content;
-
-@property (nonatomic, copy) NSString<Optional> *retDesc;
-
-@property (nonatomic, copy) NSString<Optional> *retCode;
-
-@property (nonatomic, strong) NSArray<Optional> *list;
-
-@property (nonatomic, copy) NSString<Optional> *totalrecords;
 
 @end

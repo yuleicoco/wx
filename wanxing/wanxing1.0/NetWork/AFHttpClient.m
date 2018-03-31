@@ -17,7 +17,7 @@ singleton_implementation(AFHttpClient)
 
 -(instancetype)init
 {
-    if (self = [super initWithBaseURL:[NSURL URLWithString: BASE_URL_S]]) {
+    if (self = [super initWithBaseURL:[NSURL URLWithString:BASE_URL_Test]]) {
         self.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
         self.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"text/plain", @"application/json", nil];
         [self.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
@@ -52,18 +52,14 @@ singleton_implementation(AFHttpClient)
 - (AFHTTPRequestOperation *)POST:(NSString *)URLString parameters:(id)parameters result:(void (^)(BaseModel* model))result {
     
     NSString * langvge = langeC;
-    parameters[@"classes"] = @"appinterface";
-    parameters[@"method"] = @"json";
-    
     return [super POST:URLString parameters:parameters success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
         
         NSError* error = nil;
-        BaseModel* model = [[BaseModel alloc] initWithDictionary:responseObject[@"jsondata"] error:&error];
+        BaseModel* model = [[BaseModel alloc] initWithDictionary:responseObject error:&error];
         
         if (error || [model.retCode integerValue] != 0) {
             if ([langvge isEqualToString:@"zh-Hans-CN"]) {
-                [[AppUtil appTopViewController] showHint:error ? [error localizedDescription] : model.retDesc];
-
+                [[AppUtil appTopViewController] showHint:error ? [error localizedDescription] : model.retCode];
             }else{
               [[AppUtil appTopViewController] showHint:error ? [error localizedDescription] : @"The request failed"];
             }

@@ -14,6 +14,7 @@
 
 
 
+
 @interface HomeViewController ()<UIScrollViewDelegate>
 
 @property(nonatomic,strong)NSMutableArray * imageArr;
@@ -21,6 +22,11 @@
 @property(nonatomic,strong)NSMutableArray * TextArr;
 @property(nonatomic,strong)NSMutableArray * LbArr;
 @property(nonatomic,strong)UIScrollView *verticalScrollView;
+@property(nonatomic,strong)DoLogViewController * LogVC ;
+@property(nonatomic,strong)ProViewController * proVC ;
+@property(nonatomic,strong)HouseViewController * HouseVC ;
+@property(nonatomic,strong)CenterViewController * centerVC ;
+
 
 
 
@@ -32,7 +38,7 @@
     [super viewDidLoad];
   
     
-    self.view.backgroundColor = RGB(229, 229, 229);
+    self.view.backgroundColor =[UIColor whiteColor] ;
     [self setNavTitle:NSLocalizedString(@"home_title", nil)];
     [self showBarButton:NAV_RIGHT imageName:@"home_nav"];
     [self InitScView];
@@ -42,16 +48,12 @@
 -(void)SetupData
 {
     _imageArr =[[NSMutableArray alloc]initWithObjects:@"home_btn_do_log",@"home_btn_pro",@"home_btn_house",@"home_btn_center", nil];
-    _BtnArr =[[NSMutableArray alloc]init];
-    _LbArr =[[NSMutableArray alloc]init];
-    
     _TextArr =[[NSMutableArray alloc]initWithObjects:NSLocalizedString(@"home_tab_log", nil),NSLocalizedString(@"home_tab_pro", nil),NSLocalizedString(@"home_tab_housue", nil),NSLocalizedString(@"home_tab_center", nil), nil];
-    
-    
 
     
-    
 }
+
+
 
 -(void)SetupView
 {
@@ -82,19 +84,29 @@
         lbaF.text =_TextArr[i];
         lbaF.textColor =RGB(140, 140, 140);
         lbaF.font =[UIFont fontWithName:@"PingFangSC-Regular" size:15];
-        [_LbArr addObject:lbaF];
+        [self.LbArr addObject:lbaF];
         [self.view addSubview:lbaF];
     }
     
     
-    [_LbArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:31 leadSpacing:17 tailSpacing:15
+    [self.LbArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:31 leadSpacing:17 tailSpacing:15
      ];
     
-    [_LbArr mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.LbArr mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@243);
         make.height.equalTo(@14);
     }];
     
+    UILabel * lineb =[UILabel new];
+    lineb.backgroundColor = Gray_color_uibrother;
+    [self.view addSubview:lineb];
+    
+    [lineb mas_makeConstraints:^(MASConstraintMaker *make) {
+       
+        make.left.and.right.equalTo(self.view).offset(0);
+        make.height.equalTo(@5);
+        make.top.equalTo(self.view).offset(277);
+    }];
 
     
 }
@@ -104,25 +116,23 @@
 - (void)BtnF_ToucH:(UIButton *)Buttonf
 {
     NSInteger i =  Buttonf.tag -2000;
-    DoLogViewController * LogVC =[[DoLogViewController alloc]init];
-    ProViewController * proVC =[[ProViewController alloc]init];
-    HouseViewController * HouseVC =[[HouseViewController alloc]init];
-    CenterViewController * centerVC =[[CenterViewController alloc]init];
+
     
     
     switch (i) {
             
         case 0:
-            [self.navigationController pushViewController:LogVC animated:YES];
+           [self.navigationController pushViewController:self.LogVC animated:YES];
+        
             break;
         case 1:
-            [self.navigationController pushViewController:proVC animated:YES];
+            [self.navigationController pushViewController:self.proVC animated:YES];
             break;
         case 2:
-            [self.navigationController pushViewController:HouseVC animated:YES];
+            [self.navigationController pushViewController:self.HouseVC animated:YES];
             break;
         case 3:
-            [self.navigationController pushViewController:centerVC animated:YES];
+            [self.navigationController pushViewController:self.centerVC animated:YES];
             break;
             
         default:
@@ -132,6 +142,9 @@
     
     
 }
+
+
+
 
 // 滚动
 #pragma  Mark -Scrolview
@@ -202,8 +215,67 @@
     
     
     
-    
-    //*********************** Mansoy***************
+//*********************** Mansoy***************
+
+
+#pragma mark - Get and Set
+- (NSMutableArray *)imageArr{
+    if (_imageArr == nil) {
+        _imageArr = [[NSMutableArray alloc] init];
+    }
+    return _imageArr;
+}
+
+- (NSMutableArray *)BtnArr{
+    if (_BtnArr == nil) {
+        _BtnArr = [[NSMutableArray alloc] init];
+    }
+    return _BtnArr;
+}
+
+- (NSMutableArray *)TextArr{
+    if (_TextArr == nil) {
+        _TextArr = [[NSMutableArray alloc] init];
+    }
+    return _TextArr;
+}
+
+- (NSMutableArray *)LbArr{
+    if (_LbArr == nil) {
+        _LbArr = [[NSMutableArray alloc] init];
+    }
+    return _LbArr;
+}
+
+- (DoLogViewController *)LogVC{
+    if (_LogVC == nil) {
+        _LogVC = [[DoLogViewController alloc] init];
+    }
+    return _LogVC;
+}
+
+- (ProViewController *)proVC{
+    if (_proVC == nil) {
+        _proVC = [[ProViewController alloc] init];
+    }
+    return _proVC;
+}
+
+- (HouseViewController *)HouseVC{
+    if (_HouseVC == nil) {
+        _HouseVC = [[HouseViewController alloc] init];
+    }
+    return _HouseVC;
+}
+
+- (CenterViewController *)centerVC{
+    if (_centerVC == nil) {
+        _centerVC = [[CenterViewController alloc] init];
+    }
+    return _centerVC;
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {
