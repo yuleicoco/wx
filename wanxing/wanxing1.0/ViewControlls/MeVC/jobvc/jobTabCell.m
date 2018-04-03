@@ -90,6 +90,7 @@
             make.height.equalTo(@0.7);
             
         }];
+        
          self.btn =[UIButton new];
         [ self.btn addTarget:self action:@selector(gouxuan:) forControlEvents:UIControlEventTouchUpInside];
         [ self.btn setImage:[UIImage imageNamed:@"log_cell_unchoose"] forState:UIControlStateNormal];

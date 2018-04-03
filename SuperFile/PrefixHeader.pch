@@ -28,6 +28,10 @@
 #import "UITextView+PearNumview.h"
 #import "ChooseView.h"
 #import "DateView.h"
+#import "TendView.h"
+#import "QFTableView.h";
+
+
 
 
 #endif /* PrefixHeader_pch */

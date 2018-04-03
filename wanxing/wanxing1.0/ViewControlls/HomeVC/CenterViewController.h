@@ -7,7 +7,8 @@
 //
 
 #import "BaseViewController.h"
+#import "BaseTabViewController.h"
 
-@interface CenterViewController : BaseViewController
+@interface CenterViewController :BaseTabViewController
 
 @end

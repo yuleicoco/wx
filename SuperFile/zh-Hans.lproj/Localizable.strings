@@ -32,8 +32,15 @@
 "main_sure" = "确定";
 "main_cancel" ="取消";
 
+// singel
+"single_finsh" ="完成";
+"single_name" = "姓名";
+"single_shen" = "审核";
+
+
 // 仓库
-"house_info_ti" = ""
+"house_info_ti" = "出入库详情";
+
 
 // 日期
 "date_one" = "SUN";

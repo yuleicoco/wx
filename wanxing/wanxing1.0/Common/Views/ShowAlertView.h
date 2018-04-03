@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ShowAlertDelegate <NSObject>
+
+- (void)SureS;
+- (void)CanceS;
+- (void)DeleBox;
+
+
+
+@end
+
 @interface ShowAlertView : UIView
+@property (nonatomic,assign)id<ShowAlertDelegate>delegate;
+
 
 @end

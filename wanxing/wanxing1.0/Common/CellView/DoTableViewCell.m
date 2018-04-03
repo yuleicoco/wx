@@ -32,7 +32,7 @@
         [ self.lb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.imageC.mas_right).offset(13);
             make.top.equalTo(self).offset(21);
-            make.size.mas_equalTo(CGSizeMake(66, 16));
+            make.size.mas_equalTo(CGSizeMake(80, 16));
             
         }];
         

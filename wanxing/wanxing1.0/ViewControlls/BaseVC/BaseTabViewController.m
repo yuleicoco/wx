@@ -57,6 +57,8 @@
     _tableView.delegate = self;
     _tableView.backgroundColor = [UIColor whiteColor];
     
+    
+    
     [self.view addSubview:_tableView];
 }
 
@@ -132,6 +134,40 @@
 }
 
 //*****************************************************协议****************************************
+
+//-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+//    if (scrollView == self.tableView) {
+//        CGFloat heightForHeader = 40;
+//
+//        if(scrollView.contentOffset.y <= heightForHeader && scrollView.contentOffset.y >= 0) {
+//            scrollView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
+//        }else if(scrollView.contentOffset.y >= heightForHeader) {
+//            scrollView.contentInset = UIEdgeInsetsMake(-heightForHeader, 0, 0, 0);
+//        }
+//    }
+//}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (scrollView == self.tableView)
+    {
+        UITableView *tableview = (UITableView *)scrollView;
+        CGFloat sectionHeaderHeight = 64;
+        CGFloat sectionFooterHeight = 44;
+        CGFloat offsetY = tableview.contentOffset.y;
+        if (offsetY >= 0 && offsetY <= sectionHeaderHeight)
+        {
+            tableview.contentInset = UIEdgeInsetsMake(-offsetY, 0, -sectionFooterHeight, 0);
+            
+        }else if (offsetY >= sectionHeaderHeight && offsetY <= tableview.contentSize.height - tableview.frame.size.height - sectionFooterHeight)
+        {
+            tableview.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, -sectionFooterHeight, 0);
+        }else if (offsetY >= tableview.contentSize.height - tableview.frame.size.height - sectionFooterHeight && offsetY <= tableview.contentSize.height - tableview.frame.size.height)
+        {
+            tableview.contentInset = UIEdgeInsetsMake(-offsetY, 0, -(tableview.contentSize.height - tableview.frame.size.height - sectionFooterHeight), 0);
+        }
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
