@@ -36,16 +36,12 @@
 {
     [super SetupView];
     
-    mytableView = [[QFTableView alloc]init];
+    mytableView = [[QFTableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     mytableView.delegate   = self;
     mytableView.dataSource = self;
     mytableView.backgroundColor =[UIColor blackColor];
     mytableView.pagingEnabled = YES;
     [self.view addSubview:mytableView];
-    [mytableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.and.right.and.bottom.equalTo(self.view).offset(0);
-        make.top.equalTo(self.view).offset(60);
-    }];
     [mytableView reloadData];
     
     
@@ -54,7 +50,7 @@
 
 - (CGFloat)QFTableView:(QFTableView *)fanView widthForIndex:(NSInteger)index
 {
-    return 375 * W_Wide_Zoom;
+    return SCREEN_WIDTH;
 }
 
 

@@ -11,7 +11,7 @@
 
 
 static NSString * cellId = @"payTabid";
-
+static NSString * footId = @"payTabid";
 @interface oneViewViewController ()
 {
     NSMutableArray * arr;
@@ -128,6 +128,30 @@ static NSString * cellId = @"payTabid";
         }
     }
 }
+
+//- (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+//
+//
+//    CaiHeaderView *sectionHeadView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:footId];
+//    if(!sectionHeadView){
+//
+//        sectionHeadView = [[CaiHeaderView alloc] initWithReuseIdentifier:footId];
+//
+//    }
+//    return sectionHeadView;
+//    
+//}
+
+
+
+- (CGFloat)tableView:(UITableView *)tableView HeightForFooterInSection:(NSInteger)section
+{
+    
+    return 147;
+    
+    
+}
+
 
 
 /*

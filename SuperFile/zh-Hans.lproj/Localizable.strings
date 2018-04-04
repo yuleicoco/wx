@@ -87,6 +87,13 @@
 
 // 报表统计
 "all_vc_tit" ="报表统计";
+"all_vc_one" ="采购报表";
+"all_vc_two" ="分包支付";
+"all_vc_th" ="材料用量";
+"all_vc_fo" ="产值申报";
+"all_vc_fi" ="设备租赁";
+
+
 
 // 单据管理
 "single_vc_title" ="单据管理";
@@ -102,6 +109,8 @@
 
 //实施
 "do_title" = "实施";
+"value_info" ="参数详情";
+
 
 
 // 登录

@@ -1,4 +1,5 @@
 
+
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -8,6 +9,7 @@ target 'wanxing' do
   pod 'Masonry', '~> 0.6.0'
   pod "SDWebImage","~> 3.7.1"
   pod "FMDB","~> 2.2"
+  pod 'Charts'
   pod 'MBProgressHUD', '~> 0.9'
   pod 'IQKeyboardManager', '~> 4.0.0'
   pod 'AFNetworking', '~> 2.6.0'
@@ -15,7 +17,7 @@ target 'wanxing' do
   pod 'MOBFoundation'
   pod 'MojoDatabase', '~> 1.4'
   pod 'RMMapper', '~> 1.1.5'
-  pod 'MWPhotoBrowser', '~> 2.1.1'
+  pod 'MWPhotoBrowser', '~> 2.1.1'  
   # Pods for wanxing
 
   target 'wanxingTests' do

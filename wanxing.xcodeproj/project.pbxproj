@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0077A7D88FA25E3B53CA785C /* libPods-wanxingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CD7EB24AA33516F1E967FB /* libPods-wanxingTests.a */; };
 		2603AF2B2064F3AA008E362D /* unclock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF292064F3AA008E362D /* unclock@3x.png */; };
 		2603AF2C2064F3AA008E362D /* unclock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2603AF2A2064F3AA008E362D /* unclock@2x.png */; };
 		2603AF2F2064F4DB008E362D /* ClockHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603AF2E2064F4DB008E362D /* ClockHistoryViewController.m */; };
@@ -224,6 +225,23 @@
 		26737CF6206F99F600A87C27 /* DaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26737CF5206F99F600A87C27 /* DaViewController.m */; };
 		26737CF9206F9D7600A87C27 /* NewSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26737CF8206F9D7600A87C27 /* NewSingleViewController.m */; };
 		26737CFC206F9FFD00A87C27 /* Single_infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26737CFB206F9FFD00A87C27 /* Single_infoViewController.m */; };
+		26C019B8207496C600F6FA59 /* ConOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C019B7207496C600F6FA59 /* ConOneViewController.m */; };
+		26C019BB207496D400F6FA59 /* ConTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C019BA207496D400F6FA59 /* ConTwoViewController.m */; };
+		26C019C92074DCED00F6FA59 /* all_excel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019BF2074DCEC00F6FA59 /* all_excel@2x.png */; };
+		26C019CA2074DCED00F6FA59 /* all_pay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C02074DCEC00F6FA59 /* all_pay@2x.png */; };
+		26C019CB2074DCED00F6FA59 /* all_excel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C12074DCEC00F6FA59 /* all_excel@3x.png */; };
+		26C019CC2074DCED00F6FA59 /* all_pay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C22074DCEC00F6FA59 /* all_pay@3x.png */; };
+		26C019CD2074DCED00F6FA59 /* all_use@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C32074DCED00F6FA59 /* all_use@3x.png */; };
+		26C019CE2074DCED00F6FA59 /* all_til@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C42074DCED00F6FA59 /* all_til@3x.png */; };
+		26C019CF2074DCED00F6FA59 /* all_value@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C52074DCED00F6FA59 /* all_value@2x.png */; };
+		26C019D02074DCED00F6FA59 /* all_use@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C62074DCED00F6FA59 /* all_use@2x.png */; };
+		26C019D12074DCED00F6FA59 /* all_value@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C72074DCED00F6FA59 /* all_value@3x.png */; };
+		26C019D22074DCED00F6FA59 /* all_til@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C019C82074DCED00F6FA59 /* all_til@2x.png */; };
+		26C019D52074DE3800F6FA59 /* BuyExViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C019D42074DE3800F6FA59 /* BuyExViewController.m */; };
+		26C019D82074DF6100F6FA59 /* PackPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C019D72074DF6100F6FA59 /* PackPayViewController.m */; };
+		26C01FA32075086100F6FA59 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01FA22075086100F6FA59 /* First.swift */; };
+		26C01FAE207508C400F6FA59 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C01FAB207508B100F6FA59 /* Charts.framework */; };
+		26C01FAF207508C400F6FA59 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26C01FAB207508B100F6FA59 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26CDA837205A465200560034 /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA836205A465200560034 /* AFHttpClient.m */; };
 		26CDA83A205A46A800560034 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA839205A46A800560034 /* BaseModel.m */; };
 		26CDA854205A481B00560034 /* UIView+TapBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDA841205A481A00560034 /* UIView+TapBlocks.m */; };
@@ -277,7 +295,6 @@
 		26CDA8CE205A72E600560034 /* home_vc_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CDA8CB205A72E600560034 /* home_vc_bg@2x.png */; };
 		26CDA8CF205A72E600560034 /* home_vc_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CDA8CC205A72E600560034 /* home_vc_bg@3x.png */; };
 		26CDA8D0205A72E600560034 /* home_vc_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CDA8CD205A72E600560034 /* home_vc_bg.png */; };
-		26D22CBA75D148160F7D2E7C /* libPods-wanxingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */; };
 		26EA61712071C3F100B13747 /* single_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA616D2071C3F000B13747 /* single_box@3x.png */; };
 		26EA61722071C3F100B13747 /* singel_de@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA616E2071C3F000B13747 /* singel_de@3x.png */; };
 		26EA61732071C3F100B13747 /* single_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA616F2071C3F000B13747 /* single_box@2x.png */; };
@@ -302,6 +319,30 @@
 		26EA61B12073307800B13747 /* test12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61AF2073307800B13747 /* test12@3x.png */; };
 		26EA61B22073307800B13747 /* test12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61B02073307800B13747 /* test12@2x.png */; };
 		26EA61B520734E8100B13747 /* LookViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61B420734E8100B13747 /* LookViewImage.m */; };
+		26EA61B82073551300B13747 /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61B72073551300B13747 /* PlanViewController.m */; };
+		26EA61BB2073564A00B13747 /* PlanNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61BA2073564A00B13747 /* PlanNextViewController.m */; };
+		26EA61BE2073573900B13747 /* EndtendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61BD2073573900B13747 /* EndtendViewController.m */; };
+		26EA61C1207357DF00B13747 /* ContractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61C0207357DF00B13747 /* ContractViewController.m */; };
+		26EA61C42073584600B13747 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61C32073584600B13747 /* ChangeViewController.m */; };
+		26EA61C7207358C000B13747 /* ChangeProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61C6207358C000B13747 /* ChangeProViewController.m */; };
+		26EA61CA20735A4200B13747 /* ValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61C920735A4200B13747 /* ValueViewController.m */; };
+		26EA61CD20735AA400B13747 /* SeparateConViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61CC20735AA400B13747 /* SeparateConViewController.m */; };
+		26EA61D020735AEE00B13747 /* ChangeSepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61CF20735AEE00B13747 /* ChangeSepViewController.m */; };
+		26EA61D32073615800B13747 /* PlanAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61D22073615800B13747 /* PlanAViewController.m */; };
+		26EA61D62073616A00B13747 /* PlanBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61D52073616A00B13747 /* PlanBViewController.m */; };
+		26EA61DA2073648800B13747 /* PlanBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61D92073648800B13747 /* PlanBTableViewCell.m */; };
+		26EA61DF20736B5B00B13747 /* plan_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61DB20736B5A00B13747 /* plan_up@3x.png */; };
+		26EA61E020736B5B00B13747 /* plan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61DC20736B5A00B13747 /* plan_line@2x.png */; };
+		26EA61E120736B5B00B13747 /* plan_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61DD20736B5A00B13747 /* plan_line@3x.png */; };
+		26EA61E220736B5B00B13747 /* plan_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EA61DE20736B5A00B13747 /* plan_up@2x.png */; };
+		26EA61E62073774E00B13747 /* EasyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61E52073774E00B13747 /* EasyTableViewCell.m */; };
+		26EA61EA2073806D00B13747 /* ValueInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61E92073806D00B13747 /* ValueInfoViewController.m */; };
+		26EA61ED207460F000B13747 /* EasyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61EC207460F000B13747 /* EasyHeadView.m */; };
+		26EA61F02074713200B13747 /* ShenPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61EF2074713200B13747 /* ShenPlanViewController.m */; };
+		26EA61F3207472EA00B13747 /* ShenAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61F2207472EA00B13747 /* ShenAViewController.m */; };
+		26EA61F6207472F900B13747 /* ShenBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61F5207472F900B13747 /* ShenBViewController.m */; };
+		26EA61F92074743C00B13747 /* TendBaseViewHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61F82074743C00B13747 /* TendBaseViewHeadView.m */; };
+		26EA61FC2074770A00B13747 /* TwoLBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA61FB2074770A00B13747 /* TwoLBTableViewCell.m */; };
 		26FD6B17206CAF6B00805651 /* DologInforModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6B16206CAF6B00805651 /* DologInforModel.m */; };
 		26FD6B1E206DC82600805651 /* SafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6B1D206DC82600805651 /* SafeViewController.m */; };
 		26FD6B22206DCE6200805651 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6B21206DCE6200805651 /* ControlViewController.m */; };
@@ -342,8 +383,8 @@
 		26FD6B81206F7B3200805651 /* inout_pu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FD6B7D206F7B3200805651 /* inout_pu@2x.png */; };
 		26FD6B82206F7B3200805651 /* left_in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FD6B7E206F7B3200805651 /* left_in@2x.png */; };
 		26FD6B85206F854D00805651 /* InOutTableViewCellx.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6B84206F854D00805651 /* InOutTableViewCellx.m */; };
-		70C91923EF3C7E486ABB8711 /* libPods-wanxing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 463D472EC3BDF5B097295317 /* libPods-wanxing.a */; };
-		D406A1924B714D8149C212B7 /* libPods-wanxingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */; };
+		5E8FB21B5EEA6DC2A3CC2AF4 /* libPods-wanxing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC11947C842846E751AA5D45 /* libPods-wanxing.a */; };
+		73A21D7522942C20132E00F5 /* libPods-wanxingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB133A5BAB44F87B1231982 /* libPods-wanxingUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,9 +402,45 @@
 			remoteGlobalIDString = 26087CFA2058DF0A00B66144;
 			remoteInfo = wanxing;
 		};
+		26C01FAA207508B100F6FA59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C01FA5207508B100F6FA59 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		26C01FAC207508B100F6FA59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C01FA5207508B100F6FA59 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		26C01FB0207508C400F6FA59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C01FA5207508B100F6FA59 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		26C019E32074EFDF00F6FA59 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26C01FAF207508C400F6FA59 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1FB133A5BAB44F87B1231982 /* libPods-wanxingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2603AF292064F3AA008E362D /* unclock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unclock@3x.png"; sourceTree = "<group>"; };
 		2603AF2A2064F3AA008E362D /* unclock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unclock@2x.png"; sourceTree = "<group>"; };
 		2603AF2D2064F4DB008E362D /* ClockHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockHistoryViewController.h; sourceTree = "<group>"; };
@@ -644,6 +721,27 @@
 		26737CF8206F9D7600A87C27 /* NewSingleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewSingleViewController.m; sourceTree = "<group>"; };
 		26737CFA206F9FFD00A87C27 /* Single_infoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single_infoViewController.h; sourceTree = "<group>"; };
 		26737CFB206F9FFD00A87C27 /* Single_infoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Single_infoViewController.m; sourceTree = "<group>"; };
+		26C019B6207496C600F6FA59 /* ConOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConOneViewController.h; sourceTree = "<group>"; };
+		26C019B7207496C600F6FA59 /* ConOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConOneViewController.m; sourceTree = "<group>"; };
+		26C019B9207496D400F6FA59 /* ConTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConTwoViewController.h; sourceTree = "<group>"; };
+		26C019BA207496D400F6FA59 /* ConTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConTwoViewController.m; sourceTree = "<group>"; };
+		26C019BF2074DCEC00F6FA59 /* all_excel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_excel@2x.png"; sourceTree = "<group>"; };
+		26C019C02074DCEC00F6FA59 /* all_pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_pay@2x.png"; sourceTree = "<group>"; };
+		26C019C12074DCEC00F6FA59 /* all_excel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_excel@3x.png"; sourceTree = "<group>"; };
+		26C019C22074DCEC00F6FA59 /* all_pay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_pay@3x.png"; sourceTree = "<group>"; };
+		26C019C32074DCED00F6FA59 /* all_use@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_use@3x.png"; sourceTree = "<group>"; };
+		26C019C42074DCED00F6FA59 /* all_til@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_til@3x.png"; sourceTree = "<group>"; };
+		26C019C52074DCED00F6FA59 /* all_value@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_value@2x.png"; sourceTree = "<group>"; };
+		26C019C62074DCED00F6FA59 /* all_use@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_use@2x.png"; sourceTree = "<group>"; };
+		26C019C72074DCED00F6FA59 /* all_value@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_value@3x.png"; sourceTree = "<group>"; };
+		26C019C82074DCED00F6FA59 /* all_til@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_til@2x.png"; sourceTree = "<group>"; };
+		26C019D32074DE3800F6FA59 /* BuyExViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyExViewController.h; sourceTree = "<group>"; };
+		26C019D42074DE3800F6FA59 /* BuyExViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyExViewController.m; sourceTree = "<group>"; };
+		26C019D62074DF6100F6FA59 /* PackPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackPayViewController.h; sourceTree = "<group>"; };
+		26C019D72074DF6100F6FA59 /* PackPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackPayViewController.m; sourceTree = "<group>"; };
+		26C01FA22075086100F6FA59 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		26C01FA5207508B100F6FA59 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		26C01FB620750C9100F6FA59 /* wanxing-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wanxing-Bridging-Header.h"; sourceTree = "<group>"; };
 		26CDA835205A465200560034 /* AFHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttpClient.h; sourceTree = "<group>"; };
 		26CDA836205A465200560034 /* AFHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHttpClient.m; sourceTree = "<group>"; };
 		26CDA838205A46A800560034 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -764,6 +862,50 @@
 		26EA61B02073307800B13747 /* test12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test12@2x.png"; sourceTree = "<group>"; };
 		26EA61B320734E8100B13747 /* LookViewImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookViewImage.h; sourceTree = "<group>"; };
 		26EA61B420734E8100B13747 /* LookViewImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookViewImage.m; sourceTree = "<group>"; };
+		26EA61B62073551300B13747 /* PlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
+		26EA61B72073551300B13747 /* PlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
+		26EA61B92073564A00B13747 /* PlanNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanNextViewController.h; sourceTree = "<group>"; };
+		26EA61BA2073564A00B13747 /* PlanNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanNextViewController.m; sourceTree = "<group>"; };
+		26EA61BC2073573900B13747 /* EndtendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndtendViewController.h; sourceTree = "<group>"; };
+		26EA61BD2073573900B13747 /* EndtendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndtendViewController.m; sourceTree = "<group>"; };
+		26EA61BF207357DF00B13747 /* ContractViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractViewController.h; sourceTree = "<group>"; };
+		26EA61C0207357DF00B13747 /* ContractViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractViewController.m; sourceTree = "<group>"; };
+		26EA61C22073584600B13747 /* ChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
+		26EA61C32073584600B13747 /* ChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
+		26EA61C5207358C000B13747 /* ChangeProViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeProViewController.h; sourceTree = "<group>"; };
+		26EA61C6207358C000B13747 /* ChangeProViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeProViewController.m; sourceTree = "<group>"; };
+		26EA61C820735A4200B13747 /* ValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueViewController.h; sourceTree = "<group>"; };
+		26EA61C920735A4200B13747 /* ValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueViewController.m; sourceTree = "<group>"; };
+		26EA61CB20735AA400B13747 /* SeparateConViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeparateConViewController.h; sourceTree = "<group>"; };
+		26EA61CC20735AA400B13747 /* SeparateConViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeparateConViewController.m; sourceTree = "<group>"; };
+		26EA61CE20735AEE00B13747 /* ChangeSepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeSepViewController.h; sourceTree = "<group>"; };
+		26EA61CF20735AEE00B13747 /* ChangeSepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeSepViewController.m; sourceTree = "<group>"; };
+		26EA61D12073615800B13747 /* PlanAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanAViewController.h; sourceTree = "<group>"; };
+		26EA61D22073615800B13747 /* PlanAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanAViewController.m; sourceTree = "<group>"; };
+		26EA61D42073616A00B13747 /* PlanBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanBViewController.h; sourceTree = "<group>"; };
+		26EA61D52073616A00B13747 /* PlanBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanBViewController.m; sourceTree = "<group>"; };
+		26EA61D82073648800B13747 /* PlanBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanBTableViewCell.h; sourceTree = "<group>"; };
+		26EA61D92073648800B13747 /* PlanBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanBTableViewCell.m; sourceTree = "<group>"; };
+		26EA61DB20736B5A00B13747 /* plan_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_up@3x.png"; sourceTree = "<group>"; };
+		26EA61DC20736B5A00B13747 /* plan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_line@2x.png"; sourceTree = "<group>"; };
+		26EA61DD20736B5A00B13747 /* plan_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_line@3x.png"; sourceTree = "<group>"; };
+		26EA61DE20736B5A00B13747 /* plan_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_up@2x.png"; sourceTree = "<group>"; };
+		26EA61E42073774E00B13747 /* EasyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTableViewCell.h; sourceTree = "<group>"; };
+		26EA61E52073774E00B13747 /* EasyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyTableViewCell.m; sourceTree = "<group>"; };
+		26EA61E82073806D00B13747 /* ValueInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueInfoViewController.h; sourceTree = "<group>"; };
+		26EA61E92073806D00B13747 /* ValueInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueInfoViewController.m; sourceTree = "<group>"; };
+		26EA61EB207460F000B13747 /* EasyHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyHeadView.h; sourceTree = "<group>"; };
+		26EA61EC207460F000B13747 /* EasyHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyHeadView.m; sourceTree = "<group>"; };
+		26EA61EE2074713200B13747 /* ShenPlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShenPlanViewController.h; sourceTree = "<group>"; };
+		26EA61EF2074713200B13747 /* ShenPlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenPlanViewController.m; sourceTree = "<group>"; };
+		26EA61F1207472EA00B13747 /* ShenAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShenAViewController.h; sourceTree = "<group>"; };
+		26EA61F2207472EA00B13747 /* ShenAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenAViewController.m; sourceTree = "<group>"; };
+		26EA61F4207472F900B13747 /* ShenBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShenBViewController.h; sourceTree = "<group>"; };
+		26EA61F5207472F900B13747 /* ShenBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenBViewController.m; sourceTree = "<group>"; };
+		26EA61F72074743C00B13747 /* TendBaseViewHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TendBaseViewHeadView.h; sourceTree = "<group>"; };
+		26EA61F82074743C00B13747 /* TendBaseViewHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TendBaseViewHeadView.m; sourceTree = "<group>"; };
+		26EA61FA2074770A00B13747 /* TwoLBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoLBTableViewCell.h; sourceTree = "<group>"; };
+		26EA61FB2074770A00B13747 /* TwoLBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoLBTableViewCell.m; sourceTree = "<group>"; };
 		26FD6B15206CAF6B00805651 /* DologInforModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DologInforModel.h; sourceTree = "<group>"; };
 		26FD6B16206CAF6B00805651 /* DologInforModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DologInforModel.m; sourceTree = "<group>"; };
 		26FD6B1C206DC82600805651 /* SafeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeViewController.h; sourceTree = "<group>"; };
@@ -822,15 +964,14 @@
 		26FD6B7E206F7B3200805651 /* left_in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_in@2x.png"; sourceTree = "<group>"; };
 		26FD6B83206F854D00805651 /* InOutTableViewCellx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InOutTableViewCellx.h; sourceTree = "<group>"; };
 		26FD6B84206F854D00805651 /* InOutTableViewCellx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InOutTableViewCellx.m; sourceTree = "<group>"; };
-		463D472EC3BDF5B097295317 /* libPods-wanxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.debug.xcconfig"; sourceTree = "<group>"; };
 		69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxing.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxing/Pods-wanxing.release.xcconfig"; sourceTree = "<group>"; };
 		6D2945BE79B3901409E76952 /* Pods-wanxingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B2DF7110F8D4586D593B3C /* Pods-wanxingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests.release.xcconfig"; sourceTree = "<group>"; };
-		98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1687AF0E43D9105E7AC8AFB /* Pods-wanxingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingUITests/Pods-wanxingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE81A740B5D4B03E5619145 /* Pods-wanxingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanxingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanxingTests/Pods-wanxingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC11947C842846E751AA5D45 /* libPods-wanxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CD7EB24AA33516F1E967FB /* libPods-wanxingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanxingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -838,7 +979,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C91923EF3C7E486ABB8711 /* libPods-wanxing.a in Frameworks */,
+				5E8FB21B5EEA6DC2A3CC2AF4 /* libPods-wanxing.a in Frameworks */,
+				26C01FAE207508C400F6FA59 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,7 +988,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D406A1924B714D8149C212B7 /* libPods-wanxingTests.a in Frameworks */,
+				0077A7D88FA25E3B53CA785C /* libPods-wanxingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,7 +996,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D22CBA75D148160F7D2E7C /* libPods-wanxingUITests.a in Frameworks */,
+				73A21D7522942C20132E00F5 /* libPods-wanxingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1130,6 +1272,9 @@
 		2644A700205A034A009574CD /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				26C01FA5207508B100F6FA59 /* Charts.xcodeproj */,
+				26C01FA22075086100F6FA59 /* First.swift */,
+				26C01FB620750C9100F6FA59 /* wanxing-Bridging-Header.h */,
 				26087CFE2058DF0A00B66144 /* AppDelegate.h */,
 				26087CFF2058DF0A00B66144 /* AppDelegate.m */,
 				2644A71D205A0E2F009574CD /* AppDelegate+Launcher.h */,
@@ -1410,6 +1555,16 @@
 		2644A715205A0648009574CD /* Do_inage */ = {
 			isa = PBXGroup;
 			children = (
+				26C019C82074DCED00F6FA59 /* all_til@2x.png */,
+				26C019C42074DCED00F6FA59 /* all_til@3x.png */,
+				26C019BF2074DCEC00F6FA59 /* all_excel@2x.png */,
+				26C019C12074DCEC00F6FA59 /* all_excel@3x.png */,
+				26C019C52074DCED00F6FA59 /* all_value@2x.png */,
+				26C019C72074DCED00F6FA59 /* all_value@3x.png */,
+				26C019C02074DCEC00F6FA59 /* all_pay@2x.png */,
+				26C019C22074DCEC00F6FA59 /* all_pay@3x.png */,
+				26C019C62074DCED00F6FA59 /* all_use@2x.png */,
+				26C019C32074DCED00F6FA59 /* all_use@3x.png */,
 				26EA61702071C3F100B13747 /* single_de@2x.png */,
 				26EA616E2071C3F000B13747 /* singel_de@3x.png */,
 				26EA616F2071C3F000B13747 /* single_box@2x.png */,
@@ -1628,6 +1783,27 @@
 			path = ProVC;
 			sourceTree = "<group>";
 		};
+		26C019B52074969500F6FA59 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				26C019B6207496C600F6FA59 /* ConOneViewController.h */,
+				26C019B7207496C600F6FA59 /* ConOneViewController.m */,
+				26C019B9207496D400F6FA59 /* ConTwoViewController.h */,
+				26C019BA207496D400F6FA59 /* ConTwoViewController.m */,
+			);
+			name = Contract;
+			path = wanxing/wanxing1.0/ViewControlls/HomeVC/CenterVC/Function_center/Contract;
+			sourceTree = SOURCE_ROOT;
+		};
+		26C01FA6207508B100F6FA59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C01FAB207508B100F6FA59 /* Charts.framework */,
+				26C01FAD207508B100F6FA59 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		26CDA83F205A481A00560034 /* UIView+TapBlocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1738,6 +1914,10 @@
 		26EA6183207209DD00B13747 /* Tend */ = {
 			isa = PBXGroup;
 			children = (
+				26C019B52074969500F6FA59 /* Contract */,
+				26EA61E72073801C00B13747 /* Value_info */,
+				26EA61E32073772E00B13747 /* EasyCell */,
+				26EA61D72073646800B13747 /* PlanCell */,
 				26EA618420720A4B00B13747 /* TendViewController.h */,
 				26EA618520720A4B00B13747 /* TendViewController.m */,
 				26EA618E2072235F00B13747 /* PayViewViewController.h */,
@@ -1746,6 +1926,34 @@
 				26EA61A420730CE100B13747 /* oneViewViewController.m */,
 				26EA61A620730CEE00B13747 /* TwoViewController.h */,
 				26EA61A720730CEE00B13747 /* TwoViewController.m */,
+				26EA61B62073551300B13747 /* PlanViewController.h */,
+				26EA61B72073551300B13747 /* PlanViewController.m */,
+				26EA61B92073564A00B13747 /* PlanNextViewController.h */,
+				26EA61BA2073564A00B13747 /* PlanNextViewController.m */,
+				26EA61BC2073573900B13747 /* EndtendViewController.h */,
+				26EA61BD2073573900B13747 /* EndtendViewController.m */,
+				26EA61BF207357DF00B13747 /* ContractViewController.h */,
+				26EA61C0207357DF00B13747 /* ContractViewController.m */,
+				26EA61C22073584600B13747 /* ChangeViewController.h */,
+				26EA61C32073584600B13747 /* ChangeViewController.m */,
+				26EA61C5207358C000B13747 /* ChangeProViewController.h */,
+				26EA61C6207358C000B13747 /* ChangeProViewController.m */,
+				26EA61C820735A4200B13747 /* ValueViewController.h */,
+				26EA61C920735A4200B13747 /* ValueViewController.m */,
+				26EA61CB20735AA400B13747 /* SeparateConViewController.h */,
+				26EA61CC20735AA400B13747 /* SeparateConViewController.m */,
+				26EA61CE20735AEE00B13747 /* ChangeSepViewController.h */,
+				26EA61CF20735AEE00B13747 /* ChangeSepViewController.m */,
+				26EA61D12073615800B13747 /* PlanAViewController.h */,
+				26EA61D22073615800B13747 /* PlanAViewController.m */,
+				26EA61D42073616A00B13747 /* PlanBViewController.h */,
+				26EA61D52073616A00B13747 /* PlanBViewController.m */,
+				26EA61EE2074713200B13747 /* ShenPlanViewController.h */,
+				26EA61EF2074713200B13747 /* ShenPlanViewController.m */,
+				26EA61F1207472EA00B13747 /* ShenAViewController.h */,
+				26EA61F2207472EA00B13747 /* ShenAViewController.m */,
+				26EA61F4207472F900B13747 /* ShenBViewController.h */,
+				26EA61F5207472F900B13747 /* ShenBViewController.m */,
 			);
 			path = Tend;
 			sourceTree = "<group>";
@@ -1766,6 +1974,45 @@
 			);
 			path = SGPageView;
 			sourceTree = "<group>";
+		};
+		26EA61D72073646800B13747 /* PlanCell */ = {
+			isa = PBXGroup;
+			children = (
+				26EA61DC20736B5A00B13747 /* plan_line@2x.png */,
+				26EA61DD20736B5A00B13747 /* plan_line@3x.png */,
+				26EA61DE20736B5A00B13747 /* plan_up@2x.png */,
+				26EA61DB20736B5A00B13747 /* plan_up@3x.png */,
+				26EA61D82073648800B13747 /* PlanBTableViewCell.h */,
+				26EA61D92073648800B13747 /* PlanBTableViewCell.m */,
+			);
+			path = PlanCell;
+			sourceTree = "<group>";
+		};
+		26EA61E32073772E00B13747 /* EasyCell */ = {
+			isa = PBXGroup;
+			children = (
+				26EA61E42073774E00B13747 /* EasyTableViewCell.h */,
+				26EA61E52073774E00B13747 /* EasyTableViewCell.m */,
+				26EA61EB207460F000B13747 /* EasyHeadView.h */,
+				26EA61EC207460F000B13747 /* EasyHeadView.m */,
+				26EA61F72074743C00B13747 /* TendBaseViewHeadView.h */,
+				26EA61F82074743C00B13747 /* TendBaseViewHeadView.m */,
+				26EA61FA2074770A00B13747 /* TwoLBTableViewCell.h */,
+				26EA61FB2074770A00B13747 /* TwoLBTableViewCell.m */,
+			);
+			name = EasyCell;
+			path = wanxing/wanxing1.0/ViewControlls/HomeVC/CenterVC/Function_center/EasyCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		26EA61E72073801C00B13747 /* Value_info */ = {
+			isa = PBXGroup;
+			children = (
+				26EA61E82073806D00B13747 /* ValueInfoViewController.h */,
+				26EA61E92073806D00B13747 /* ValueInfoViewController.m */,
+			);
+			name = Value_info;
+			path = wanxing/wanxing1.0/ViewControlls/HomeVC/CenterVC/Function_center/Value_info;
+			sourceTree = SOURCE_ROOT;
 		};
 		26FD6B1B206DC80800805651 /* Safe */ = {
 			isa = PBXGroup;
@@ -1790,6 +2037,10 @@
 			children = (
 				26FD6B26206DD00300805651 /* AllViewController.h */,
 				26FD6B27206DD00300805651 /* AllViewController.m */,
+				26C019D32074DE3800F6FA59 /* BuyExViewController.h */,
+				26C019D42074DE3800F6FA59 /* BuyExViewController.m */,
+				26C019D62074DF6100F6FA59 /* PackPayViewController.h */,
+				26C019D72074DF6100F6FA59 /* PackPayViewController.m */,
 			);
 			path = AllVC;
 			sourceTree = "<group>";
@@ -1863,9 +2114,9 @@
 		742BA6F7851D6924AF55093C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				463D472EC3BDF5B097295317 /* libPods-wanxing.a */,
-				98CAE661C3645CC714749DCD /* libPods-wanxingTests.a */,
-				857C91968E31A49CD35E53EF /* libPods-wanxingUITests.a */,
+				CC11947C842846E751AA5D45 /* libPods-wanxing.a */,
+				F9CD7EB24AA33516F1E967FB /* libPods-wanxingTests.a */,
+				1FB133A5BAB44F87B1231982 /* libPods-wanxingUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1883,10 +2134,12 @@
 				26087CF92058DF0A00B66144 /* Resources */,
 				63E349B21707C8C1BBD1CFDF /* [CP] Embed Pods Frameworks */,
 				E020E117B815A4DA5DF17345 /* [CP] Copy Pods Resources */,
+				26C019E32074EFDF00F6FA59 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				26C01FB1207508C400F6FA59 /* PBXTargetDependency */,
 			);
 			name = wanxing;
 			productName = wanxing;
@@ -1946,6 +2199,7 @@
 				TargetAttributes = {
 					26087CFA2058DF0A00B66144 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					26087D122058DF0A00B66144 = {
@@ -1973,6 +2227,12 @@
 			mainGroup = 26087CF22058DF0A00B66144;
 			productRefGroup = 26087CFC2058DF0A00B66144 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 26C01FA6207508B100F6FA59 /* Products */;
+					ProjectRef = 26C01FA5207508B100F6FA59 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				26087CFA2058DF0A00B66144 /* wanxing */,
@@ -1982,6 +2242,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		26C01FAB207508B100F6FA59 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 26C01FAA207508B100F6FA59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26C01FAD207508B100F6FA59 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 26C01FAC207508B100F6FA59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		26087CF92058DF0A00B66144 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -1989,6 +2266,7 @@
 			files = (
 				26215060206654540047AB1A /* me_meet@3x.png in Resources */,
 				265647C5205F4E2200771321 /* home_btn_house.png in Resources */,
+				26C019CD2074DCED00F6FA59 /* all_use@3x.png in Resources */,
 				266B8B2E205CBD18003D5687 /* Regist_choose@3x.png in Resources */,
 				2621505E206654540047AB1A /* me_test@3x.png in Resources */,
 				2656480220620A5600771321 /* do_log_down@2x.png in Resources */,
@@ -2006,6 +2284,7 @@
 				26FD6B59206E33E900805651 /* house_cl@3x.png in Resources */,
 				261C8494206490B900A55C39 /* tse.jpg in Resources */,
 				261C84432063900C00A55C39 /* do_cell_tai@3x.png in Resources */,
+				26C019CE2074DCED00F6FA59 /* all_til@3x.png in Resources */,
 				26CDA88C205A543E00560034 /* home_tab@3x.png in Resources */,
 				265647CC205F4E5C00771321 /* home_btn_center@3x.png in Resources */,
 				265647C7205F4E2200771321 /* home_btn_house@2x.png in Resources */,
@@ -2016,6 +2295,7 @@
 				261C84492063900C00A55C39 /* do_cell_bar@3x.png in Resources */,
 				261C843C2063900C00A55C39 /* do_cell_control.png in Resources */,
 				263D029F205BB8EE009BA404 /* Login_reg@2x.png in Resources */,
+				26C019D22074DCED00F6FA59 /* all_til@2x.png in Resources */,
 				261C840F206347D900A55C39 /* log_cell_choose@2x.png in Resources */,
 				26EA61732071C3F100B13747 /* single_box@2x.png in Resources */,
 				261C84542063900C00A55C39 /* do_cell_po@2x.png in Resources */,
@@ -2028,13 +2308,16 @@
 				26FD6B48206E020800805651 /* house_vc_th@2x.png in Resources */,
 				26CDA883205A543E00560034 /* work_tab@3x.png in Resources */,
 				26087D0B2058DF0A00B66144 /* LaunchScreen.storyboard in Resources */,
+				26C019C92074DCED00F6FA59 /* all_excel@2x.png in Resources */,
 				261C848520648C6000A55C39 /* clock_linetwo@2x.png in Resources */,
+				26EA61E120736B5B00B13747 /* plan_line@3x.png in Resources */,
 				26FD6B38206DDFE400805651 /* pro_vc_ups@2x.png in Resources */,
 				265647EC205FB69600771321 /* date_in@3x.png in Resources */,
 				261C84562063900C00A55C39 /* do_cell_info@3x.png in Resources */,
 				265647B9205F4D5200771321 /* home_btn_do_log@3x.png in Resources */,
 				261C848720648C6000A55C39 /* clock_qu@3x.png in Resources */,
 				261C844A2063900C00A55C39 /* do_cell_info@2x.png in Resources */,
+				26EA61E020736B5B00B13747 /* plan_line@2x.png in Resources */,
 				265647DC205F840C00771321 /* home_back@2x.png in Resources */,
 				26133081206B9730002E5CC7 /* meet_vc_fil@2x.png in Resources */,
 				261C846220639ACC00A55C39 /* work_open@3x.png in Resources */,
@@ -2053,6 +2336,7 @@
 				262150A12068D2FA0047AB1A /* task_x@2x.png in Resources */,
 				2603AF3A2064F96A008E362D /* work_search_clock@3x.png in Resources */,
 				265647BF205F4DC900771321 /* home_btn_pro@2x.png in Resources */,
+				26C019CC2074DCED00F6FA59 /* all_pay@3x.png in Resources */,
 				26FD6B47206E020800805651 /* house_vc_two@3x.png in Resources */,
 				26CDA889205A543E00560034 /* un_home_tab@2x.png in Resources */,
 				26737CF3206F973100A87C27 /* single_da@3x.png in Resources */,
@@ -2087,7 +2371,9 @@
 				2603AF382064F96A008E362D /* work_search_clock@2x.png in Resources */,
 				262150572066534B0047AB1A /* me_bg@2x.png in Resources */,
 				2603AF3D20650017008E362D /* clockTabCellHaed.xib in Resources */,
+				26C019CA2074DCED00F6FA59 /* all_pay@2x.png in Resources */,
 				26087D062058DF0A00B66144 /* Main.storyboard in Resources */,
+				26C019D02074DCED00F6FA59 /* all_use@2x.png in Resources */,
 				263D0287205B9763009BA404 /* Login_bg@2x.png in Resources */,
 				265647EA205FB69600771321 /* date_in@2x.png in Resources */,
 				26CDA8C4205A625600560034 /* home_nav@2x.png in Resources */,
@@ -2095,6 +2381,7 @@
 				262150742066583A0047AB1A /* me_message@3x.png in Resources */,
 				261C8410206347D900A55C39 /* log_cell_unchoose@3x.png in Resources */,
 				2621509E2068D2E30047AB1A /* task_d@2x.png in Resources */,
+				26C019D12074DCED00F6FA59 /* all_value@3x.png in Resources */,
 				26FD6B74206F67B700805651 /* house_more@3x.png in Resources */,
 				263D0295205BA825009BA404 /* Login_user@2x.png in Resources */,
 				261C84552063900C00A55C39 /* do_cell_pro@3x.png in Resources */,
@@ -2102,6 +2389,7 @@
 				262150992068D29A0047AB1A /* task_down@3x.png in Resources */,
 				261C844E2063900C00A55C39 /* do_cell_bar@2x.png in Resources */,
 				2621508420688CCE0047AB1A /* job_text@3x.png in Resources */,
+				26EA61DF20736B5B00B13747 /* plan_up@3x.png in Resources */,
 				262150972068D29A0047AB1A /* task_up@3x.png in Resources */,
 				26CDA87A205A543E00560034 /* do_tab@3x.png in Resources */,
 				26FD6B56206E2F0900805651 /* house_saech@2x.png in Resources */,
@@ -2118,6 +2406,7 @@
 				261C8413206347D900A55C39 /* log_cell_choose.png in Resources */,
 				261C84502063900C00A55C39 /* do_cell_more@2x.png in Resources */,
 				26FD6B37206DDFE400805651 /* pro_vc_ups@3x.png in Resources */,
+				26C019CB2074DCED00F6FA59 /* all_excel@3x.png in Resources */,
 				26CDA88A205A543E00560034 /* work_tab@2x.png in Resources */,
 				261C848620648C6000A55C39 /* clock_qu@2x.png in Resources */,
 				265647BB205F4D5200771321 /* home_btn_do_log@2x.png in Resources */,
@@ -2153,6 +2442,7 @@
 				26FD6B5A206E33E900805651 /* house.cl@2x.png in Resources */,
 				261C84482063900C00A55C39 /* do_cell_pro@2x.png in Resources */,
 				2656480320620A5600771321 /* do_log_down@3x.png in Resources */,
+				26EA61E220736B5B00B13747 /* plan_up@2x.png in Resources */,
 				26215063206657F80047AB1A /* me_po@3x.png in Resources */,
 				26CDA877205A543E00560034 /* un_home_tab.png in Resources */,
 				26737CEE206F973100A87C27 /* single_li@3x.png in Resources */,
@@ -2198,6 +2488,7 @@
 				26CDA8C8205A673D00560034 /* home_nav_bg.png in Resources */,
 				26FD6B3C206DE08200805651 /* pro_vc_up@2x.png in Resources */,
 				26FD6B66206E38F800805651 /* house_in@3x.png in Resources */,
+				26C019CF2074DCED00F6FA59 /* all_value@2x.png in Resources */,
 				26CDA885205A543E00560034 /* do_tab@2x.png in Resources */,
 				265647DD205F840C00771321 /* home_back@3x.png in Resources */,
 				261C848A20648C6000A55C39 /* clock_linetwo@3x.png in Resources */,
@@ -2255,9 +2546,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wanxing/Pods-wanxing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/MojoDatabase/MojoDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/RMMapper/RMMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MojoDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2400,15 +2716,22 @@
 				26087D032058DF0A00B66144 /* ViewController.m in Sources */,
 				26EA61772071CD6600B13747 /* SearchSingleView.m in Sources */,
 				26CDA859205A481B00560034 /* UIButton+Blocks.m in Sources */,
+				26EA61D62073616A00B13747 /* PlanBViewController.m in Sources */,
 				26CDA855205A481B00560034 /* UIActionSheet+Blocks.m in Sources */,
+				26C019B8207496C600F6FA59 /* ConOneViewController.m in Sources */,
+				26EA61B82073551300B13747 /* PlanViewController.m in Sources */,
 				265647E0205F8DC900771321 /* DateView.m in Sources */,
 				26FD6B22206DCE6200805651 /* ControlViewController.m in Sources */,
 				26FD6B63206E37EE00805651 /* CaiViewController.m in Sources */,
+				26C019D82074DF6100F6FA59 /* PackPayViewController.m in Sources */,
 				265647F62060AABC00771321 /* TableViewCell.m in Sources */,
 				2608C702205A1FB7007D04D2 /* BaseViewController.m in Sources */,
+				26EA61F02074713200B13747 /* ShenPlanViewController.m in Sources */,
 				2608C6FF205A1AC2007D04D2 /* MainTabViewController.m in Sources */,
+				26EA61BB2073564A00B13747 /* PlanNextViewController.m in Sources */,
 				26EA619F20723E6B00B13747 /* SGHelperTool.m in Sources */,
 				26EA61A220723E6B00B13747 /* UIView+SGFrame.m in Sources */,
+				26EA61BE2073573900B13747 /* EndtendViewController.m in Sources */,
 				265647D9205F7FA700771321 /* CenterViewController.m in Sources */,
 				26EA61A520730CE100B13747 /* oneViewViewController.m in Sources */,
 				263D0283205B68F2009BA404 /* LoginModel.m in Sources */,
@@ -2418,9 +2741,11 @@
 				2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */,
 				26133087206C7D1D002E5CC7 /* DologModel.m in Sources */,
 				262150A52068F55C0047AB1A /* pickDateView.m in Sources */,
+				26EA61F92074743C00B13747 /* TendBaseViewHeadView.m in Sources */,
 				26CDA89F205A56A200560034 /* MeViewController.m in Sources */,
 				26FD6B6A206F30DF00805651 /* InOutViewController.m in Sources */,
 				26087D0E2058DF0A00B66144 /* main.m in Sources */,
+				26EA61EA2073806D00B13747 /* ValueInfoViewController.m in Sources */,
 				26FD6B31206DDB4600805651 /* ProTableViewCell.m in Sources */,
 				26FD6B28206DD00300805651 /* AllViewController.m in Sources */,
 				261C8420206388EF00A55C39 /* InfoTableViewCell.m in Sources */,
@@ -2436,6 +2761,7 @@
 				26EA61812072022200B13747 /* CenterTableViewCell.m in Sources */,
 				2613307D206B860A002E5CC7 /* PoInfoViewController.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,
+				26EA61D020735AEE00B13747 /* ChangeSepViewController.m in Sources */,
 				261C83FF20625D9300A55C39 /* ChooseCollectionViewCell.m in Sources */,
 				26EA61A820730CEE00B13747 /* TwoViewController.m in Sources */,
 				26CDA854205A481B00560034 /* UIView+TapBlocks.m in Sources */,
@@ -2446,14 +2772,19 @@
 				2608C70F205A3BFB007D04D2 /* Reachability.m in Sources */,
 				26CDA858205A481B00560034 /* QFTableView.m in Sources */,
 				2608C705205A22B2007D04D2 /* UITabBar+Badge.m in Sources */,
+				26EA61E62073774E00B13747 /* EasyTableViewCell.m in Sources */,
 				265647D0205F7EF900771321 /* DoLogViewController.m in Sources */,
 				26CDA8A4205A56B200560034 /* WorkViewController.m in Sources */,
+				26EA61DA2073648800B13747 /* PlanBTableViewCell.m in Sources */,
+				26EA61ED207460F000B13747 /* EasyHeadView.m in Sources */,
 				26EA61A020723E6B00B13747 /* SGPageContentView.m in Sources */,
+				26EA61CA20735A4200B13747 /* ValueViewController.m in Sources */,
 				26215050206623570047AB1A /* Seachclockview.m in Sources */,
 				26133070206B80DD002E5CC7 /* MypolicViewController.m in Sources */,
 				26FD6B34206DDD2A00805651 /* proHearview.m in Sources */,
 				26737CFC206F9FFD00A87C27 /* Single_infoViewController.m in Sources */,
 				26FD6B17206CAF6B00805651 /* DologInforModel.m in Sources */,
+				26EA61D32073615800B13747 /* PlanAViewController.m in Sources */,
 				2621508B2068A1330047AB1A /* AddViewController.m in Sources */,
 				2603AF402065FADE008E362D /* ClockHeadView.m in Sources */,
 				26737CF9206F9D7600A87C27 /* NewSingleViewController.m in Sources */,
@@ -2464,17 +2795,23 @@
 				26133062206B4200002E5CC7 /* UITextView+PearNumview.m in Sources */,
 				26133073206B8213002E5CC7 /* MeetViewController.m in Sources */,
 				26FD6B70206F52DB00805651 /* CaiHeaderView.m in Sources */,
+				26EA61CD20735AA400B13747 /* SeparateConViewController.m in Sources */,
 				26EA618620720A4B00B13747 /* TendViewController.m in Sources */,
+				26EA61FC2074770A00B13747 /* TwoLBTableViewCell.m in Sources */,
+				26C01FA32075086100F6FA59 /* First.swift in Sources */,
 				26EA61B520734E8100B13747 /* LookViewImage.m in Sources */,
 				262150912068B7BC0047AB1A /* SearchJobView.m in Sources */,
 				265647F12060AAA100771321 /* CollViewCell.m in Sources */,
+				26C019D52074DE3800F6FA59 /* BuyExViewController.m in Sources */,
 				26EA61A120723E6B00B13747 /* SGPageTitleView.m in Sources */,
+				26EA61C42073584600B13747 /* ChangeViewController.m in Sources */,
 				2608C710205A3BFB007D04D2 /* AppUtil.m in Sources */,
 				2603AF2F2064F4DB008E362D /* ClockHistoryViewController.m in Sources */,
 				26CDA896205A55E800560034 /* HomeViewController.m in Sources */,
 				265647D3205F7F4F00771321 /* ProViewController.m in Sources */,
 				26FD6B3F206DEC3100805651 /* ProInforViewController.m in Sources */,
 				26EA617D2071F2EC00B13747 /* SingleTableViewCell.m in Sources */,
+				26EA61C1207357DF00B13747 /* ContractViewController.m in Sources */,
 				266B8B34205CC712003D5687 /* AggreMentViewController.m in Sources */,
 				26EA61AE20732F2D00B13747 /* FuCollectionViewCell.m in Sources */,
 				26133079206B8233002E5CC7 /* AllowViewController.m in Sources */,
@@ -2482,10 +2819,14 @@
 				26133065206B6A08002E5CC7 /* deleView.m in Sources */,
 				261C83FC206255C900A55C39 /* ChooseView.m in Sources */,
 				265647D6205F7F8C00771321 /* HouseViewController.m in Sources */,
+				26EA61C7207358C000B13747 /* ChangeProViewController.m in Sources */,
 				26CDA856205A481B00560034 /* UIView+Sizes.m in Sources */,
 				26CDA89A205A569200560034 /* DoViewController.m in Sources */,
+				26C019BB207496D400F6FA59 /* ConTwoViewController.m in Sources */,
 				26FD6B77206F72C100805651 /* InoutModel.m in Sources */,
 				263D02A4205BBCE5009BA404 /* ForgetPsViewController.m in Sources */,
+				26EA61F6207472F900B13747 /* ShenBViewController.m in Sources */,
+				26EA61F3207472EA00B13747 /* ShenAViewController.m in Sources */,
 				26CDA85B205A481B00560034 /* UIAlertView+Blocks.m in Sources */,
 				26EA61902072235F00B13747 /* PayViewViewController.m in Sources */,
 				26FD6B7A206F787D00805651 /* InoutHeadView.m in Sources */,
@@ -2528,6 +2869,11 @@
 			isa = PBXTargetDependency;
 			target = 26087CFA2058DF0A00B66144 /* wanxing */;
 			targetProxy = 26087D1F2058DF0A00B66144 /* PBXContainerItemProxy */;
+		};
+		26C01FB1207508C400F6FA59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 26C01FB0207508C400F6FA59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2625,7 +2971,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2677,7 +3023,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2689,10 +3035,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F22302351A8BC816DDF4B5E /* Pods-wanxing.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TKZXFQG8SX;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T696GV993U;
 				GCC_PREFIX_HEADER = /Users/osyu/Desktop/wx/SuperFile/PrefixHeader.pch;
 				INFOPLIST_FILE = wanxing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -2711,8 +3060,11 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RMMapper\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scwx.cn.wanxing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdyfss.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "wanxing/wanxing1.0/AppDelegate/wanxing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -2722,10 +3074,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69921C1E2AE9248DCC4B6225 /* Pods-wanxing.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TKZXFQG8SX;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T696GV993U;
 				GCC_PREFIX_HEADER = /Users/osyu/Desktop/wx/SuperFile/PrefixHeader.pch;
 				INFOPLIST_FILE = wanxing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -2744,8 +3099,10 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RMMapper\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scwx.cn.wanxing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdyfss.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "wanxing/wanxing1.0/AppDelegate/wanxing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -2755,6 +3112,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFE81A740B5D4B03E5619145 /* Pods-wanxingTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingTests/Info.plist;
@@ -2770,6 +3128,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87B2DF7110F8D4586D593B3C /* Pods-wanxingTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingTests/Info.plist;
@@ -2785,6 +3144,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1687AF0E43D9105E7AC8AFB /* Pods-wanxingUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2799,6 +3159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D2945BE79B3901409E76952 /* Pods-wanxingUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = wanxingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -11,7 +11,7 @@
 #import "TwoViewController.h"
 #import "oneViewViewController.h"
 
-
+/*****************************************分包支付小结************************************* 2*/
 
 @interface PayViewViewController ()<SGPageTitleViewDelegate, SGPageContentViewDelegare>
 

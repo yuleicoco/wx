@@ -60,6 +60,7 @@
 #define Gray_color_128 [UIColor colorWithRed:128/255.0 green:128/255.0 blue:128/255.0 alpha:1.0]
 #define Gray_color_47 [UIColor colorWithRed:47/255.0 green:47/255.0 blue:47/255.0 alpha:1.0]
 #define Gray_color_240 [UIColor colorWithRed:240 /255.0 green:240 /255.0 blue:240 /255.0 alpha:1.0]
+#define Gray_color_55   [UIColor colorWithRed:55/255.0 green:55/255.0 blue:55/255.0 alpha:1.0]
 // 项目字体
 #define Gray_color_tt   [UIColor colorWithRed:140/255.0 green:140/255.0 blue:140/255.0 alpha:1.0]
 #define Gray_color_b   [UIColor colorWithRed:55/255.0 green:55/255.0 blue:55/255.0 alpha:1.0]

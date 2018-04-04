@@ -1,0 +1,6 @@
+framework module MojoDatabase {
+  umbrella header "MojoDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}

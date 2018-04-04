@@ -8,7 +8,9 @@
 
 
 #import <MojoDatabase/MojoDatabase.h>
+
 #import "JSONModel.h"
+
 @interface LoginModel : JSONModel
 
 

@@ -29,7 +29,10 @@
 #import "ChooseView.h"
 #import "DateView.h"
 #import "TendView.h"
-#import "QFTableView.h";
+#import "QFTableView.h"
+#import "SGPageView.h"
+#import "CaiTableViewCell.h"
+#import "CaiHeaderView.h"
 
 
 

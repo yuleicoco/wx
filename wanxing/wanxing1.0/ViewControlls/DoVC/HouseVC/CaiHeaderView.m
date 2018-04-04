@@ -46,9 +46,9 @@
         [textView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(line.mas_bottom).offset(6);
             make.left.equalTo(lbl.mas_right).offset(12);
-            make.right.equalTo(self).offset(-10);
-            make.height.equalTo(@100);
-            
+            make.size.mas_equalTo(CGSizeMake(267, 100));
+           
+
         }];
         textView.placeholder =@"请填写备注";
         textView.limitLength =[NSNumber numberWithInteger:200];
