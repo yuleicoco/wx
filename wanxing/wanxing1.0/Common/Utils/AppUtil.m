@@ -120,6 +120,55 @@ static NSString * getServer3 =@"http://180.97.80.227:8082/";
 }
 
 
++ (PieChartData *)setData{
+    
+    double mult = 100;
+    int count = 5;//饼状图总共有几块组成
+    
+    //每个区块的数据
+    NSMutableArray *yVals = [[NSMutableArray alloc] init];
+    for (int i = 0; i < count; i++) {
+        double randomVal = arc4random_uniform(mult + 1);
+        PieChartDataEntry *entry =[[PieChartDataEntry alloc] initWithValue:randomVal label:[NSString stringWithFormat:@"第%d个", i+1]];
+        
+        [yVals addObject:entry];
+    }
+    //dataSet
+    
+    PieChartDataSet *dataSet = [[PieChartDataSet alloc]initWithValues:yVals label:@"Election Results"];
+    dataSet.drawValuesEnabled = YES;//是否绘制显示数据
+    NSMutableArray *colors = [[NSMutableArray alloc] init];
+    [colors addObjectsFromArray:ChartColorTemplates.vordiplom];
+    [colors addObjectsFromArray:ChartColorTemplates.joyful];
+    [colors addObjectsFromArray:ChartColorTemplates.colorful];
+    [colors addObjectsFromArray:ChartColorTemplates.liberty];
+    [colors addObjectsFromArray:ChartColorTemplates.pastel];
+    [colors addObject:[UIColor colorWithRed:51/255.f green:181/255.f blue:229/255.f alpha:1.f]];
+    dataSet.colors = colors;//区块颜色
+    dataSet.sliceSpace = 3;//相邻区块之间的间距
+    dataSet.selectionShift = 8;//选中区块时, 放大的半径
+    dataSet.xValuePosition = PieChartValuePositionInsideSlice;//名称位置
+    dataSet.yValuePosition = PieChartValuePositionOutsideSlice;//数据位置
+    //数据与区块之间的用于指示的折线样式
+    dataSet.valueLinePart1OffsetPercentage = 0.85;//折线中第一段起始位置相对于区块的偏移量, 数值越大, 折线距离区块越远
+    dataSet.valueLinePart1Length = 0.5;//折线中第一段长度占比
+    dataSet.valueLinePart2Length = 0.4;//折线中第二段长度最大占比
+    dataSet.valueLineWidth = 1;//折线的粗细
+    dataSet.valueLineColor = [UIColor brownColor];//折线颜色
+    
+    //data
+    PieChartData *data = [[PieChartData alloc]initWithDataSet:dataSet];
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterPercentStyle;
+    formatter.maximumFractionDigits = 0;//小数位数
+    formatter.multiplier = @1.f;
+    [data setValueFormatter:[[ChartDefaultValueFormatter alloc] initWithFormatter:formatter]];
+    [data setValueTextColor:[UIColor brownColor]];
+    [data setValueFont:[UIFont systemFontOfSize:10]];
+    
+    return data;
+}
+
 
 
 

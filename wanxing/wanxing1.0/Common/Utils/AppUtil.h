@@ -11,6 +11,8 @@
 
 
 #import <Foundation/Foundation.h>
+#import "Charts/Charts.h"
+
 #define GREEN_COLOR RGB(73, 195, 241)
 #define GRAY_COLOR RGB(236, 237, 241)
 #define LIGHT_GRAYdcdc_COLOR RGB(220, 220, 220)
@@ -34,6 +36,7 @@
 // 加密heads
 
 + (NSString *)heads:(NSString *)heads;
++ (PieChartData *)setData;
 
 
 

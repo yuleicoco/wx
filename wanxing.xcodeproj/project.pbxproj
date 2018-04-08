@@ -216,6 +216,18 @@
 		266B8B30205CBD18003D5687 /* Regist_hud@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266B8B2A205CBD18003D5687 /* Regist_hud@3x.png */; };
 		266B8B34205CC712003D5687 /* AggreMentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B8B33205CC712003D5687 /* AggreMentViewController.m */; };
 		266B8B37205CDE54003D5687 /* ShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B8B36205CDE54003D5687 /* ShowAlertView.m */; };
+		266E322D2079CA4000F64E58 /* BuyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E322C2079CA4000F64E58 /* BuyInfoViewController.m */; };
+		266E32322079DF4600F64E58 /* BuyInforTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E32312079DF4600F64E58 /* BuyInforTableViewCell.m */; };
+		266E32352079E44400F64E58 /* Info_infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E32342079E44400F64E58 /* Info_infoViewController.m */; };
+		266E32392079EDD000F64E58 /* PackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E32382079EDD000F64E58 /* PackListViewController.m */; };
+		266E323C2079EF6300F64E58 /* pay_list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266E323A2079EF6200F64E58 /* pay_list@3x.png */; };
+		266E323D2079EF6300F64E58 /* pay_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266E323B2079EF6300F64E58 /* pay_list@2x.png */; };
+		266E32402079F13000F64E58 /* PayListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E323F2079F13000F64E58 /* PayListTableViewCell.m */; };
+		266E32432079F64D00F64E58 /* SearchPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E32422079F64D00F64E58 /* SearchPay.m */; };
+		266E3246207A04D500F64E58 /* search_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266E3244207A04D500F64E58 /* search_box@2x.png */; };
+		266E3247207A04D500F64E58 /* search_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266E3245207A04D500F64E58 /* search_box@3x.png */; };
+		266E324A207A0BC200F64E58 /* ListPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3249207A0BC200F64E58 /* ListPayViewController.m */; };
+		266E324D207A12C500F64E58 /* PayListHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E324C207A12C500F64E58 /* PayListHeadView.m */; };
 		26737CEE206F973100A87C27 /* single_li@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26737CE8206F973000A87C27 /* single_li@3x.png */; };
 		26737CEF206F973100A87C27 /* single_da@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26737CE9206F973000A87C27 /* single_da@2x.png */; };
 		26737CF0206F973100A87C27 /* single_he@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26737CEA206F973100A87C27 /* single_he@2x.png */; };
@@ -709,6 +721,26 @@
 		266B8B33205CC712003D5687 /* AggreMentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AggreMentViewController.m; sourceTree = "<group>"; };
 		266B8B35205CDE54003D5687 /* ShowAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlertView.h; sourceTree = "<group>"; };
 		266B8B36205CDE54003D5687 /* ShowAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlertView.m; sourceTree = "<group>"; };
+		266E322B2079CA4000F64E58 /* BuyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyInfoViewController.h; sourceTree = "<group>"; };
+		266E322C2079CA4000F64E58 /* BuyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyInfoViewController.m; sourceTree = "<group>"; };
+		266E32302079DF4600F64E58 /* BuyInforTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyInforTableViewCell.h; sourceTree = "<group>"; };
+		266E32312079DF4600F64E58 /* BuyInforTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyInforTableViewCell.m; sourceTree = "<group>"; };
+		266E32332079E44400F64E58 /* Info_infoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Info_infoViewController.h; sourceTree = "<group>"; };
+		266E32342079E44400F64E58 /* Info_infoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Info_infoViewController.m; sourceTree = "<group>"; };
+		266E32372079EDD000F64E58 /* PackListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackListViewController.h; sourceTree = "<group>"; };
+		266E32382079EDD000F64E58 /* PackListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackListViewController.m; sourceTree = "<group>"; };
+		266E323A2079EF6200F64E58 /* pay_list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_list@3x.png"; sourceTree = "<group>"; };
+		266E323B2079EF6300F64E58 /* pay_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_list@2x.png"; sourceTree = "<group>"; };
+		266E323E2079F13000F64E58 /* PayListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayListTableViewCell.h; sourceTree = "<group>"; };
+		266E323F2079F13000F64E58 /* PayListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayListTableViewCell.m; sourceTree = "<group>"; };
+		266E32412079F64D00F64E58 /* SearchPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchPay.h; sourceTree = "<group>"; };
+		266E32422079F64D00F64E58 /* SearchPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPay.m; sourceTree = "<group>"; };
+		266E3244207A04D500F64E58 /* search_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_box@2x.png"; sourceTree = "<group>"; };
+		266E3245207A04D500F64E58 /* search_box@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_box@3x.png"; sourceTree = "<group>"; };
+		266E3248207A0BC200F64E58 /* ListPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListPayViewController.h; sourceTree = "<group>"; };
+		266E3249207A0BC200F64E58 /* ListPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListPayViewController.m; sourceTree = "<group>"; };
+		266E324B207A12C500F64E58 /* PayListHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayListHeadView.h; sourceTree = "<group>"; };
+		266E324C207A12C500F64E58 /* PayListHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayListHeadView.m; sourceTree = "<group>"; };
 		26737CE8206F973000A87C27 /* single_li@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "single_li@3x.png"; sourceTree = "<group>"; };
 		26737CE9206F973000A87C27 /* single_da@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "single_da@2x.png"; sourceTree = "<group>"; };
 		26737CEA206F973100A87C27 /* single_he@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "single_he@2x.png"; sourceTree = "<group>"; };
@@ -1358,6 +1390,8 @@
 				26EA61AD20732F2D00B13747 /* FuCollectionViewCell.m */,
 				26EA61B320734E8100B13747 /* LookViewImage.h */,
 				26EA61B420734E8100B13747 /* LookViewImage.m */,
+				266E32412079F64D00F64E58 /* SearchPay.h */,
+				266E32422079F64D00F64E58 /* SearchPay.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1555,6 +1589,10 @@
 		2644A715205A0648009574CD /* Do_inage */ = {
 			isa = PBXGroup;
 			children = (
+				266E3244207A04D500F64E58 /* search_box@2x.png */,
+				266E3245207A04D500F64E58 /* search_box@3x.png */,
+				266E323B2079EF6300F64E58 /* pay_list@2x.png */,
+				266E323A2079EF6200F64E58 /* pay_list@3x.png */,
 				26C019C82074DCED00F6FA59 /* all_til@2x.png */,
 				26C019C42074DCED00F6FA59 /* all_til@3x.png */,
 				26C019BF2074DCEC00F6FA59 /* all_excel@2x.png */,
@@ -1781,6 +1819,34 @@
 				266B8B33205CC712003D5687 /* AggreMentViewController.m */,
 			);
 			path = ProVC;
+			sourceTree = "<group>";
+		};
+		266E322F2079CA6100F64E58 /* BuyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				266E322B2079CA4000F64E58 /* BuyInfoViewController.h */,
+				266E322C2079CA4000F64E58 /* BuyInfoViewController.m */,
+				266E32302079DF4600F64E58 /* BuyInforTableViewCell.h */,
+				266E32312079DF4600F64E58 /* BuyInforTableViewCell.m */,
+				266E32332079E44400F64E58 /* Info_infoViewController.h */,
+				266E32342079E44400F64E58 /* Info_infoViewController.m */,
+			);
+			path = BuyInfo;
+			sourceTree = "<group>";
+		};
+		266E32362079ED9600F64E58 /* PackPay */ = {
+			isa = PBXGroup;
+			children = (
+				266E32372079EDD000F64E58 /* PackListViewController.h */,
+				266E32382079EDD000F64E58 /* PackListViewController.m */,
+				266E323E2079F13000F64E58 /* PayListTableViewCell.h */,
+				266E323F2079F13000F64E58 /* PayListTableViewCell.m */,
+				266E3248207A0BC200F64E58 /* ListPayViewController.h */,
+				266E3249207A0BC200F64E58 /* ListPayViewController.m */,
+				266E324B207A12C500F64E58 /* PayListHeadView.h */,
+				266E324C207A12C500F64E58 /* PayListHeadView.m */,
+			);
+			path = PackPay;
 			sourceTree = "<group>";
 		};
 		26C019B52074969500F6FA59 /* Contract */ = {
@@ -2035,6 +2101,8 @@
 		26FD6B23206DCFCB00805651 /* AllVC */ = {
 			isa = PBXGroup;
 			children = (
+				266E32362079ED9600F64E58 /* PackPay */,
+				266E322F2079CA6100F64E58 /* BuyInfo */,
 				26FD6B26206DD00300805651 /* AllViewController.h */,
 				26FD6B27206DD00300805651 /* AllViewController.m */,
 				26C019D32074DE3800F6FA59 /* BuyExViewController.h */,
@@ -2313,6 +2381,7 @@
 				26EA61E120736B5B00B13747 /* plan_line@3x.png in Resources */,
 				26FD6B38206DDFE400805651 /* pro_vc_ups@2x.png in Resources */,
 				265647EC205FB69600771321 /* date_in@3x.png in Resources */,
+				266E323C2079EF6300F64E58 /* pay_list@3x.png in Resources */,
 				261C84562063900C00A55C39 /* do_cell_info@3x.png in Resources */,
 				265647B9205F4D5200771321 /* home_btn_do_log@3x.png in Resources */,
 				261C848720648C6000A55C39 /* clock_qu@3x.png in Resources */,
@@ -2340,6 +2409,7 @@
 				26FD6B47206E020800805651 /* house_vc_two@3x.png in Resources */,
 				26CDA889205A543E00560034 /* un_home_tab@2x.png in Resources */,
 				26737CF3206F973100A87C27 /* single_da@3x.png in Resources */,
+				266E323D2079EF6300F64E58 /* pay_list@2x.png in Resources */,
 				26737CF1206F973100A87C27 /* single_li@2x.png in Resources */,
 				261C844F2063900C00A55C39 /* do_cell_control@3x.png in Resources */,
 				26087D082058DF0A00B66144 /* Assets.xcassets in Resources */,
@@ -2447,6 +2517,7 @@
 				26CDA877205A543E00560034 /* un_home_tab.png in Resources */,
 				26737CEE206F973100A87C27 /* single_li@3x.png in Resources */,
 				263D0294205BA825009BA404 /* Login_ps@2x.png in Resources */,
+				266E3247207A04D500F64E58 /* search_box@3x.png in Resources */,
 				261C840820633C8C00A55C39 /* HeaderViewCollection.xib in Resources */,
 				261C844B2063900C00A55C39 /* do_cell_sa.png in Resources */,
 				26CDA888205A543E00560034 /* un_me_tab@3x.png in Resources */,
@@ -2491,6 +2562,7 @@
 				26C019CF2074DCED00F6FA59 /* all_value@2x.png in Resources */,
 				26CDA885205A543E00560034 /* do_tab@2x.png in Resources */,
 				265647DD205F840C00771321 /* home_back@3x.png in Resources */,
+				266E3246207A04D500F64E58 /* search_box@2x.png in Resources */,
 				261C848A20648C6000A55C39 /* clock_linetwo@3x.png in Resources */,
 				265647EB205FB69600771321 /* date_un@2x.png in Resources */,
 				262150722066583A0047AB1A /* me_account@3x.png in Resources */,
@@ -2739,6 +2811,7 @@
 				26133076206B8223002E5CC7 /* TestViewController.m in Sources */,
 				26215078206666510047AB1A /* JobViewController.m in Sources */,
 				2608C708205A2374007D04D2 /* BaseTabViewController.m in Sources */,
+				266E324D207A12C500F64E58 /* PayListHeadView.m in Sources */,
 				26133087206C7D1D002E5CC7 /* DologModel.m in Sources */,
 				262150A52068F55C0047AB1A /* pickDateView.m in Sources */,
 				26EA61F92074743C00B13747 /* TendBaseViewHeadView.m in Sources */,
@@ -2759,6 +2832,7 @@
 				2621508820689B820047AB1A /* jobTabCell.m in Sources */,
 				26CDA83A205A46A800560034 /* BaseModel.m in Sources */,
 				26EA61812072022200B13747 /* CenterTableViewCell.m in Sources */,
+				266E324A207A0BC200F64E58 /* ListPayViewController.m in Sources */,
 				2613307D206B860A002E5CC7 /* PoInfoViewController.m in Sources */,
 				26087D002058DF0A00B66144 /* AppDelegate.m in Sources */,
 				26EA61D020735AEE00B13747 /* ChangeSepViewController.m in Sources */,
@@ -2778,6 +2852,7 @@
 				26EA61DA2073648800B13747 /* PlanBTableViewCell.m in Sources */,
 				26EA61ED207460F000B13747 /* EasyHeadView.m in Sources */,
 				26EA61A020723E6B00B13747 /* SGPageContentView.m in Sources */,
+				266E322D2079CA4000F64E58 /* BuyInfoViewController.m in Sources */,
 				26EA61CA20735A4200B13747 /* ValueViewController.m in Sources */,
 				26215050206623570047AB1A /* Seachclockview.m in Sources */,
 				26133070206B80DD002E5CC7 /* MypolicViewController.m in Sources */,
@@ -2786,6 +2861,8 @@
 				26FD6B17206CAF6B00805651 /* DologInforModel.m in Sources */,
 				26EA61D32073615800B13747 /* PlanAViewController.m in Sources */,
 				2621508B2068A1330047AB1A /* AddViewController.m in Sources */,
+				266E32392079EDD000F64E58 /* PackListViewController.m in Sources */,
+				266E32352079E44400F64E58 /* Info_infoViewController.m in Sources */,
 				2603AF402065FADE008E362D /* ClockHeadView.m in Sources */,
 				26737CF9206F9D7600A87C27 /* NewSingleViewController.m in Sources */,
 				26FD6B1E206DC82600805651 /* SafeViewController.m in Sources */,
@@ -2797,7 +2874,9 @@
 				26FD6B70206F52DB00805651 /* CaiHeaderView.m in Sources */,
 				26EA61CD20735AA400B13747 /* SeparateConViewController.m in Sources */,
 				26EA618620720A4B00B13747 /* TendViewController.m in Sources */,
+				266E32402079F13000F64E58 /* PayListTableViewCell.m in Sources */,
 				26EA61FC2074770A00B13747 /* TwoLBTableViewCell.m in Sources */,
+				266E32322079DF4600F64E58 /* BuyInforTableViewCell.m in Sources */,
 				26C01FA32075086100F6FA59 /* First.swift in Sources */,
 				26EA61B520734E8100B13747 /* LookViewImage.m in Sources */,
 				262150912068B7BC0047AB1A /* SearchJobView.m in Sources */,
@@ -2829,6 +2908,7 @@
 				26EA61F3207472EA00B13747 /* ShenAViewController.m in Sources */,
 				26CDA85B205A481B00560034 /* UIAlertView+Blocks.m in Sources */,
 				26EA61902072235F00B13747 /* PayViewViewController.m in Sources */,
+				266E32432079F64D00F64E58 /* SearchPay.m in Sources */,
 				26FD6B7A206F787D00805651 /* InoutHeadView.m in Sources */,
 				26EA6189207210F200B13747 /* TendView.m in Sources */,
 				26FD6B85206F854D00805651 /* InOutTableViewCellx.m in Sources */,

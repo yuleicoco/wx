@@ -33,6 +33,7 @@
 #import "SGPageView.h"
 #import "CaiTableViewCell.h"
 #import "CaiHeaderView.h"
+#import "Charts/Charts.h"
 
 
 
